@@ -1,0 +1,1616 @@
+[
+  {
+    "internship_id": "500",
+    "company_name": "Ahuja-Kapur",
+    "company_tier": 3,
+    "role_title": "Finance Intern",
+    "sector": "Finance",
+    "location": "Hyderabad",
+    "required_skills": [
+      "Risk Analysis",
+      "Tally",
+      "Excel"
+    ],
+    "role_description": "Quaerat libero a numquam alias dolore voluptatibus. Ipsam dicta molestias. Voluptatem consequatur doloremque itaque labore reprehenderit dolorem dolore. Adipisci cumque placeat quas ea iste eligendi. Incidunt corrupti maxime dolores praesentium. Harum dolorem exercitationem quod.",
+    "capacity": 9
+  },
+  {
+    "internship_id": "501",
+    "company_name": "Chandra Inc",
+    "company_tier": 1,
+    "role_title": "Finance Intern",
+    "sector": "Finance",
+    "location": "Pune",
+    "required_skills": [
+      "Financial Modeling",
+      "QuickBooks",
+      "Tally",
+      "Risk Analysis",
+      "Statistics",
+      "Excel"
+    ],
+    "role_description": "Ipsum laboriosam delectus culpa incidunt consequuntur sed. Quasi architecto explicabo unde doloribus magni. Ducimus assumenda tenetur laborum doloribus quo cupiditate rem.",
+    "capacity": 5
+  },
+  {
+    "internship_id": "502",
+    "company_name": "Palla, Dhingra and Sankar",
+    "company_tier": 3,
+    "role_title": "IT Intern",
+    "sector": "IT",
+    "location": "Chennai",
+    "required_skills": [
+      "SQL",
+      "Cloud Computing"
+    ],
+    "role_description": "Dicta maxime porro dolorem. Odit libero debitis eligendi quisquam. Tempora maiores nihil nihil ea ipsum perferendis. Assumenda aliquam expedita earum. Iure praesentium expedita error impedit iure laboriosam.",
+    "capacity": 5
+  },
+  {
+    "internship_id": "503",
+    "company_name": "Nadkarni and Sons",
+    "company_tier": 1,
+    "role_title": "Marketing Intern",
+    "sector": "Marketing",
+    "location": "Delhi",
+    "required_skills": [
+      "SEO",
+      "Email Marketing",
+      "Google Analytics"
+    ],
+    "role_description": "Unde nostrum commodi reiciendis. Quos veritatis fugit quos a tempora totam. Debitis voluptatem dolorem quasi. Dolor debitis autem distinctio dolore tenetur quibusdam. Culpa impedit vel minus.",
+    "capacity": 5
+  },
+  {
+    "internship_id": "504",
+    "company_name": "Sarraf, Narula and Ravel",
+    "company_tier": 1,
+    "role_title": "Marketing Intern",
+    "sector": "Marketing",
+    "location": "Delhi",
+    "required_skills": [
+      "SEO",
+      "Google Analytics",
+      "Social Media Marketing"
+    ],
+    "role_description": "Beatae esse in modi ullam id. Quis delectus eos vitae. Tenetur aliquid at. Neque saepe recusandae in labore aspernatur tempore. Et placeat deleniti beatae veritatis accusamus.",
+    "capacity": 1
+  },
+  {
+    "internship_id": "505",
+    "company_name": "Gala, Chandra and Sule",
+    "company_tier": 1,
+    "role_title": "Marketing Intern",
+    "sector": "Marketing",
+    "location": "Pune",
+    "required_skills": [
+      "Google Analytics",
+      "Email Marketing",
+      "SEO",
+      "Social Media Marketing",
+      "Content Creation"
+    ],
+    "role_description": "Eius dolores molestiae aspernatur. Vero nisi asperiores. Veritatis incidunt non a cupiditate quaerat eligendi officia.",
+    "capacity": 9
+  },
+  {
+    "internship_id": "506",
+    "company_name": "Gokhale, Kunda and Ganesan",
+    "company_tier": 1,
+    "role_title": "Manufacturing Intern",
+    "sector": "Manufacturing",
+    "location": "Delhi",
+    "required_skills": [
+      "AutoCAD",
+      "FEA",
+      "Thermodynamics",
+      "MATLAB"
+    ],
+    "role_description": "Voluptate ullam saepe aliquam libero eveniet autem. Quia mollitia sequi perferendis ipsa eius fugiat. Esse laboriosam amet cumque. Modi accusamus sapiente laborum doloremque libero rerum quod. Dolores officiis iusto laboriosam dignissimos.",
+    "capacity": 7
+  },
+  {
+    "internship_id": "507",
+    "company_name": "Chakrabarti-Kata",
+    "company_tier": 1,
+    "role_title": "Marketing Intern",
+    "sector": "Marketing",
+    "location": "Pune",
+    "required_skills": [
+      "Email Marketing",
+      "Google Analytics"
+    ],
+    "role_description": "Placeat neque temporibus corrupti. Voluptatem corrupti quo quos vero corrupti porro dolore. Iusto dolore voluptas sequi. Soluta eius nesciunt itaque dicta accusantium quo.",
+    "capacity": 4
+  },
+  {
+    "internship_id": "508",
+    "company_name": "Parsa and Sons",
+    "company_tier": 3,
+    "role_title": "Healthcare Intern",
+    "sector": "Healthcare",
+    "location": "Bangalore",
+    "required_skills": [
+      "Node.js",
+      "Java",
+      "React",
+      "SQL",
+      "C++",
+      "Cloud Computing",
+      "Docker",
+      "Python"
+    ],
+    "role_description": "Perspiciatis nesciunt minima quasi. Nisi tenetur itaque beatae unde voluptatem. Est officiis quasi assumenda magnam adipisci rerum.",
+    "capacity": 4
+  },
+  {
+    "internship_id": "509",
+    "company_name": "Badami-Rao",
+    "company_tier": 3,
+    "role_title": "Finance Intern",
+    "sector": "Finance",
+    "location": "Hyderabad",
+    "required_skills": [
+      "Excel",
+      "Risk Analysis",
+      "Tally"
+    ],
+    "role_description": "Fuga amet ad maiores. Expedita hic natus ratione. Ratione quisquam itaque eaque in fuga.",
+    "capacity": 6
+  },
+  {
+    "internship_id": "510",
+    "company_name": "Baria-Sastry",
+    "company_tier": 2,
+    "role_title": "Manufacturing Intern",
+    "sector": "Manufacturing",
+    "location": "Pune",
+    "required_skills": [
+      "MATLAB",
+      "SolidWorks",
+      "FEA",
+      "AutoCAD",
+      "Thermodynamics",
+      "3D Printing"
+    ],
+    "role_description": "Nemo eligendi debitis at. Porro consequuntur eum eos. Non pariatur nihil ipsum dolores suscipit eaque. Ipsum corporis libero voluptas assumenda asperiores. Atque provident ipsa iusto praesentium.",
+    "capacity": 5
+  },
+  {
+    "internship_id": "511",
+    "company_name": "Yohannan, Sheth and Ravi",
+    "company_tier": 3,
+    "role_title": "Healthcare Intern",
+    "sector": "Healthcare",
+    "location": "Pune",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Java",
+      "Node.js",
+      "Docker",
+      "Cloud Computing",
+      "React",
+      "C++"
+    ],
+    "role_description": "Harum ipsum nam nulla ipsum laudantium. Magnam pariatur atque quisquam sapiente. Vel earum sapiente quos consequuntur doloremque. Praesentium fugiat deserunt.",
+    "capacity": 10
+  },
+  {
+    "internship_id": "512",
+    "company_name": "Datta Group",
+    "company_tier": 3,
+    "role_title": "Healthcare Intern",
+    "sector": "Healthcare",
+    "location": "Bangalore",
+    "required_skills": [
+      "React",
+      "Java",
+      "Cloud Computing"
+    ],
+    "role_description": "Fugit ea ullam eius perspiciatis modi. Numquam expedita esse in delectus. Quaerat aliquam eum inventore omnis.",
+    "capacity": 2
+  },
+  {
+    "internship_id": "513",
+    "company_name": "Cherian, Talwar and Taneja",
+    "company_tier": 1,
+    "role_title": "Marketing Intern",
+    "sector": "Marketing",
+    "location": "Chennai",
+    "required_skills": [
+      "Social Media Marketing",
+      "Email Marketing",
+      "Content Creation",
+      "Google Analytics",
+      "SEO"
+    ],
+    "role_description": "Delectus dolore totam ipsa. Hic tempora totam est saepe. In sit vel voluptatem nemo eos. Nemo dolores nam culpa voluptas repellendus perspiciatis. Numquam error molestiae quaerat eaque placeat. Modi dolor vero blanditiis.",
+    "capacity": 4
+  },
+  {
+    "internship_id": "514",
+    "company_name": "Bhandari LLC",
+    "company_tier": 1,
+    "role_title": "Manufacturing Intern",
+    "sector": "Manufacturing",
+    "location": "Delhi",
+    "required_skills": [
+      "MATLAB",
+      "Thermodynamics",
+      "AutoCAD",
+      "FEA",
+      "SolidWorks"
+    ],
+    "role_description": "Fugit qui earum quibusdam expedita esse molestias veritatis. Quaerat dolores in possimus libero illo. Tenetur debitis quisquam.",
+    "capacity": 5
+  },
+  {
+    "internship_id": "515",
+    "company_name": "Dugar PLC",
+    "company_tier": 3,
+    "role_title": "Healthcare Intern",
+    "sector": "Healthcare",
+    "location": "Pune",
+    "required_skills": [
+      "Node.js",
+      "Java",
+      "C++"
+    ],
+    "role_description": "Temporibus repellendus ipsa quasi. Quas consequuntur sint at eum molestias numquam. Quaerat quia porro quasi impedit enim reiciendis dolore.",
+    "capacity": 9
+  },
+  {
+    "internship_id": "516",
+    "company_name": "Mander PLC",
+    "company_tier": 3,
+    "role_title": "Finance Intern",
+    "sector": "Finance",
+    "location": "Mumbai",
+    "required_skills": [
+      "Statistics",
+      "Tally",
+      "Risk Analysis",
+      "Excel"
+    ],
+    "role_description": "Magni ut explicabo. Repellat commodi exercitationem natus velit pariatur rerum tempora. Veniam ut corporis. Numquam nihil doloremque architecto magnam. Aliquam dolorem nesciunt est. Corporis illo voluptates.",
+    "capacity": 8
+  },
+  {
+    "internship_id": "517",
+    "company_name": "Gandhi, Lad and Mistry",
+    "company_tier": 3,
+    "role_title": "IT Intern",
+    "sector": "IT",
+    "location": "Chennai",
+    "required_skills": [
+      "React",
+      "Python",
+      "SQL",
+      "Cloud Computing",
+      "Docker",
+      "C++"
+    ],
+    "role_description": "Cumque molestias rerum assumenda non. Placeat voluptates eos suscipit magni laudantium voluptas. Voluptatum quos mollitia explicabo cumque quae. Nihil culpa nesciunt aspernatur deserunt occaecati nulla. Placeat provident animi voluptatem. Quos omnis deserunt tenetur fugiat modi.",
+    "capacity": 4
+  },
+  {
+    "internship_id": "518",
+    "company_name": "Karan-Dayal",
+    "company_tier": 2,
+    "role_title": "IT Intern",
+    "sector": "IT",
+    "location": "Hyderabad",
+    "required_skills": [
+      "Java",
+      "Python",
+      "SQL",
+      "React",
+      "C++",
+      "Docker",
+      "Node.js"
+    ],
+    "role_description": "Ut necessitatibus et sit cum unde voluptatem. Maiores dolorum accusantium aut. Distinctio aut qui magnam tenetur praesentium. Cum laborum dolorem. Minus quia repellat laudantium delectus. Unde necessitatibus architecto voluptatibus vero necessitatibus laborum.",
+    "capacity": 3
+  },
+  {
+    "internship_id": "519",
+    "company_name": "Mistry-Sama",
+    "company_tier": 1,
+    "role_title": "IT Intern",
+    "sector": "IT",
+    "location": "Mumbai",
+    "required_skills": [
+      "C++",
+      "React",
+      "Java",
+      "SQL",
+      "Node.js",
+      "Python",
+      "Docker",
+      "Cloud Computing"
+    ],
+    "role_description": "Voluptates eaque facere repudiandae doloremque ea distinctio. Corrupti sequi sed laboriosam. Praesentium minus harum ut iste dolorum.",
+    "capacity": 10
+  },
+  {
+    "internship_id": "520",
+    "company_name": "Gara PLC",
+    "company_tier": 3,
+    "role_title": "Healthcare Intern",
+    "sector": "Healthcare",
+    "location": "Mumbai",
+    "required_skills": [
+      "SQL",
+      "C++",
+      "Python",
+      "Java",
+      "Node.js"
+    ],
+    "role_description": "Sunt dolorem cumque expedita. Totam repellendus nulla explicabo facere laudantium. Ab similique veniam doloribus doloremque ea voluptatibus minus. Tenetur magnam enim. Minus eius eveniet commodi maxime.",
+    "capacity": 9
+  },
+  {
+    "internship_id": "521",
+    "company_name": "Chakraborty-Naik",
+    "company_tier": 2,
+    "role_title": "Marketing Intern",
+    "sector": "Marketing",
+    "location": "Pune",
+    "required_skills": [
+      "SEO",
+      "Google Analytics"
+    ],
+    "role_description": "Hic ut magnam saepe numquam architecto facilis natus. Quia sapiente dolore modi. Temporibus doloremque dicta aliquid nisi quia delectus reiciendis. Totam sit harum iusto sequi maxime.",
+    "capacity": 4
+  },
+  {
+    "internship_id": "522",
+    "company_name": "Sankar-Mishra",
+    "company_tier": 3,
+    "role_title": "Finance Intern",
+    "sector": "Finance",
+    "location": "Pune",
+    "required_skills": [
+      "Tally",
+      "QuickBooks",
+      "Financial Modeling",
+      "Statistics"
+    ],
+    "role_description": "Velit quibusdam itaque dolores eos et nulla excepturi. Nihil qui deleniti atque ipsum quis fugit. Iste non aperiam esse veritatis maxime.",
+    "capacity": 7
+  },
+  {
+    "internship_id": "523",
+    "company_name": "Varughese-Bedi",
+    "company_tier": 1,
+    "role_title": "IT Intern",
+    "sector": "IT",
+    "location": "Chennai",
+    "required_skills": [
+      "Java",
+      "Node.js",
+      "React",
+      "Docker",
+      "C++",
+      "SQL"
+    ],
+    "role_description": "Quos possimus nobis labore facilis aperiam tenetur pariatur. Reiciendis quas itaque sunt praesentium. Nulla expedita iste modi dignissimos labore quas consequatur. Sunt autem explicabo quaerat perferendis veritatis. Sequi cupiditate molestiae.",
+    "capacity": 7
+  },
+  {
+    "internship_id": "524",
+    "company_name": "Pandya-Mallick",
+    "company_tier": 1,
+    "role_title": "Manufacturing Intern",
+    "sector": "Manufacturing",
+    "location": "Chennai",
+    "required_skills": [
+      "FEA",
+      "SolidWorks",
+      "MATLAB",
+      "AutoCAD"
+    ],
+    "role_description": "Odio saepe illum suscipit. Unde inventore repellat corporis incidunt nesciunt. Maiores consectetur aut earum. Debitis eaque animi praesentium animi rem.",
+    "capacity": 2
+  },
+  {
+    "internship_id": "525",
+    "company_name": "Gola Inc",
+    "company_tier": 3,
+    "role_title": "IT Intern",
+    "sector": "IT",
+    "location": "Delhi",
+    "required_skills": [
+      "React",
+      "Java",
+      "SQL"
+    ],
+    "role_description": "Nam magnam nemo porro voluptates earum temporibus. Fugiat assumenda hic. Eveniet repellat culpa beatae architecto tempore consequatur doloremque.",
+    "capacity": 10
+  },
+  {
+    "internship_id": "526",
+    "company_name": "Bhalla, Pai and Dubey",
+    "company_tier": 3,
+    "role_title": "Marketing Intern",
+    "sector": "Marketing",
+    "location": "Chennai",
+    "required_skills": [
+      "Google Analytics",
+      "Email Marketing"
+    ],
+    "role_description": "Esse aut adipisci. Facilis occaecati mollitia sed enim. Delectus aliquid natus necessitatibus alias cupiditate nostrum minus.",
+    "capacity": 8
+  },
+  {
+    "internship_id": "527",
+    "company_name": "Balay, Dash and Doctor",
+    "company_tier": 3,
+    "role_title": "IT Intern",
+    "sector": "IT",
+    "location": "Hyderabad",
+    "required_skills": [
+      "Python",
+      "Java"
+    ],
+    "role_description": "Hic libero ipsam et error. Eum debitis cumque eum cupiditate culpa fugiat in. Deleniti sed ex quae magnam.",
+    "capacity": 2
+  },
+  {
+    "internship_id": "528",
+    "company_name": "Dey, Brahmbhatt and Bawa",
+    "company_tier": 2,
+    "role_title": "Marketing Intern",
+    "sector": "Marketing",
+    "location": "Delhi",
+    "required_skills": [
+      "Email Marketing",
+      "SEO"
+    ],
+    "role_description": "Nostrum delectus culpa fugit placeat ipsa blanditiis. Nesciunt quasi illum neque amet quam iusto. Cupiditate blanditiis similique libero veritatis.",
+    "capacity": 5
+  },
+  {
+    "internship_id": "529",
+    "company_name": "Dewan Group",
+    "company_tier": 1,
+    "role_title": "Marketing Intern",
+    "sector": "Marketing",
+    "location": "Mumbai",
+    "required_skills": [
+      "Social Media Marketing",
+      "Email Marketing"
+    ],
+    "role_description": "Ut magnam voluptas ipsam. Labore sit aspernatur atque. Quidem ea recusandae voluptatum. A dolore voluptatibus occaecati. Dicta saepe architecto eveniet eveniet quod vel.",
+    "capacity": 2
+  },
+  {
+    "internship_id": "530",
+    "company_name": "Agate-Choudhary",
+    "company_tier": 1,
+    "role_title": "Manufacturing Intern",
+    "sector": "Manufacturing",
+    "location": "Delhi",
+    "required_skills": [
+      "3D Printing",
+      "FEA",
+      "SolidWorks",
+      "AutoCAD",
+      "MATLAB"
+    ],
+    "role_description": "Consequatur culpa magnam hic aperiam. Consequatur dicta impedit quibusdam error corporis eligendi. Perspiciatis ea voluptatibus perspiciatis laboriosam nisi culpa.",
+    "capacity": 2
+  },
+  {
+    "internship_id": "531",
+    "company_name": "Misra Group",
+    "company_tier": 3,
+    "role_title": "IT Intern",
+    "sector": "IT",
+    "location": "Pune",
+    "required_skills": [
+      "Java",
+      "Cloud Computing",
+      "SQL"
+    ],
+    "role_description": "Vero qui quo ut dicta vitae hic. Consequuntur voluptas repudiandae velit. Cupiditate modi saepe magni. Animi architecto a odio ex quis facilis.",
+    "capacity": 7
+  },
+  {
+    "internship_id": "532",
+    "company_name": "Bath-Sachar",
+    "company_tier": 2,
+    "role_title": "Manufacturing Intern",
+    "sector": "Manufacturing",
+    "location": "Bangalore",
+    "required_skills": [
+      "3D Printing",
+      "MATLAB"
+    ],
+    "role_description": "Molestiae ducimus omnis. Quasi provident sed nesciunt vero ipsam doloribus. Aliquid architecto iste. Neque explicabo neque. Quisquam id rerum eveniet occaecati.",
+    "capacity": 1
+  },
+  {
+    "internship_id": "533",
+    "company_name": "Tank-Narayanan",
+    "company_tier": 3,
+    "role_title": "Healthcare Intern",
+    "sector": "Healthcare",
+    "location": "Chennai",
+    "required_skills": [
+      "Java",
+      "Python",
+      "SQL",
+      "Cloud Computing",
+      "React",
+      "Docker"
+    ],
+    "role_description": "Rerum quisquam eum deleniti adipisci. Omnis recusandae beatae minus fuga distinctio harum. Accusantium iusto similique nesciunt mollitia corrupti illum rerum. Voluptates saepe dolor magni aut voluptatum repudiandae.",
+    "capacity": 7
+  },
+  {
+    "internship_id": "534",
+    "company_name": "Yogi, Lanka and Brar",
+    "company_tier": 2,
+    "role_title": "Manufacturing Intern",
+    "sector": "Manufacturing",
+    "location": "Chennai",
+    "required_skills": [
+      "AutoCAD",
+      "FEA",
+      "3D Printing"
+    ],
+    "role_description": "Hic saepe minus omnis. Enim occaecati sunt quibusdam officia. Eligendi voluptatum dolorum aut error mollitia excepturi.",
+    "capacity": 4
+  },
+  {
+    "internship_id": "535",
+    "company_name": "Sodhi, Seshadri and Karnik",
+    "company_tier": 2,
+    "role_title": "Marketing Intern",
+    "sector": "Marketing",
+    "location": "Hyderabad",
+    "required_skills": [
+      "Google Analytics",
+      "Email Marketing",
+      "SEO"
+    ],
+    "role_description": "Quo sed perferendis voluptate voluptas. Repudiandae beatae accusantium quaerat unde. Laborum tempore inventore repellat quam. Eveniet repellat blanditiis placeat praesentium quos cum. Placeat eaque a adipisci pariatur suscipit. Commodi impedit harum pariatur.",
+    "capacity": 1
+  },
+  {
+    "internship_id": "536",
+    "company_name": "Dar-Brar",
+    "company_tier": 2,
+    "role_title": "Healthcare Intern",
+    "sector": "Healthcare",
+    "location": "Pune",
+    "required_skills": [
+      "SQL",
+      "React",
+      "Java",
+      "Node.js",
+      "Python",
+      "Docker",
+      "C++"
+    ],
+    "role_description": "Quod nostrum veritatis porro. Vitae laboriosam dolores provident totam blanditiis. Dolor mollitia similique vel. Architecto beatae temporibus omnis tempora quisquam. Eos praesentium voluptatibus voluptas dolorem odit cumque. Magni excepturi eum alias similique.",
+    "capacity": 1
+  },
+  {
+    "internship_id": "537",
+    "company_name": "Gola, Deshpande and Saha",
+    "company_tier": 1,
+    "role_title": "Manufacturing Intern",
+    "sector": "Manufacturing",
+    "location": "Pune",
+    "required_skills": [
+      "SolidWorks",
+      "3D Printing",
+      "FEA",
+      "Thermodynamics",
+      "MATLAB",
+      "AutoCAD"
+    ],
+    "role_description": "Veniam delectus totam ea. Molestiae voluptates voluptatibus voluptatum. Laudantium iste porro. Quasi distinctio nihil rem.",
+    "capacity": 7
+  },
+  {
+    "internship_id": "538",
+    "company_name": "Varma LLC",
+    "company_tier": 3,
+    "role_title": "Finance Intern",
+    "sector": "Finance",
+    "location": "Bangalore",
+    "required_skills": [
+      "Tally",
+      "Financial Modeling",
+      "Risk Analysis",
+      "Excel"
+    ],
+    "role_description": "Et molestias pariatur tempora suscipit ab ab non. Architecto enim natus ullam cupiditate sit eligendi. Incidunt quaerat illo omnis magnam nesciunt rem accusamus.",
+    "capacity": 1
+  },
+  {
+    "internship_id": "539",
+    "company_name": "Walla, Mangal and Padmanabhan",
+    "company_tier": 3,
+    "role_title": "IT Intern",
+    "sector": "IT",
+    "location": "Mumbai",
+    "required_skills": [
+      "Python",
+      "React"
+    ],
+    "role_description": "Quibusdam deserunt expedita ex officia officiis labore iste. Distinctio adipisci sapiente earum similique. Dolore nemo magni sapiente illo. Eaque maxime velit vitae.",
+    "capacity": 2
+  },
+  {
+    "internship_id": "540",
+    "company_name": "Bhagat-Dua",
+    "company_tier": 2,
+    "role_title": "Healthcare Intern",
+    "sector": "Healthcare",
+    "location": "Mumbai",
+    "required_skills": [
+      "Python",
+      "React",
+      "SQL",
+      "C++"
+    ],
+    "role_description": "Facere asperiores quis adipisci nobis architecto. Maiores nam est qui eveniet rerum. Perferendis similique mollitia eligendi labore recusandae laborum.",
+    "capacity": 4
+  },
+  {
+    "internship_id": "541",
+    "company_name": "Barad, Misra and Din",
+    "company_tier": 3,
+    "role_title": "IT Intern",
+    "sector": "IT",
+    "location": "Hyderabad",
+    "required_skills": [
+      "Node.js",
+      "C++",
+      "Python",
+      "SQL"
+    ],
+    "role_description": "Eius inventore alias ipsa. Magnam accusamus laudantium. Earum hic ad voluptates eaque voluptates accusamus. Dolorum saepe consectetur dolore odit id. Sint veritatis suscipit repellat.",
+    "capacity": 5
+  },
+  {
+    "internship_id": "542",
+    "company_name": "Dayal, Walia and Parekh",
+    "company_tier": 1,
+    "role_title": "Manufacturing Intern",
+    "sector": "Manufacturing",
+    "location": "Bangalore",
+    "required_skills": [
+      "FEA",
+      "MATLAB",
+      "3D Printing",
+      "Thermodynamics"
+    ],
+    "role_description": "Vero ea perspiciatis optio praesentium vitae assumenda. Possimus suscipit voluptate reprehenderit. Minus eligendi recusandae ut aliquam repellendus doloribus. Ex exercitationem quam assumenda dolor pariatur. Rem laboriosam minima reprehenderit cupiditate ullam odit. Accusantium nemo optio ducimus distinctio vero.",
+    "capacity": 8
+  },
+  {
+    "internship_id": "543",
+    "company_name": "Jayaraman, Dhingra and Sule",
+    "company_tier": 2,
+    "role_title": "IT Intern",
+    "sector": "IT",
+    "location": "Hyderabad",
+    "required_skills": [
+      "Java",
+      "Docker",
+      "SQL",
+      "Python",
+      "C++",
+      "Node.js"
+    ],
+    "role_description": "Veniam repellendus consectetur nobis quaerat nulla. Vero ad aperiam recusandae possimus exercitationem sit. Voluptate enim labore odio tenetur dicta commodi. Delectus unde officiis minus sunt molestiae.",
+    "capacity": 6
+  },
+  {
+    "internship_id": "544",
+    "company_name": "Batra-Patil",
+    "company_tier": 3,
+    "role_title": "Manufacturing Intern",
+    "sector": "Manufacturing",
+    "location": "Pune",
+    "required_skills": [
+      "MATLAB",
+      "FEA",
+      "AutoCAD",
+      "3D Printing"
+    ],
+    "role_description": "Veniam illum sit consectetur velit. Fugiat atque sequi est rerum tempore magni. Harum sunt pariatur temporibus et voluptatum. Libero iste neque nostrum. Aliquid nulla blanditiis nemo eum officiis libero. Enim amet occaecati.",
+    "capacity": 2
+  },
+  {
+    "internship_id": "545",
+    "company_name": "Natarajan PLC",
+    "company_tier": 2,
+    "role_title": "Healthcare Intern",
+    "sector": "Healthcare",
+    "location": "Bangalore",
+    "required_skills": [
+      "SQL",
+      "Node.js",
+      "Java",
+      "C++",
+      "Python",
+      "Docker"
+    ],
+    "role_description": "Et ratione libero voluptatem aspernatur possimus nostrum iusto. Consequatur consequatur eligendi vel fugit laudantium vitae. Eius quae doloremque alias. Vitae provident adipisci ipsa placeat quam.",
+    "capacity": 7
+  },
+  {
+    "internship_id": "546",
+    "company_name": "Krishnan Group",
+    "company_tier": 3,
+    "role_title": "IT Intern",
+    "sector": "IT",
+    "location": "Delhi",
+    "required_skills": [
+      "Node.js",
+      "React",
+      "Java",
+      "Docker",
+      "C++"
+    ],
+    "role_description": "Laudantium quas veritatis officiis autem doloremque voluptatem. Consectetur beatae ratione. Doloremque dignissimos dignissimos ipsam impedit.",
+    "capacity": 8
+  },
+  {
+    "internship_id": "547",
+    "company_name": "Butala Ltd",
+    "company_tier": 3,
+    "role_title": "Manufacturing Intern",
+    "sector": "Manufacturing",
+    "location": "Bangalore",
+    "required_skills": [
+      "AutoCAD",
+      "MATLAB",
+      "SolidWorks"
+    ],
+    "role_description": "Alias ducimus facilis tempora. Libero quod vel expedita iure aperiam voluptatum. Veniam cum blanditiis nisi. Atque corporis repellat eaque voluptatibus perferendis reiciendis.",
+    "capacity": 9
+  },
+  {
+    "internship_id": "548",
+    "company_name": "Sarraf, Pal and Chana",
+    "company_tier": 2,
+    "role_title": "Finance Intern",
+    "sector": "Finance",
+    "location": "Mumbai",
+    "required_skills": [
+      "QuickBooks",
+      "Excel",
+      "Statistics",
+      "Risk Analysis"
+    ],
+    "role_description": "Non tenetur dolores ipsam. Soluta sapiente nostrum. Ex optio sunt quod hic quas. Rem natus harum corporis quasi.",
+    "capacity": 7
+  },
+  {
+    "internship_id": "549",
+    "company_name": "Krishnamurthy-D\u2019Alia",
+    "company_tier": 2,
+    "role_title": "Manufacturing Intern",
+    "sector": "Manufacturing",
+    "location": "Mumbai",
+    "required_skills": [
+      "Thermodynamics",
+      "FEA",
+      "MATLAB",
+      "3D Printing",
+      "AutoCAD"
+    ],
+    "role_description": "Ex amet ex libero. Provident laudantium natus asperiores qui. Ipsam architecto nostrum dolore fuga blanditiis saepe. Ducimus similique voluptates praesentium optio enim.",
+    "capacity": 10
+  },
+  {
+    "internship_id": "550",
+    "company_name": "Acharya-Grewal",
+    "company_tier": 1,
+    "role_title": "Marketing Intern",
+    "sector": "Marketing",
+    "location": "Hyderabad",
+    "required_skills": [
+      "SEO",
+      "Email Marketing",
+      "Content Creation"
+    ],
+    "role_description": "Eligendi qui quod. Sed at libero distinctio natus perferendis. Tenetur quia atque repellendus deleniti voluptas dicta.",
+    "capacity": 6
+  },
+  {
+    "internship_id": "551",
+    "company_name": "Mahajan, Suresh and Guha",
+    "company_tier": 1,
+    "role_title": "Finance Intern",
+    "sector": "Finance",
+    "location": "Delhi",
+    "required_skills": [
+      "QuickBooks",
+      "Financial Modeling",
+      "Statistics"
+    ],
+    "role_description": "Ullam tempore velit beatae animi saepe magni. Est est a in. Illo incidunt quas assumenda mollitia.",
+    "capacity": 2
+  },
+  {
+    "internship_id": "552",
+    "company_name": "Acharya-Narang",
+    "company_tier": 2,
+    "role_title": "Healthcare Intern",
+    "sector": "Healthcare",
+    "location": "Hyderabad",
+    "required_skills": [
+      "React",
+      "Docker",
+      "Cloud Computing"
+    ],
+    "role_description": "Quos esse deserunt quae consequuntur nisi. Molestiae fugiat tempora repellendus quis quia deserunt. Illum quasi perspiciatis. Consequatur at dignissimos laboriosam harum nesciunt nam perspiciatis. Facere a assumenda quis. Quia quam corporis vel tenetur veritatis.",
+    "capacity": 1
+  },
+  {
+    "internship_id": "553",
+    "company_name": "Mangal-Srivastava",
+    "company_tier": 2,
+    "role_title": "Healthcare Intern",
+    "sector": "Healthcare",
+    "location": "Bangalore",
+    "required_skills": [
+      "Docker",
+      "Java",
+      "Cloud Computing",
+      "React",
+      "Python",
+      "Node.js",
+      "SQL"
+    ],
+    "role_description": "Reiciendis molestiae consequuntur alias inventore voluptatibus odio. Ipsa reiciendis incidunt mollitia suscipit. Tempore itaque maxime libero. Eaque est adipisci facere quod odio. Officia esse iusto libero.",
+    "capacity": 1
+  },
+  {
+    "internship_id": "554",
+    "company_name": "Mani, Arya and Parsa",
+    "company_tier": 2,
+    "role_title": "Manufacturing Intern",
+    "sector": "Manufacturing",
+    "location": "Delhi",
+    "required_skills": [
+      "MATLAB",
+      "AutoCAD"
+    ],
+    "role_description": "Quam quaerat fugit. Impedit minus consequatur rem quos aut. Sunt ipsam veritatis ex voluptates. Commodi reprehenderit adipisci molestias ipsam cumque deserunt.",
+    "capacity": 1
+  },
+  {
+    "internship_id": "555",
+    "company_name": "Char, Korpal and Sethi",
+    "company_tier": 3,
+    "role_title": "Finance Intern",
+    "sector": "Finance",
+    "location": "Delhi",
+    "required_skills": [
+      "Risk Analysis",
+      "Financial Modeling",
+      "Statistics"
+    ],
+    "role_description": "Inventore in accusamus nihil facilis nihil eum delectus. Voluptate recusandae nulla est nesciunt facere excepturi. Molestias fugit accusamus dolore.",
+    "capacity": 3
+  },
+  {
+    "internship_id": "556",
+    "company_name": "Dewan LLC",
+    "company_tier": 2,
+    "role_title": "IT Intern",
+    "sector": "IT",
+    "location": "Mumbai",
+    "required_skills": [
+      "C++",
+      "Docker",
+      "Cloud Computing",
+      "Python",
+      "Java"
+    ],
+    "role_description": "Et optio fugit pariatur voluptates odio. Quae provident facere. Ad delectus dolore at soluta.",
+    "capacity": 9
+  },
+  {
+    "internship_id": "557",
+    "company_name": "Gupta, Rau and Bali",
+    "company_tier": 1,
+    "role_title": "Finance Intern",
+    "sector": "Finance",
+    "location": "Hyderabad",
+    "required_skills": [
+      "Statistics",
+      "Excel",
+      "Risk Analysis",
+      "Tally",
+      "QuickBooks"
+    ],
+    "role_description": "Officia atque ducimus excepturi consectetur. Eligendi distinctio cumque. Deserunt occaecati libero. Sequi eius perferendis maiores minima neque. Neque doloremque eveniet cumque assumenda sunt. Doloremque laborum adipisci sapiente odio consectetur officiis.",
+    "capacity": 8
+  },
+  {
+    "internship_id": "558",
+    "company_name": "Menon Inc",
+    "company_tier": 1,
+    "role_title": "Marketing Intern",
+    "sector": "Marketing",
+    "location": "Delhi",
+    "required_skills": [
+      "Google Analytics",
+      "Social Media Marketing"
+    ],
+    "role_description": "Nesciunt vel ducimus dolore. Saepe perspiciatis quaerat nisi numquam repellat veritatis mollitia. Ullam culpa voluptatem earum eveniet mollitia animi.",
+    "capacity": 4
+  },
+  {
+    "internship_id": "559",
+    "company_name": "Hayre-Manda",
+    "company_tier": 3,
+    "role_title": "Healthcare Intern",
+    "sector": "Healthcare",
+    "location": "Hyderabad",
+    "required_skills": [
+      "Python",
+      "Cloud Computing",
+      "Docker",
+      "SQL",
+      "C++",
+      "Node.js"
+    ],
+    "role_description": "Harum eveniet odit tempore sapiente. Accusantium expedita perspiciatis itaque similique unde ad. Amet nemo nihil corporis suscipit mollitia. Voluptate aut accusamus vitae facilis.",
+    "capacity": 6
+  },
+  {
+    "internship_id": "560",
+    "company_name": "Cherian, Kaur and Bala",
+    "company_tier": 3,
+    "role_title": "IT Intern",
+    "sector": "IT",
+    "location": "Pune",
+    "required_skills": [
+      "Cloud Computing",
+      "SQL",
+      "Docker",
+      "Node.js",
+      "React",
+      "Java",
+      "C++",
+      "Python"
+    ],
+    "role_description": "Laboriosam nobis error maxime saepe voluptas alias. Molestias minima rem neque pariatur eaque officiis. Facere dolor repudiandae veritatis quaerat optio. Nobis natus minima reprehenderit.",
+    "capacity": 1
+  },
+  {
+    "internship_id": "561",
+    "company_name": "Kalita, Merchant and Gade",
+    "company_tier": 3,
+    "role_title": "Manufacturing Intern",
+    "sector": "Manufacturing",
+    "location": "Chennai",
+    "required_skills": [
+      "Thermodynamics",
+      "3D Printing"
+    ],
+    "role_description": "Corrupti expedita eos maxime dignissimos ab sit. Maiores fuga ipsam. Ipsum est optio. Cum dicta doloremque ex provident accusamus. Corrupti neque sequi doloremque facilis rerum. Beatae provident facilis.",
+    "capacity": 6
+  },
+  {
+    "internship_id": "562",
+    "company_name": "Bera, Chaudhary and Pillai",
+    "company_tier": 2,
+    "role_title": "Healthcare Intern",
+    "sector": "Healthcare",
+    "location": "Pune",
+    "required_skills": [
+      "Cloud Computing",
+      "Node.js"
+    ],
+    "role_description": "Odio vitae eligendi magnam adipisci quisquam necessitatibus. Assumenda repellat quibusdam distinctio. Fuga nulla a consequatur fugiat explicabo libero. Veniam doloribus corrupti provident cupiditate. Impedit porro placeat ducimus accusantium maiores eum.",
+    "capacity": 9
+  },
+  {
+    "internship_id": "563",
+    "company_name": "Naidu LLC",
+    "company_tier": 1,
+    "role_title": "Finance Intern",
+    "sector": "Finance",
+    "location": "Pune",
+    "required_skills": [
+      "Risk Analysis",
+      "Excel",
+      "Statistics",
+      "Tally"
+    ],
+    "role_description": "Cumque laborum mollitia suscipit fuga quo. Exercitationem tenetur voluptate est nihil. Nesciunt sequi perferendis adipisci accusantium iste quae necessitatibus. Aperiam reprehenderit id ad nobis. Ipsum magni quaerat necessitatibus delectus. Velit enim consequatur dolor omnis dolorum vero.",
+    "capacity": 3
+  },
+  {
+    "internship_id": "564",
+    "company_name": "Varty-Rajagopal",
+    "company_tier": 1,
+    "role_title": "IT Intern",
+    "sector": "IT",
+    "location": "Delhi",
+    "required_skills": [
+      "SQL",
+      "Node.js",
+      "Docker",
+      "React",
+      "Cloud Computing"
+    ],
+    "role_description": "Dolores inventore illum doloremque asperiores. Voluptatibus neque quasi. Reiciendis ullam vero quidem corporis necessitatibus fugit. Sit quam velit ad alias placeat totam repudiandae.",
+    "capacity": 1
+  },
+  {
+    "internship_id": "565",
+    "company_name": "Bail Ltd",
+    "company_tier": 1,
+    "role_title": "Finance Intern",
+    "sector": "Finance",
+    "location": "Mumbai",
+    "required_skills": [
+      "Statistics",
+      "Tally",
+      "Risk Analysis",
+      "Financial Modeling",
+      "QuickBooks"
+    ],
+    "role_description": "Iusto facilis delectus magni veritatis. Molestiae facilis sit. Delectus similique hic illo tenetur. Aspernatur rem voluptates aliquid.",
+    "capacity": 4
+  },
+  {
+    "internship_id": "566",
+    "company_name": "Sahota, Reddy and Bhargava",
+    "company_tier": 3,
+    "role_title": "Healthcare Intern",
+    "sector": "Healthcare",
+    "location": "Chennai",
+    "required_skills": [
+      "Cloud Computing",
+      "Java",
+      "Docker"
+    ],
+    "role_description": "Ea rerum pariatur. Aspernatur molestias repudiandae dolore. Ut amet in nihil veniam quod ullam. Nemo illo doloribus corporis asperiores.",
+    "capacity": 7
+  },
+  {
+    "internship_id": "567",
+    "company_name": "Salvi LLC",
+    "company_tier": 3,
+    "role_title": "Healthcare Intern",
+    "sector": "Healthcare",
+    "location": "Mumbai",
+    "required_skills": [
+      "Java",
+      "Docker",
+      "SQL",
+      "React"
+    ],
+    "role_description": "Quod perspiciatis eos reprehenderit maxime. Placeat quibusdam voluptas veniam sint ipsum ea. Eum omnis iure libero ab debitis qui. Dignissimos nemo ducimus necessitatibus eius. Error sapiente soluta sequi. Atque doloribus quod magni laboriosam pariatur.",
+    "capacity": 10
+  },
+  {
+    "internship_id": "568",
+    "company_name": "Oommen, Deep and Gade",
+    "company_tier": 2,
+    "role_title": "Finance Intern",
+    "sector": "Finance",
+    "location": "Delhi",
+    "required_skills": [
+      "QuickBooks",
+      "Excel",
+      "Statistics"
+    ],
+    "role_description": "Rem praesentium corrupti neque eum. Quis facilis eveniet eligendi ab. Sint at a quo praesentium officiis id.",
+    "capacity": 7
+  },
+  {
+    "internship_id": "569",
+    "company_name": "Pandit-Arya",
+    "company_tier": 1,
+    "role_title": "Manufacturing Intern",
+    "sector": "Manufacturing",
+    "location": "Bangalore",
+    "required_skills": [
+      "Thermodynamics",
+      "3D Printing",
+      "AutoCAD",
+      "SolidWorks"
+    ],
+    "role_description": "Asperiores accusantium impedit aliquam. Minima harum saepe deleniti reiciendis. Voluptate exercitationem numquam labore repellat exercitationem accusantium officiis. Nihil ad ullam dolorum maiores neque minima.",
+    "capacity": 2
+  },
+  {
+    "internship_id": "570",
+    "company_name": "Palan, Venkataraman and Kadakia",
+    "company_tier": 3,
+    "role_title": "Marketing Intern",
+    "sector": "Marketing",
+    "location": "Chennai",
+    "required_skills": [
+      "Social Media Marketing",
+      "Content Creation",
+      "Email Marketing",
+      "SEO"
+    ],
+    "role_description": "Ducimus ullam blanditiis doloribus praesentium molestiae ipsam. Iusto facilis corporis id praesentium quae. Delectus quae dolor praesentium. Neque est autem blanditiis amet.",
+    "capacity": 1
+  },
+  {
+    "internship_id": "571",
+    "company_name": "Sant, Hayer and Deo",
+    "company_tier": 3,
+    "role_title": "IT Intern",
+    "sector": "IT",
+    "location": "Delhi",
+    "required_skills": [
+      "SQL",
+      "Cloud Computing",
+      "Python",
+      "Node.js",
+      "Docker",
+      "C++"
+    ],
+    "role_description": "Impedit ad delectus possimus. Magnam eum non facere porro. Maxime laborum inventore doloribus nostrum aut quo quisquam.",
+    "capacity": 10
+  },
+  {
+    "internship_id": "572",
+    "company_name": "Mittal-Savant",
+    "company_tier": 3,
+    "role_title": "Marketing Intern",
+    "sector": "Marketing",
+    "location": "Delhi",
+    "required_skills": [
+      "SEO",
+      "Content Creation",
+      "Social Media Marketing"
+    ],
+    "role_description": "Velit dolorem voluptatum earum animi aliquam. Excepturi dicta inventore ducimus cumque. Cum porro corrupti similique illo cumque.",
+    "capacity": 8
+  },
+  {
+    "internship_id": "573",
+    "company_name": "Hans, Jani and Bassi",
+    "company_tier": 2,
+    "role_title": "Finance Intern",
+    "sector": "Finance",
+    "location": "Hyderabad",
+    "required_skills": [
+      "QuickBooks",
+      "Excel",
+      "Risk Analysis",
+      "Statistics"
+    ],
+    "role_description": "Necessitatibus aspernatur magni ipsum recusandae nemo nostrum. Veniam nulla temporibus eum. Assumenda labore ipsum veritatis suscipit nobis quis. Quo quas adipisci.",
+    "capacity": 7
+  },
+  {
+    "internship_id": "574",
+    "company_name": "Bawa, Krishnan and Goda",
+    "company_tier": 1,
+    "role_title": "Healthcare Intern",
+    "sector": "Healthcare",
+    "location": "Delhi",
+    "required_skills": [
+      "Docker",
+      "SQL",
+      "Node.js",
+      "Python",
+      "C++",
+      "Cloud Computing"
+    ],
+    "role_description": "Ab sit numquam odit sint occaecati nemo. Quia aspernatur quaerat minus corporis distinctio. Nam doloribus quidem. Praesentium earum neque. Recusandae expedita repellendus pariatur. Atque quae sapiente cum.",
+    "capacity": 7
+  },
+  {
+    "internship_id": "575",
+    "company_name": "Arora-Guha",
+    "company_tier": 3,
+    "role_title": "IT Intern",
+    "sector": "IT",
+    "location": "Chennai",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Node.js",
+      "C++",
+      "Cloud Computing",
+      "Java",
+      "React"
+    ],
+    "role_description": "Officia quis temporibus. Odio vero iusto nemo veritatis nesciunt nam. Natus temporibus ipsum.",
+    "capacity": 6
+  },
+  {
+    "internship_id": "576",
+    "company_name": "Shere-Sidhu",
+    "company_tier": 3,
+    "role_title": "Manufacturing Intern",
+    "sector": "Manufacturing",
+    "location": "Chennai",
+    "required_skills": [
+      "AutoCAD",
+      "MATLAB",
+      "Thermodynamics",
+      "3D Printing"
+    ],
+    "role_description": "Sed fugit aliquid modi. Laudantium incidunt esse odio. Est incidunt vitae sapiente. Ab quis mollitia totam.",
+    "capacity": 5
+  },
+  {
+    "internship_id": "577",
+    "company_name": "D\u2019Alia LLC",
+    "company_tier": 3,
+    "role_title": "Marketing Intern",
+    "sector": "Marketing",
+    "location": "Hyderabad",
+    "required_skills": [
+      "SEO",
+      "Content Creation"
+    ],
+    "role_description": "Amet accusantium eveniet odio. Exercitationem officia nobis. Nobis perspiciatis placeat vitae. Eum numquam accusamus tempora voluptatum voluptatem. Perferendis fuga velit exercitationem blanditiis.",
+    "capacity": 7
+  },
+  {
+    "internship_id": "578",
+    "company_name": "Bhandari Group",
+    "company_tier": 3,
+    "role_title": "Healthcare Intern",
+    "sector": "Healthcare",
+    "location": "Hyderabad",
+    "required_skills": [
+      "Node.js",
+      "Java",
+      "C++",
+      "Cloud Computing"
+    ],
+    "role_description": "Mollitia ex vero soluta et numquam perspiciatis. Repellat eius molestiae aliquid fugiat iusto dolorem cum. Similique error autem cumque recusandae fugiat.",
+    "capacity": 2
+  },
+  {
+    "internship_id": "579",
+    "company_name": "Nigam Inc",
+    "company_tier": 1,
+    "role_title": "Finance Intern",
+    "sector": "Finance",
+    "location": "Chennai",
+    "required_skills": [
+      "Excel",
+      "Risk Analysis",
+      "Statistics",
+      "QuickBooks"
+    ],
+    "role_description": "Molestiae rerum perspiciatis doloribus iusto. Libero quo autem nulla eius corrupti. Tempora fugiat delectus veniam magni. Officiis iure ab. Blanditiis in optio hic dolorem.",
+    "capacity": 7
+  },
+  {
+    "internship_id": "580",
+    "company_name": "Dey Ltd",
+    "company_tier": 2,
+    "role_title": "IT Intern",
+    "sector": "IT",
+    "location": "Hyderabad",
+    "required_skills": [
+      "SQL",
+      "Docker",
+      "Java",
+      "Node.js",
+      "Python"
+    ],
+    "role_description": "Soluta expedita ea deleniti cumque. Cupiditate delectus commodi deleniti natus eveniet enim atque. Neque consequatur dicta cumque. Minima aliquam ut deleniti quis repudiandae numquam. Quia iusto praesentium expedita numquam. Quam laborum asperiores totam nemo earum odit magni.",
+    "capacity": 6
+  },
+  {
+    "internship_id": "581",
+    "company_name": "Naidu-Yadav",
+    "company_tier": 2,
+    "role_title": "Manufacturing Intern",
+    "sector": "Manufacturing",
+    "location": "Chennai",
+    "required_skills": [
+      "3D Printing",
+      "FEA",
+      "MATLAB",
+      "AutoCAD",
+      "Thermodynamics"
+    ],
+    "role_description": "Ipsam expedita temporibus doloremque excepturi officia molestiae dolor. Omnis soluta voluptates eius possimus quas minima. Minima ea alias aperiam reprehenderit.",
+    "capacity": 5
+  },
+  {
+    "internship_id": "582",
+    "company_name": "Acharya LLC",
+    "company_tier": 3,
+    "role_title": "Finance Intern",
+    "sector": "Finance",
+    "location": "Mumbai",
+    "required_skills": [
+      "Statistics",
+      "Tally",
+      "Risk Analysis"
+    ],
+    "role_description": "Enim ipsam est perferendis nam. Repellat similique excepturi perferendis veritatis exercitationem. Rerum minus ab voluptates. Distinctio nesciunt cum nobis in.",
+    "capacity": 1
+  },
+  {
+    "internship_id": "583",
+    "company_name": "Balan, Pandya and Oza",
+    "company_tier": 1,
+    "role_title": "Healthcare Intern",
+    "sector": "Healthcare",
+    "location": "Chennai",
+    "required_skills": [
+      "Node.js",
+      "React",
+      "Java",
+      "SQL",
+      "Cloud Computing"
+    ],
+    "role_description": "Ipsa incidunt quibusdam quisquam cum praesentium. Nesciunt temporibus cumque hic aliquam perferendis dicta. Nam cupiditate iusto sint alias. Odio ab maxime enim ad ratione nihil. Vero eum facere beatae.",
+    "capacity": 5
+  },
+  {
+    "internship_id": "584",
+    "company_name": "Sama, Lall and Dhar",
+    "company_tier": 2,
+    "role_title": "Finance Intern",
+    "sector": "Finance",
+    "location": "Bangalore",
+    "required_skills": [
+      "Excel",
+      "QuickBooks",
+      "Tally",
+      "Statistics"
+    ],
+    "role_description": "Voluptatibus veritatis explicabo atque repudiandae accusantium illo quas. Hic ut deleniti voluptate placeat aspernatur. Quae eum mollitia esse voluptatibus odio. Ex eveniet ab magnam enim eveniet. Perspiciatis dicta in id adipisci voluptate porro. Blanditiis ut ea incidunt.",
+    "capacity": 2
+  },
+  {
+    "internship_id": "585",
+    "company_name": "Samra PLC",
+    "company_tier": 3,
+    "role_title": "Marketing Intern",
+    "sector": "Marketing",
+    "location": "Bangalore",
+    "required_skills": [
+      "Email Marketing",
+      "Social Media Marketing",
+      "Google Analytics",
+      "Content Creation"
+    ],
+    "role_description": "Illum fuga occaecati earum. Minima perferendis ad numquam hic molestiae quaerat delectus. Optio aut eligendi nostrum accusantium harum. Facilis doloribus et illum. Officiis magni laborum.",
+    "capacity": 6
+  },
+  {
+    "internship_id": "586",
+    "company_name": "Narasimhan-Bhatia",
+    "company_tier": 3,
+    "role_title": "Finance Intern",
+    "sector": "Finance",
+    "location": "Mumbai",
+    "required_skills": [
+      "Statistics",
+      "Financial Modeling",
+      "QuickBooks"
+    ],
+    "role_description": "Culpa alias ipsam at. Accusamus porro necessitatibus assumenda voluptates sed culpa. Adipisci cupiditate nihil optio ducimus dolores placeat.",
+    "capacity": 3
+  },
+  {
+    "internship_id": "587",
+    "company_name": "Majumdar-Natt",
+    "company_tier": 2,
+    "role_title": "Healthcare Intern",
+    "sector": "Healthcare",
+    "location": "Mumbai",
+    "required_skills": [
+      "SQL",
+      "C++",
+      "Java"
+    ],
+    "role_description": "Unde nam magni eos atque laboriosam. Voluptatum consequatur occaecati nostrum nam alias commodi recusandae. Fugit vitae dignissimos expedita ratione fugiat illo impedit. Quam sequi fugit explicabo impedit.",
+    "capacity": 1
+  },
+  {
+    "internship_id": "588",
+    "company_name": "Rege-Sampath",
+    "company_tier": 2,
+    "role_title": "Manufacturing Intern",
+    "sector": "Manufacturing",
+    "location": "Chennai",
+    "required_skills": [
+      "MATLAB",
+      "FEA"
+    ],
+    "role_description": "Veritatis sit quasi repudiandae accusamus deserunt. Sed accusantium quod beatae voluptatibus reprehenderit. Illum quia deserunt sunt saepe. Perspiciatis rerum tempore nihil est. Harum atque architecto ducimus.",
+    "capacity": 4
+  },
+  {
+    "internship_id": "589",
+    "company_name": "Sani, Chand and Rau",
+    "company_tier": 1,
+    "role_title": "IT Intern",
+    "sector": "IT",
+    "location": "Hyderabad",
+    "required_skills": [
+      "SQL",
+      "Python"
+    ],
+    "role_description": "Cupiditate deserunt cum eos. Cupiditate quam vero exercitationem ab. Hic tempora deserunt maxime asperiores odio voluptas. Magni accusamus quo fugit. Voluptate assumenda ducimus eaque nam non voluptas aliquid.",
+    "capacity": 4
+  },
+  {
+    "internship_id": "590",
+    "company_name": "Wali, Babu and Tiwari",
+    "company_tier": 3,
+    "role_title": "Marketing Intern",
+    "sector": "Marketing",
+    "location": "Bangalore",
+    "required_skills": [
+      "SEO",
+      "Email Marketing",
+      "Google Analytics",
+      "Social Media Marketing",
+      "Content Creation"
+    ],
+    "role_description": "Quis aperiam debitis. Nesciunt quae delectus numquam sapiente perferendis. Adipisci sit non ut aspernatur natus. Sapiente doloribus numquam ipsum atque adipisci. Magnam sapiente molestiae porro eveniet excepturi adipisci. Pariatur corporis incidunt esse cum fugit recusandae voluptatem.",
+    "capacity": 2
+  },
+  {
+    "internship_id": "591",
+    "company_name": "Sandal PLC",
+    "company_tier": 1,
+    "role_title": "Manufacturing Intern",
+    "sector": "Manufacturing",
+    "location": "Pune",
+    "required_skills": [
+      "3D Printing",
+      "FEA",
+      "MATLAB",
+      "Thermodynamics"
+    ],
+    "role_description": "Fugiat necessitatibus quia totam architecto sunt necessitatibus. Maxime illum nihil ullam quidem dolorem numquam. Quia corporis quam reiciendis nisi nam praesentium.",
+    "capacity": 8
+  },
+  {
+    "internship_id": "592",
+    "company_name": "Dutta, Koshy and Gill",
+    "company_tier": 1,
+    "role_title": "Marketing Intern",
+    "sector": "Marketing",
+    "location": "Delhi",
+    "required_skills": [
+      "Email Marketing",
+      "Google Analytics"
+    ],
+    "role_description": "Distinctio cupiditate neque laboriosam ducimus repellendus. Quasi neque eius nemo doloremque illum. Debitis accusantium molestiae quibusdam quasi dolor. Optio officiis facere nemo minus consectetur.",
+    "capacity": 8
+  },
+  {
+    "internship_id": "593",
+    "company_name": "Kapur-Agate",
+    "company_tier": 1,
+    "role_title": "Manufacturing Intern",
+    "sector": "Manufacturing",
+    "location": "Hyderabad",
+    "required_skills": [
+      "FEA",
+      "Thermodynamics",
+      "AutoCAD",
+      "3D Printing"
+    ],
+    "role_description": "Cum quos asperiores minus voluptate aut. Officiis quae sit quidem perspiciatis quaerat. Sapiente architecto maxime ad at natus. Placeat voluptatem nihil dolores minima fugiat. Voluptatibus quibusdam sint quos tempore nemo dolorum quaerat. Quibusdam perferendis quo minus facilis. Ipsa quae sed ipsam molestias.",
+    "capacity": 6
+  },
+  {
+    "internship_id": "594",
+    "company_name": "Lad Ltd",
+    "company_tier": 3,
+    "role_title": "IT Intern",
+    "sector": "IT",
+    "location": "Chennai",
+    "required_skills": [
+      "Docker",
+      "Node.js",
+      "React",
+      "Python",
+      "Cloud Computing",
+      "C++",
+      "Java",
+      "SQL"
+    ],
+    "role_description": "Pariatur cumque rem vero est neque. Sed libero id laboriosam expedita. Dolore ex expedita dolorum accusamus asperiores unde. Consequatur minima recusandae modi voluptatum ducimus totam. Recusandae aliquam praesentium dicta.",
+    "capacity": 5
+  },
+  {
+    "internship_id": "595",
+    "company_name": "Balay, Arya and Dash",
+    "company_tier": 2,
+    "role_title": "Healthcare Intern",
+    "sector": "Healthcare",
+    "location": "Delhi",
+    "required_skills": [
+      "Docker",
+      "Cloud Computing",
+      "SQL",
+      "C++"
+    ],
+    "role_description": "Commodi quidem sapiente similique quod enim. Exercitationem beatae repellat commodi occaecati temporibus quam. Illo repellendus ipsa dolores.",
+    "capacity": 1
+  },
+  {
+    "internship_id": "596",
+    "company_name": "Chaudhry, Goyal and Bobal",
+    "company_tier": 2,
+    "role_title": "Finance Intern",
+    "sector": "Finance",
+    "location": "Delhi",
+    "required_skills": [
+      "Statistics",
+      "Financial Modeling",
+      "Risk Analysis",
+      "Excel"
+    ],
+    "role_description": "Impedit impedit officia harum explicabo. Tempora laboriosam placeat maxime enim nihil facilis. Rem error rem consequatur veniam. Laboriosam necessitatibus odit delectus.",
+    "capacity": 10
+  },
+  {
+    "internship_id": "597",
+    "company_name": "Chawla, Kapur and Bansal",
+    "company_tier": 1,
+    "role_title": "Finance Intern",
+    "sector": "Finance",
+    "location": "Pune",
+    "required_skills": [
+      "Statistics",
+      "Excel",
+      "Financial Modeling",
+      "QuickBooks"
+    ],
+    "role_description": "Soluta eveniet maiores molestias ratione possimus officiis. Nesciunt molestiae sequi vel veniam voluptatibus temporibus. Officiis hic quibusdam aut soluta mollitia recusandae.",
+    "capacity": 10
+  },
+  {
+    "internship_id": "598",
+    "company_name": "Devi, Nath and Sahni",
+    "company_tier": 1,
+    "role_title": "Marketing Intern",
+    "sector": "Marketing",
+    "location": "Bangalore",
+    "required_skills": [
+      "SEO",
+      "Email Marketing",
+      "Content Creation",
+      "Google Analytics",
+      "Social Media Marketing"
+    ],
+    "role_description": "Numquam atque dicta exercitationem inventore commodi. Ipsa fuga ducimus voluptatibus ipsum quas at nisi. Sequi ut ut aut.",
+    "capacity": 6
+  },
+  {
+    "internship_id": "599",
+    "company_name": "Palan-Subramaniam",
+    "company_tier": 2,
+    "role_title": "Finance Intern",
+    "sector": "Finance",
+    "location": "Pune",
+    "required_skills": [
+      "Financial Modeling",
+      "Statistics",
+      "Tally"
+    ],
+    "role_description": "Mollitia vel labore rem voluptatibus amet mollitia. Deleniti soluta natus qui. Repellat repellendus ex saepe. Nobis quaerat facilis minus excepturi rem inventore.",
+    "capacity": 10
+  }
+]
