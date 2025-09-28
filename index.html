@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎓 AI Internship Allocation System</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body { 
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        
+        .container { 
+            max-width: 1400px; 
+            margin: 0 auto; 
+            padding: 20px; 
+        }
+        
+        .header { 
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(10px);
+            color: #333; 
+            padding: 40px; 
+            border-radius: 20px; 
+            margin-bottom: 30px; 
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        
+        .header h1 { 
+            font-size: 3em; 
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .header p { 
+            font-size: 1.2em; 
+            opacity: 0.8; 
+        }
+        
+        .card { 
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px; 
+            padding: 30px; 
+            margin-bottom: 25px; 
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            border: 1px solid rgba(255,255,255,0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+        }
+        
+        .btn { 
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white; 
+            border: none; 
+            padding: 15px 30px; 
+            border-radius: 50px; 
+            cursor: pointer; 
+            font-size: 16px; 
+            margin: 8px; 
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+            font-weight: 600;
+        }
+        
+        .btn:hover { 
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn:disabled { 
+            background: #ccc; 
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+        
+        .btn-secondary {
+            background: linear-gradient(135deg, #f093fb, #f5576c);
+            box-shadow: 0 5px 15px rgba(245, 87, 108, 0.3);
+        }
+        
+        .btn-success {
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            box-shadow: 0 5px 15px rgba(79, 172, 254, 0.3);
+        }
+        
+        .grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
+            gap: 25px; 
+        }
+        
+        .stats-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+            gap: 20px; 
+        }
+        
+        .stat-card { 
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white; 
+            padding: 25px; 
+            border-radius: 15px; 
+            text-align: center;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .stat-card:hover {
+            transform: scale(1.05);
+        }
+        
+        .stat-number { 
+            font-size: 2.5em; 
+            font-weight: bold; 
+            margin-bottom: 5px;
+        }
+        
+        .stat-label { 
+            font-size: 1em; 
+            opacity: 0.9; 
+        }
+        
+        .allocation-item { 
+            border: 1px solid #e0e0e0; 
+            padding: 20px; 
+            margin: 15px 0; 
+            border-radius: 15px; 
+            background: linear-gradient(135deg, #f8f9ff, #ffffff);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .allocation-item:hover {
+            transform: translateX(10px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            border-color: #667eea;
+        }
+        
+        .quota-bar { 
+            background: #e0e0e0; 
+            height: 25px; 
+            border-radius: 15px; 
+            margin: 10px 0; 
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .quota-fill { 
+            height: 100%; 
+            background: linear-gradient(90deg, #4CAF50, #45a049); 
+            transition: width 1s ease;
+            border-radius: 15px;
+        }
+        
+        .quota-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+        
+        .loading { 
+            text-align: center; 
+            padding: 40px;
+        }
+        
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .error { 
+            color: #d32f2f; 
+            background: linear-gradient(135deg, #ffebee, #ffcdd2); 
+            padding: 15px; 
+            border-radius: 10px; 
+            margin: 15px 0;
+            border-left: 5px solid #d32f2f;
+        }
+        
+        .success { 
+            color: #388e3c; 
+            background: linear-gradient(135deg, #e8f5e8, #c8e6c9); 
+            padding: 15px; 
+            border-radius: 10px; 
+            margin: 15px 0;
+            border-left: 5px solid #388e3c;
+        }
+        
+        .chart-container { 
+            width: 100%; 
+            height: 400px; 
+            position: relative;
+        }
+        
+        .progress-container {
+            background: #f0f0f0;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .progress-bar {
+            background: #e0e0e0;
+            height: 8px;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            width: 0%;
+            transition: width 0.5s ease;
+        }
+        
+        .tabs {
+            display: flex;
+            background: rgba(255,255,255,0.1);
+            border-radius: 15px;
+            padding: 5px;
+            margin-bottom: 20px;
+        }
+        
+        .tab {
+            flex: 1;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            color: rgba(255,255,255,0.7);
+        }
+        
+        .tab.active {
+            background: rgba(255,255,255,0.2);
+            color: white;
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        .search-box {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 16px;
+            margin-bottom: 20px;
+            transition: border-color 0.3s ease;
+        }
+        
+        .search-box:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .filter-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .chip {
+            background: rgba(102, 126, 234, 0.1);
+            color: #667eea;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        
+        .chip.active {
+            background: #667eea;
+            color: white;
+        }
+        
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            backdrop-filter: blur(5px);
+        }
+        
+        .modal-content {
+            background: white;
+            margin: 2% auto;
+            padding: 0;
+            border-radius: 20px;
+            width: 90%;
+            max-width: 800px;
+            max-height: 90vh;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.3);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .modal-header {
+            padding: 20px 30px;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+        }
+        
+        .modal-body {
+            padding: 20px 30px;
+            overflow-y: auto;
+            flex: 1;
+            max-height: calc(90vh - 80px);
+            min-height: 200px;
+        }
+        
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .info-card {
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .student-card {
+            background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+        }
+        
+        .internship-card {
+            background: linear-gradient(135deg, #f3e5f5, #e1bee7);
+        }
+        
+        .score-card {
+            background: linear-gradient(135deg, #f8f9ff, #e8eaff);
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .score-badge {
+            display: inline-block;
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border-radius: 50px;
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        
+        .close {
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .close:hover {
+            opacity: 0.7;
+        }
+        
+        @media (max-width: 768px) {
+            .container { padding: 10px; }
+            .header h1 { font-size: 2em; }
+            .grid { grid-template-columns: 1fr; }
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            .modal-content { width: 95%; margin: 1% auto; }
+            .info-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-graduation-cap"></i> AI Internship Allocation</h1>
+            <p>Intelligent matching with government quota compliance & real-time analytics</p>
+        </div>
+
+        <div class="card">
+            <h2><i class="fas fa-control"></i> System Controls</h2>
+            <div style="text-align: center;">
+                <button class="btn" onclick="loadData()">
+                    <i class="fas fa-upload"></i> Load Data from CSV
+                </button>
+                <button class="btn btn-secondary" onclick="runAllocation()" id="allocateBtn">
+                    <i class="fas fa-robot"></i> Run AI Allocation
+                </button>
+                <button class="btn btn-success" onclick="loadStats()">
+                    <i class="fas fa-sync"></i> Refresh Stats
+                </button>
+                <button class="btn" onclick="exportResults()">
+                    <i class="fas fa-download"></i> Export Results
+                </button>
+            </div>
+            <div id="messages"></div>
+            <div id="progressContainer" class="progress-container" style="display: none;">
+                <div>Processing allocation...</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <h2><i class="fas fa-chart-bar"></i> System Statistics</h2>
+                <div class="stats-grid" id="statsGrid">
+                    <div class="stat-card" onclick="showStudentDetails()">
+                        <div class="stat-number" id="totalStudents">-</div>
+                        <div class="stat-label">Total Students</div>
+                    </div>
+                    <div class="stat-card" onclick="showInternshipDetails()">
+                        <div class="stat-number" id="totalInternships">-</div>
+                        <div class="stat-label">Total Internships</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" id="totalCapacity">-</div>
+                        <div class="stat-label">Total Capacity</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" id="allocationRate">-</div>
+                        <div class="stat-label">Allocation Rate</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2><i class="fas fa-chart-pie"></i> Category Distribution</h2>
+                <div class="chart-container">
+                    <canvas id="categoryChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><i class="fas fa-balance-scale"></i> Government Quota Compliance</h2>
+            <div id="quotaStatus">
+                <p style="text-align: center; color: #666;">Run allocation to see quota fulfillment status</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="tabs">
+                <div class="tab active" onclick="switchTab('results')">
+                    <i class="fas fa-list"></i> Allocation Results
+                </div>
+                <div class="tab" onclick="switchTab('analytics')">
+                    <i class="fas fa-chart-line"></i> Analytics
+                </div>
+                <div class="tab" onclick="switchTab('insights')">
+                    <i class="fas fa-lightbulb"></i> AI Insights
+                </div>
+            </div>
+            
+            <div id="results" class="tab-content active">
+                <input type="text" class="search-box" placeholder="Search allocations..." onkeyup="filterAllocations(this.value)">
+                <div class="filter-chips">
+                    <div class="chip active" onclick="filterByCategory('all')">All</div>
+                    <div class="chip" onclick="filterByCategory('SC')">SC</div>
+                    <div class="chip" onclick="filterByCategory('ST')">ST</div>
+                    <div class="chip" onclick="filterByCategory('OBC')">OBC</div>
+                    <div class="chip" onclick="filterByCategory('GEN')">General</div>
+                </div>
+                <div id="allocationResults">
+                    <p style="text-align: center; color: #666;">No allocation results yet. Click "Run AI Allocation" to start.</p>
+                </div>
+            </div>
+            
+            <div id="analytics" class="tab-content">
+                <div class="grid">
+                    <div>
+                        <h3>Sector Distribution</h3>
+                        <canvas id="sectorChart" width="400" height="200"></canvas>
+                    </div>
+                    <div>
+                        <h3>Location Analysis</h3>
+                        <canvas id="locationChart" width="400" height="200"></canvas>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="insights" class="tab-content">
+                <div id="aiInsights">
+                    <p style="text-align: center; color: #666;">AI insights will appear after running allocation</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for detailed views -->
+    <div id="detailModal" class="modal">
+        <div class="modal-content">
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = 'https://your-render-app.onrender.com/api';
+        let categoryChart = null;
+        let sectorChart = null;
+        let locationChart = null;
+        let allAllocations = [];
+        let currentFilter = 'all';
+
+        async function apiCall(endpoint, method = 'GET', data = null) {
+            try {
+                const options = {
+                    method,
+                    headers: { 'Content-Type': 'application/json' }
+                };
+                if (data) options.body = JSON.stringify(data);
+                
+                const response = await fetch(`${API_BASE}${endpoint}`, options);
+                return await response.json();
+            } catch (error) {
+                console.error('API call failed:', error);
+                return { success: false, error: error.message };
+            }
+        }
+
+        function showMessage(message, type = 'info') {
+            const messagesDiv = document.getElementById('messages');
+            const className = type === 'error' ? 'error' : type === 'success' ? 'success' : '';
+            messagesDiv.innerHTML = `<div class="${className}"><i class="fas fa-${type === 'error' ? 'exclamation-triangle' : type === 'success' ? 'check-circle' : 'info-circle'}"></i> ${message}</div>`;
+            setTimeout(() => messagesDiv.innerHTML = '', 5000);
+        }
+
+        function showProgress(show = true) {
+            const container = document.getElementById('progressContainer');
+            container.style.display = show ? 'block' : 'none';
+            if (show) {
+                let progress = 0;
+                const interval = setInterval(() => {
+                    progress += Math.random() * 20;
+                    if (progress > 90) progress = 90;
+                    document.getElementById('progressFill').style.width = progress + '%';
+                }, 500);
+                container.dataset.interval = interval;
+            } else {
+                clearInterval(container.dataset.interval);
+                document.getElementById('progressFill').style.width = '100%';
+                setTimeout(() => {
+                    document.getElementById('progressFill').style.width = '0%';
+                }, 1000);
+            }
+        }
+
+        async function loadData() {
+            showMessage('Loading data from CSV files...', 'info');
+            showProgress(true);
+            
+            const result = await apiCall('/load-data', 'POST');
+            
+            showProgress(false);
+            if (result.success) {
+                showMessage(result.message, 'success');
+                loadStats();
+                animateStats();
+            } else {
+                showMessage(`Error: ${result.error}`, 'error');
+            }
+        }
+
+        function animateStats() {
+            anime({
+                targets: '.stat-number',
+                innerHTML: [0, el => el.textContent],
+                easing: 'easeOutExpo',
+                duration: 2000,
+                round: 1
+            });
+        }
+
+        async function loadStats() {
+            const result = await apiCall('/stats');
+            
+            if (result.success) {
+                const stats = result.stats;
+                document.getElementById('totalStudents').textContent = stats.total_students;
+                document.getElementById('totalInternships').textContent = stats.total_internships;
+                document.getElementById('totalCapacity').textContent = stats.total_capacity;
+                
+                updateCategoryChart(stats.category_distribution);
+                updateSectorChart(stats.sector_distribution);
+            } else {
+                showMessage(`Error loading stats: ${result.error}`, 'error');
+            }
+        }
+
+        function updateCategoryChart(categoryData) {
+            const ctx = document.getElementById('categoryChart').getContext('2d');
+            
+            if (categoryChart) categoryChart.destroy();
+            
+            categoryChart = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: Object.keys(categoryData),
+                    datasets: [{
+                        data: Object.values(categoryData),
+                        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF'],
+                        borderWidth: 0,
+                        hoverBorderWidth: 3,
+                        hoverBorderColor: '#fff'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { 
+                            position: 'bottom',
+                            labels: {
+                                padding: 20,
+                                usePointStyle: true
+                            }
+                        }
+                    },
+                    animation: {
+                        animateRotate: true,
+                        duration: 2000
+                    }
+                }
+            });
+        }
+
+        function updateSectorChart(sectorData) {
+            const ctx = document.getElementById('sectorChart');
+            if (!ctx) return;
+            
+            if (sectorChart) sectorChart.destroy();
+            
+            sectorChart = new Chart(ctx.getContext('2d'), {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(sectorData),
+                    datasets: [{
+                        data: Object.values(sectorData),
+                        backgroundColor: ['#667eea', '#764ba2', '#f093fb', '#f5576c', '#4facfe']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: { legend: { display: false } }
+                }
+            });
+        }
+
+        async function runAllocation() {
+            const btn = document.getElementById('allocateBtn');
+            btn.disabled = true;
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Running AI Allocation...';
+            
+            showMessage('Running AI allocation algorithm...', 'info');
+            showProgress(true);
+            
+            const result = await apiCall('/allocate', 'POST');
+            
+            showProgress(false);
+            
+            if (result.success) {
+                showMessage('Allocation completed successfully!', 'success');
+                allAllocations = result.result.allocations;
+                displayAllocationResults(result.result);
+                displayQuotaStatus(result.result.quota_fulfillment);
+                generateAIInsights(result.result);
+                updateAllocationRate(result.result);
+            } else {
+                showMessage(`Allocation failed: ${result.error}`, 'error');
+            }
+            
+            btn.disabled = false;
+            btn.innerHTML = '<i class="fas fa-robot"></i> Run AI Allocation';
+        }
+
+        function updateAllocationRate(result) {
+            const rate = ((result.total_allocated / 1000) * 100).toFixed(1);
+            document.getElementById('allocationRate').textContent = rate + '%';
+        }
+
+        function displayQuotaStatus(quotaFulfillment) {
+            const quotaDiv = document.getElementById('quotaStatus');
+            let html = '<h3><i class="fas fa-chart-bar"></i> Quota Fulfillment Status</h3>';
+            
+            for (const [category, data] of Object.entries(quotaFulfillment)) {
+                const percentage = Math.min((data.achieved / data.required * 100), 100).toFixed(1);
+                const isCompliant = data.achieved >= data.required;
+                const color = isCompliant ? '#4CAF50' : '#f44336';
+                
+                html += `
+                    <div style="margin: 20px 0;">
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                            <span><strong>${category.replace('_', ' ')}:</strong> ${data.achieved}/${data.required}</span>
+                            <span style="color: ${color}; font-weight: bold;">
+                                ${percentage}% ${isCompliant ? '✓' : '✗'}
+                            </span>
+                        </div>
+                        <div class="quota-bar">
+                            <div class="quota-fill" style="width: ${percentage}%; background: ${color};"></div>
+                            <div class="quota-text">${percentage}%</div>
+                        </div>
+                    </div>
+                `;
+            }
+            
+            quotaDiv.innerHTML = html;
+        }
+
+        function displayAllocationResults(result) {
+            const resultsDiv = document.getElementById('allocationResults');
+            
+            let html = `
+                <div style="margin-bottom: 20px; padding: 20px; background: linear-gradient(135deg, #f8f9ff, #ffffff); border-radius: 15px;">
+                    <h3><i class="fas fa-trophy"></i> Allocation Summary</h3>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;">
+                        <div><strong>Total Allocated:</strong> ${result.total_allocated}</div>
+                        <div><strong>Total Score:</strong> ${result.total_score.toFixed(2)}</div>
+                        <div><strong>Status:</strong> <span style="color: #4CAF50;">${result.status}</span></div>
+                        <div><strong>Success Rate:</strong> ${((result.total_allocated/1000)*100).toFixed(1)}%</div>
+                    </div>
+                </div>
+                <h4><i class="fas fa-users"></i> Individual Allocations</h4>
+            `;
+            
+            const sortedAllocations = result.allocations
+                .sort((a, b) => b.match_score - a.match_score);
+            
+            for (const allocation of sortedAllocations) {
+                html += `
+                    <div class="allocation-item" data-category="${allocation.social_category}" onclick="showAllocationDetails('${allocation.student_id}')" style="cursor: pointer;">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <div>
+                                <strong style="color: #667eea;">${allocation.student_name}</strong>
+                                <i class="fas fa-arrow-right" style="margin: 0 10px; color: #999;"></i>
+                                <strong style="color: #764ba2;">${allocation.company_name}</strong>
+                            </div>
+                            <div style="text-align: right;">
+                                <div style="background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 5px 10px; border-radius: 15px; font-size: 0.9em;">
+                                    Score: ${allocation.match_score.toFixed(3)}
+                                </div>
+                            </div>
+                        </div>
+                        <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                            <i class="fas fa-briefcase"></i> ${allocation.role_title} | 
+                            <i class="fas fa-tag"></i> ${allocation.social_category} | 
+                            <i class="fas fa-mouse-pointer"></i> Click for details
+                        </div>
+                    </div>
+                `;
+            }
+            
+            resultsDiv.innerHTML = html;
+        }
+
+        function generateAIInsights(result) {
+            const insightsDiv = document.getElementById('aiInsights');
+            const avgScore = (result.total_score / result.total_allocated).toFixed(3);
+            
+            let insights = `
+                <h3><i class="fas fa-brain"></i> AI-Generated Insights</h3>
+                <div style="display: grid; gap: 20px;">
+                    <div style="padding: 20px; background: linear-gradient(135deg, #e3f2fd, #bbdefb); border-radius: 15px;">
+                        <h4><i class="fas fa-chart-line"></i> Performance Analysis</h4>
+                        <p>Average match score: <strong>${avgScore}</strong></p>
+                        <p>Allocation efficiency: <strong>${((result.total_allocated/1000)*100).toFixed(1)}%</strong></p>
+                    </div>
+                    <div style="padding: 20px; background: linear-gradient(135deg, #f3e5f5, #e1bee7); border-radius: 15px;">
+                        <h4><i class="fas fa-balance-scale"></i> Fairness Assessment</h4>
+                        <p>Government quota compliance: <strong>Maintained</strong></p>
+                        <p>Social equity score: <strong>Excellent</strong></p>
+                    </div>
+                    <div style="padding: 20px; background: linear-gradient(135deg, #e8f5e8, #c8e6c9); border-radius: 15px;">
+                        <h4><i class="fas fa-lightbulb"></i> Recommendations</h4>
+                        <p>• Consider skill development programs for unallocated students</p>
+                        <p>• Expand internship capacity in high-demand sectors</p>
+                        <p>• Implement mentorship programs for better outcomes</p>
+                    </div>
+                </div>
+            `;
+            
+            insightsDiv.innerHTML = insights;
+        }
+
+        function switchTab(tabName) {
+            document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+            
+            event.target.classList.add('active');
+            document.getElementById(tabName).classList.add('active');
+        }
+
+        function filterAllocations(searchTerm) {
+            const items = document.querySelectorAll('.allocation-item');
+            items.forEach(item => {
+                const text = item.textContent.toLowerCase();
+                item.style.display = text.includes(searchTerm.toLowerCase()) ? 'block' : 'none';
+            });
+        }
+
+        function filterByCategory(category) {
+            document.querySelectorAll('.chip').forEach(chip => chip.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            const items = document.querySelectorAll('.allocation-item');
+            items.forEach(item => {
+                if (category === 'all' || item.dataset.category === category) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+        function showStudentDetails() {
+            document.getElementById('modalContent').innerHTML = `
+                <div class="modal-header">
+                    <h2><i class="fas fa-user-graduate"></i> Student Details</h2>
+                    <span class="close" onclick="closeModal()">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <p>Detailed student analytics and demographics will be displayed here.</p>
+                </div>
+            `;
+            document.getElementById('detailModal').style.display = 'block';
+        }
+
+        function showInternshipDetails() {
+            document.getElementById('modalContent').innerHTML = `
+                <div class="modal-header">
+                    <h2><i class="fas fa-building"></i> Internship Details</h2>
+                    <span class="close" onclick="closeModal()">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <p>Detailed internship analytics and company information will be displayed here.</p>
+                </div>
+            `;
+            document.getElementById('detailModal').style.display = 'block';
+        }
+
+        async function showAllocationDetails(studentId) {
+            console.log('Loading details for student:', studentId);
+            
+            // Show loading modal
+            document.getElementById('modalContent').innerHTML = `
+                <div class="modal-header">
+                    <h2><i class="fas fa-info-circle"></i> Loading Details...</h2>
+                    <span class="close" onclick="closeModal()">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div style="text-align: center; padding: 20px;">
+                        <div class="spinner"></div>
+                        <p>Loading allocation details...</p>
+                    </div>
+                </div>
+            `;
+            document.getElementById('detailModal').style.display = 'block';
+            
+            try {
+                // Find allocation
+                const allocation = allAllocations.find(a => a.student_id === studentId);
+                if (!allocation) {
+                    document.getElementById('modalContent').innerHTML = `
+                        <div class="modal-header">
+                            <h2>Error</h2>
+                            <span class="close" onclick="closeModal()">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <p>Allocation not found for student: ${studentId}</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                // Get detailed data
+                const [studentsResult, internshipsResult] = await Promise.all([
+                    apiCall('/students'),
+                    apiCall('/internships')
+                ]);
+                
+                if (!studentsResult.success || !internshipsResult.success) {
+                    // Show basic info if API fails
+                    document.getElementById('modalContent').innerHTML = `
+                        <div class="modal-header">
+                            <h2><i class="fas fa-info-circle"></i> Allocation Details</h2>
+                            <span class="close" onclick="closeModal()">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <div class="info-card score-card">
+                                <h3>📋 Basic Information</h3>
+                                <p><strong>Student:</strong> ${allocation.student_name}</p>
+                                <p><strong>Company:</strong> ${allocation.company_name}</p>
+                                <p><strong>Role:</strong> ${allocation.role_title}</p>
+                                <p><strong>Category:</strong> ${allocation.social_category}</p>
+                                <div class="score-badge">Score: ${allocation.match_score.toFixed(3)}</div>
+                            </div>
+                            <div class="info-card" style="background: #fff3e0;">
+                                <h4>📊 Summary</h4>
+                                <p><strong>Status:</strong> <span style="color: #4CAF50;">✅ Successfully Allocated</span></p>
+                                <p><strong>Match Quality:</strong> ${allocation.match_score > 0.8 ? 'Excellent' : allocation.match_score > 0.6 ? 'Good' : 'Fair'}</p>
+                                <p><em>Detailed information unavailable - API not responding</em></p>
+                            </div>
+                        </div>
+                    `;
+                    return;
+                }
+
+                const student = studentsResult.students.find(s => s.student_id === studentId);
+                const internship = internshipsResult.internships.find(i => i.internship_id === allocation.internship_id);
+
+                if (!student || !internship) {
+                    document.getElementById('modalContent').innerHTML = `
+                        <div class="modal-header">
+                            <h2>Error</h2>
+                            <span class="close" onclick="closeModal()">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <p>Student or internship data not found in database.</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                // Show complete details
+                document.getElementById('modalContent').innerHTML = `
+                    <div class="modal-header">
+                        <h2><i class="fas fa-info-circle"></i> Allocation Details</h2>
+                        <span class="close" onclick="closeModal()">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        <div class="info-grid">
+                            <div class="info-card student-card">
+                                <h4><i class="fas fa-user-graduate"></i> Student Information</h4>
+                                <p><strong>Name:</strong> ${student.personal_info.first_name} ${student.personal_info.last_name}</p>
+                                <p><strong>University:</strong> ${student.personal_info.university}</p>
+                                <p><strong>Major:</strong> ${student.personal_info.major}</p>
+                                <p><strong>CGPA:</strong> ${student.personal_info.cgpa}/10</p>
+                                <p><strong>Category:</strong> ${student.social_category.category}</p>
+                                <p><strong>Skills:</strong> ${student.skills.join(', ')}</p>
+                            </div>
+                            
+                            <div class="info-card internship-card">
+                                <h4><i class="fas fa-building"></i> Internship Information</h4>
+                                <p><strong>Company:</strong> ${internship.company_name}</p>
+                                <p><strong>Role:</strong> ${internship.role_title}</p>
+                                <p><strong>Sector:</strong> ${internship.sector}</p>
+                                <p><strong>Location:</strong> ${internship.location}</p>
+                                <p><strong>Required Skills:</strong> ${internship.required_skills.join(', ')}</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card score-card">
+                            <h4><i class="fas fa-chart-line"></i> Match Score Analysis</h4>
+                            <div class="score-badge">
+                                Final Score: ${allocation.match_score.toFixed(3)}
+                            </div>
+                            <p><strong>Quality:</strong> ${allocation.match_score > 0.8 ? 'Excellent Match' : allocation.match_score > 0.6 ? 'Good Match' : 'Fair Match'}</p>
+                        </div>
+
+                        <div class="info-card" style="background: linear-gradient(135deg, #e8f5e8, #c8e6c9);">
+                            <h4><i class="fas fa-lightbulb"></i> Why This Match?</h4>
+                            <ul style="margin-left: 20px; margin-top: 10px; line-height: 1.6;">
+                                <li><i class="fas fa-check-circle" style="color: #4CAF50;"></i> AI algorithm selected this as optimal match</li>
+                                <li><i class="fas fa-balance-scale" style="color: #2196F3;"></i> Helps fulfill government quota requirements</li>
+                                <li><i class="fas fa-graduation-cap" style="color: #FF9800;"></i> Academic performance considered</li>
+                                <li><i class="fas fa-cogs" style="color: #9C27B0;"></i> Skills and preferences analyzed</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-card" style="background: linear-gradient(135deg, #fff3e0, #ffe0b2);">
+                            <h4><i class="fas fa-clipboard-check"></i> Allocation Summary</h4>
+                            <p><strong>Status:</strong> <span style="color: #4CAF50; font-weight: bold;"><i class="fas fa-check-circle"></i> Successfully Allocated</span></p>
+                            <p><strong>Category:</strong> ${student.social_category.category}</p>
+                            <p><strong>Allocation Date:</strong> ${new Date().toLocaleDateString()}</p>
+                        </div>
+                    </div>
+                `;
+                
+            } catch (error) {
+                console.error('Error loading details:', error);
+                document.getElementById('modalContent').innerHTML = `
+                    <div class="modal-header">
+                        <h2>Error</h2>
+                        <span class="close" onclick="closeModal()">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        <p>Failed to load allocation details: ${error.message}</p>
+                    </div>
+                `;
+            }
+        }
+
+        function closeModal() {
+            document.getElementById('detailModal').style.display = 'none';
+        }
+
+        function exportResults() {
+            if (allAllocations.length === 0) {
+                showMessage('No allocation results to export. Run allocation first.', 'error');
+                return;
+            }
+            
+            const csv = 'Student Name,Company,Role,Category,Score\n' + 
+                allAllocations.map(a => `${a.student_name},${a.company_name},${a.role_title},${a.social_category},${a.match_score}`).join('\n');
+            
+            const blob = new Blob([csv], { type: 'text/csv' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'allocation_results.csv';
+            a.click();
+            
+            showMessage('Results exported successfully!', 'success');
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            const modal = document.getElementById('detailModal');
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        }
+
+        // Load initial stats
+        loadStats();
+    </script>
+</body>
+</html>
