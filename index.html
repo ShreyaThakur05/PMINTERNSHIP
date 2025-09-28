@@ -542,7 +542,8 @@
     </div>
 
     <script>
-        const API_BASE = 'https://your-render-app.onrender.com/api';
+        const API_BASE = 'https://pminternship.onrender.com/api';
+        const DEMO_MODE = false;
         let categoryChart = null;
         let sectorChart = null;
         let locationChart = null;
@@ -561,8 +562,77 @@
                 return await response.json();
             } catch (error) {
                 console.error('API call failed:', error);
-                return { success: false, error: error.message };
+                
+                // Return demo data if API fails
+                if (DEMO_MODE) {
+                    return getDemoData(endpoint, method);
+                }
+                
+                return { success: false, error: 'Backend not available. Please check the API URL.' };
             }
+        }
+        
+        function getDemoData(endpoint, method) {
+            if (endpoint === '/stats') {
+                return {
+                    success: true,
+                    stats: {
+                        total_students: 1000,
+                        total_internships: 100,
+                        total_capacity: 500,
+                        category_distribution: { SC: 150, ST: 75, OBC: 270, GEN: 505 },
+                        sector_distribution: { Technology: 40, Manufacturing: 25, Finance: 20, Healthcare: 15 }
+                    }
+                };
+            }
+            
+            if (endpoint === '/load-data' && method === 'POST') {
+                return {
+                    success: true,
+                    message: 'Demo data loaded: 1000 students and 100 internships'
+                };
+            }
+            
+            if (endpoint === '/allocate' && method === 'POST') {
+                return {
+                    success: true,
+                    result: {
+                        status: 'Completed',
+                        total_allocated: 485,
+                        total_score: 425.6,
+                        quota_fulfillment: {
+                            SC: { required: 150, achieved: 150 },
+                            ST: { required: 75, achieved: 75 },
+                            OBC: { required: 270, achieved: 260 }
+                        },
+                        allocations: generateDemoAllocations()
+                    }
+                };
+            }
+            
+            return { success: false, error: 'Demo endpoint not available' };
+        }
+        
+        function generateDemoAllocations() {
+            const allocations = [];
+            const names = ['Samarth Suri', 'Priya Sharma', 'Rahul Kumar', 'Anita Patel', 'Vikram Singh'];
+            const companies = ['TechCorp', 'InnovateLabs', 'DataSystems', 'CloudTech', 'AI Solutions'];
+            const roles = ['Software Intern', 'Data Analyst', 'ML Engineer', 'Frontend Developer', 'Backend Developer'];
+            const categories = ['GEN', 'SC', 'ST', 'OBC'];
+            
+            for (let i = 0; i < 20; i++) {
+                allocations.push({
+                    student_id: `STU${1000 + i}`,
+                    student_name: names[i % names.length],
+                    company_name: companies[i % companies.length],
+                    role_title: roles[i % roles.length],
+                    social_category: categories[i % categories.length],
+                    match_score: 0.7 + Math.random() * 0.3,
+                    internship_id: `INT${100 + i}`
+                });
+            }
+            
+            return allocations;
         }
 
         function showMessage(message, type = 'info') {
