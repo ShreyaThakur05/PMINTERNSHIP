@@ -3,7 +3,9 @@ from flask_cors import CORS
 from local_database import LocalDatabaseManager
 from ml_engine import MatchingEngine
 from simple_allocator import SimpleAllocator
+from rag_chatbot import RAGChatbot
 import datetime
+import json
 
 app = Flask(__name__)
 CORS(app)
@@ -12,6 +14,7 @@ CORS(app)
 db_manager = LocalDatabaseManager()
 matching_engine = MatchingEngine()
 allocator = SimpleAllocator()
+chatbot = RAGChatbot()
 
 @app.route('/api/load-data', methods=['POST'])
 def load_data():
@@ -50,17 +53,19 @@ def allocate_internships():
         # Run allocation
         result = allocator.allocate(students, internships, match_scores)
         
-        # Save allocation to database (simplified)
+        # Save all allocations at once
         try:
-            allocation_data = {
-                'timestamp': datetime.datetime.utcnow().isoformat(),
-                'total_students': len(students),
-                'total_internships': len(internships),
-                'total_allocated': result['total_allocated']
-            }
-            db_manager.save_allocation(allocation_data)
+            allocations_with_flag = []
+            for allocation in result['allocations']:
+                allocation['allocated'] = True
+                allocations_with_flag.append(allocation)
+            
+            # Use database manager for consistent file handling
+            with open(db_manager.allocations_file, 'w') as f:
+                json.dump(allocations_with_flag, f, indent=2)
+            print(f"Saved {len(result['allocations'])} allocations to {db_manager.allocations_file}")
         except Exception as e:
-            print(f"Warning: Could not save allocation: {e}")
+            print(f"Error saving allocations: {e}")
         
         return jsonify({
             'success': True,
@@ -168,6 +173,22 @@ def get_stats():
 def health_check():
     """Health check endpoint"""
     return jsonify({'status': 'healthy', 'timestamp': datetime.datetime.utcnow().isoformat()})
+
+@app.route('/api/chat', methods=['POST'])
+def chat():
+    """RAG Chatbot endpoint"""
+    try:
+        data = request.json
+        question = data.get('question', '')
+        
+        if not question:
+            return jsonify({'error': 'Question is required'}), 400
+            
+        response = chatbot.query(question)
+        return jsonify(response)
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 
 @app.route('/', methods=['GET'])
 def home():

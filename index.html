@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🎓 AI Internship Allocation System</title>
+    <title>🌐 InternNet - Smart Internship Matching</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
@@ -395,15 +395,21 @@
             margin: 10px 0;
         }
         
+        @media (max-width: 768px) {
+            .modal-content { width: 95%; margin: 1% auto; }
+            .info-grid { grid-template-columns: 1fr; }
+        }
+        
         .close {
-            color: white;
+            color: #aaa;
+            float: right;
             font-size: 28px;
             font-weight: bold;
             cursor: pointer;
         }
         
         .close:hover {
-            opacity: 0.7;
+            color: #000;
         }
         
         @media (max-width: 768px) {
@@ -411,16 +417,14 @@
             .header h1 { font-size: 2em; }
             .grid { grid-template-columns: 1fr; }
             .stats-grid { grid-template-columns: repeat(2, 1fr); }
-            .modal-content { width: 95%; margin: 1% auto; }
-            .info-grid { grid-template-columns: 1fr; }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1><i class="fas fa-graduation-cap"></i> AI Internship Allocation</h1>
-            <p>Intelligent matching with government quota compliance & real-time analytics</p>
+            <h1 style="font-size: 3.5em; font-weight: 800; letter-spacing: -2px;">InternNet</h1>
+            <p>Smart Matches for Future Leaders</p>
         </div>
 
         <div class="card">
@@ -497,6 +501,9 @@
                 <div class="tab" onclick="switchTab('insights')">
                     <i class="fas fa-lightbulb"></i> AI Insights
                 </div>
+                <div class="tab" onclick="switchTab('chatbot')">
+                    <i class="fas fa-robot"></i> RAG Chatbot
+                </div>
             </div>
             
             <div id="results" class="tab-content active">
@@ -531,6 +538,39 @@
                     <p style="text-align: center; color: #666;">AI insights will appear after running allocation</p>
                 </div>
             </div>
+            
+            <div id="chatbot" class="tab-content">
+                <div style="background: linear-gradient(135deg, #f8f9ff, #ffffff); padding: 20px; border-radius: 15px; margin-bottom: 20px;">
+                    <h3><i class="fas fa-robot"></i> RAG Chatbot Assistant</h3>
+                    <p>Ask questions about the allocation data, policies, or system insights. The AI will provide accurate answers based on your project data.</p>
+                </div>
+                
+                <div id="chatMessages" style="max-height: 400px; overflow-y: auto; border: 1px solid #e0e0e0; border-radius: 10px; padding: 15px; margin-bottom: 15px; background: white;">
+                    <div style="text-align: center; color: #666; padding: 20px;">
+                        <i class="fas fa-comments" style="font-size: 2em; margin-bottom: 10px;"></i>
+                        <p>Start a conversation with the AI assistant!</p>
+                    </div>
+                </div>
+                
+                <div style="display: flex; gap: 10px;">
+                    <input type="text" id="chatInput" placeholder="Ask about allocations, quotas, students, or policies..." 
+                           style="flex: 1; padding: 15px; border: 2px solid #e0e0e0; border-radius: 25px; font-size: 16px;"
+                           onkeypress="if(event.key==='Enter') sendMessage()">
+                    <button class="btn" onclick="sendMessage()" id="sendBtn">
+                        <i class="fas fa-paper-plane"></i> Send
+                    </button>
+                </div>
+                
+                <div style="margin-top: 15px;">
+                    <h4>💡 Try asking:</h4>
+                    <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px;">
+                        <button class="chip" onclick="askSampleQuestion('How many students from SC category were allocated?')">SC Allocations</button>
+                        <button class="chip" onclick="askSampleQuestion('List unallocated students with Python skills')">Python Skills</button>
+                        <button class="chip" onclick="askSampleQuestion('What is the quota policy for aspirational districts?')">Quota Policy</button>
+                        <button class="chip" onclick="askSampleQuestion('Show allocation statistics by sector')">Sector Stats</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -543,7 +583,6 @@
 
     <script>
         const API_BASE = 'https://pminternship.onrender.com/api';
-        const DEMO_MODE = false;
         let categoryChart = null;
         let sectorChart = null;
         let locationChart = null;
@@ -562,77 +601,8 @@
                 return await response.json();
             } catch (error) {
                 console.error('API call failed:', error);
-                
-                // Return demo data if API fails
-                if (DEMO_MODE) {
-                    return getDemoData(endpoint, method);
-                }
-                
-                return { success: false, error: 'Backend not available. Please check the API URL.' };
+                return { success: false, error: error.message };
             }
-        }
-        
-        function getDemoData(endpoint, method) {
-            if (endpoint === '/stats') {
-                return {
-                    success: true,
-                    stats: {
-                        total_students: 1000,
-                        total_internships: 100,
-                        total_capacity: 500,
-                        category_distribution: { SC: 150, ST: 75, OBC: 270, GEN: 505 },
-                        sector_distribution: { Technology: 40, Manufacturing: 25, Finance: 20, Healthcare: 15 }
-                    }
-                };
-            }
-            
-            if (endpoint === '/load-data' && method === 'POST') {
-                return {
-                    success: true,
-                    message: 'Demo data loaded: 1000 students and 100 internships'
-                };
-            }
-            
-            if (endpoint === '/allocate' && method === 'POST') {
-                return {
-                    success: true,
-                    result: {
-                        status: 'Completed',
-                        total_allocated: 485,
-                        total_score: 425.6,
-                        quota_fulfillment: {
-                            SC: { required: 150, achieved: 150 },
-                            ST: { required: 75, achieved: 75 },
-                            OBC: { required: 270, achieved: 260 }
-                        },
-                        allocations: generateDemoAllocations()
-                    }
-                };
-            }
-            
-            return { success: false, error: 'Demo endpoint not available' };
-        }
-        
-        function generateDemoAllocations() {
-            const allocations = [];
-            const names = ['Samarth Suri', 'Priya Sharma', 'Rahul Kumar', 'Anita Patel', 'Vikram Singh'];
-            const companies = ['TechCorp', 'InnovateLabs', 'DataSystems', 'CloudTech', 'AI Solutions'];
-            const roles = ['Software Intern', 'Data Analyst', 'ML Engineer', 'Frontend Developer', 'Backend Developer'];
-            const categories = ['GEN', 'SC', 'ST', 'OBC'];
-            
-            for (let i = 0; i < 20; i++) {
-                allocations.push({
-                    student_id: `STU${1000 + i}`,
-                    student_name: names[i % names.length],
-                    company_name: companies[i % companies.length],
-                    role_title: roles[i % roles.length],
-                    social_category: categories[i % categories.length],
-                    match_score: 0.7 + Math.random() * 0.3,
-                    internship_id: `INT${100 + i}`
-                });
-            }
-            
-            return allocations;
         }
 
         function showMessage(message, type = 'info') {
@@ -930,26 +900,16 @@
 
         function showStudentDetails() {
             document.getElementById('modalContent').innerHTML = `
-                <div class="modal-header">
-                    <h2><i class="fas fa-user-graduate"></i> Student Details</h2>
-                    <span class="close" onclick="closeModal()">&times;</span>
-                </div>
-                <div class="modal-body">
-                    <p>Detailed student analytics and demographics will be displayed here.</p>
-                </div>
+                <h2><i class="fas fa-user-graduate"></i> Student Details</h2>
+                <p>Detailed student analytics and demographics will be displayed here.</p>
             `;
             document.getElementById('detailModal').style.display = 'block';
         }
 
         function showInternshipDetails() {
             document.getElementById('modalContent').innerHTML = `
-                <div class="modal-header">
-                    <h2><i class="fas fa-building"></i> Internship Details</h2>
-                    <span class="close" onclick="closeModal()">&times;</span>
-                </div>
-                <div class="modal-body">
-                    <p>Detailed internship analytics and company information will be displayed here.</p>
-                </div>
+                <h2><i class="fas fa-building"></i> Internship Details</h2>
+                <p>Detailed internship analytics and company information will be displayed here.</p>
             `;
             document.getElementById('detailModal').style.display = 'block';
         }
@@ -959,15 +919,10 @@
             
             // Show loading modal
             document.getElementById('modalContent').innerHTML = `
-                <div class="modal-header">
-                    <h2><i class="fas fa-info-circle"></i> Loading Details...</h2>
-                    <span class="close" onclick="closeModal()">&times;</span>
-                </div>
-                <div class="modal-body">
-                    <div style="text-align: center; padding: 20px;">
-                        <div class="spinner"></div>
-                        <p>Loading allocation details...</p>
-                    </div>
+                <h2><i class="fas fa-info-circle"></i> Loading Details...</h2>
+                <div style="text-align: center; padding: 20px;">
+                    <div class="spinner"></div>
+                    <p>Loading allocation details...</p>
                 </div>
             `;
             document.getElementById('detailModal').style.display = 'block';
@@ -977,13 +932,8 @@
                 const allocation = allAllocations.find(a => a.student_id === studentId);
                 if (!allocation) {
                     document.getElementById('modalContent').innerHTML = `
-                        <div class="modal-header">
-                            <h2>Error</h2>
-                            <span class="close" onclick="closeModal()">&times;</span>
-                        </div>
-                        <div class="modal-body">
-                            <p>Allocation not found for student: ${studentId}</p>
-                        </div>
+                        <h2>Error</h2>
+                        <p>Allocation not found for student: ${studentId}</p>
                     `;
                     return;
                 }
@@ -997,25 +947,20 @@
                 if (!studentsResult.success || !internshipsResult.success) {
                     // Show basic info if API fails
                     document.getElementById('modalContent').innerHTML = `
-                        <div class="modal-header">
-                            <h2><i class="fas fa-info-circle"></i> Allocation Details</h2>
-                            <span class="close" onclick="closeModal()">&times;</span>
+                        <h2><i class="fas fa-info-circle"></i> Allocation Details</h2>
+                        <div style="background: #f8f9ff; padding: 20px; border-radius: 10px; margin: 20px 0;">
+                            <h3>📋 Basic Information</h3>
+                            <p><strong>Student:</strong> ${allocation.student_name}</p>
+                            <p><strong>Company:</strong> ${allocation.company_name}</p>
+                            <p><strong>Role:</strong> ${allocation.role_title}</p>
+                            <p><strong>Category:</strong> ${allocation.social_category}</p>
+                            <p><strong>Match Score:</strong> ${allocation.match_score.toFixed(3)}</p>
                         </div>
-                        <div class="modal-body">
-                            <div class="info-card score-card">
-                                <h3>📋 Basic Information</h3>
-                                <p><strong>Student:</strong> ${allocation.student_name}</p>
-                                <p><strong>Company:</strong> ${allocation.company_name}</p>
-                                <p><strong>Role:</strong> ${allocation.role_title}</p>
-                                <p><strong>Category:</strong> ${allocation.social_category}</p>
-                                <div class="score-badge">Score: ${allocation.match_score.toFixed(3)}</div>
-                            </div>
-                            <div class="info-card" style="background: #fff3e0;">
-                                <h4>📊 Summary</h4>
-                                <p><strong>Status:</strong> <span style="color: #4CAF50;">✅ Successfully Allocated</span></p>
-                                <p><strong>Match Quality:</strong> ${allocation.match_score > 0.8 ? 'Excellent' : allocation.match_score > 0.6 ? 'Good' : 'Fair'}</p>
-                                <p><em>Detailed information unavailable - API not responding</em></p>
-                            </div>
+                        <div style="background: #fff3e0; padding: 15px; border-radius: 10px;">
+                            <h4>📊 Summary</h4>
+                            <p><strong>Status:</strong> <span style="color: #4CAF50;">✅ Successfully Allocated</span></p>
+                            <p><strong>Match Quality:</strong> ${allocation.match_score > 0.8 ? 'Excellent' : allocation.match_score > 0.6 ? 'Good' : 'Fair'}</p>
+                            <p><em>Detailed information unavailable - API not responding</em></p>
                         </div>
                     `;
                     return;
@@ -1026,13 +971,8 @@
 
                 if (!student || !internship) {
                     document.getElementById('modalContent').innerHTML = `
-                        <div class="modal-header">
-                            <h2>Error</h2>
-                            <span class="close" onclick="closeModal()">&times;</span>
-                        </div>
-                        <div class="modal-body">
-                            <p>Student or internship data not found in database.</p>
-                        </div>
+                        <h2>Error</h2>
+                        <p>Student or internship data not found in database.</p>
                     `;
                     return;
                 }
@@ -1095,13 +1035,8 @@
             } catch (error) {
                 console.error('Error loading details:', error);
                 document.getElementById('modalContent').innerHTML = `
-                    <div class="modal-header">
-                        <h2>Error</h2>
-                        <span class="close" onclick="closeModal()">&times;</span>
-                    </div>
-                    <div class="modal-body">
-                        <p>Failed to load allocation details: ${error.message}</p>
-                    </div>
+                    <h2>Error</h2>
+                    <p>Failed to load allocation details: ${error.message}</p>
                 `;
             }
         }
@@ -1116,8 +1051,8 @@
                 return;
             }
             
-            const csv = 'Student Name,Company,Role,Category,Score\n' + 
-                allAllocations.map(a => `${a.student_name},${a.company_name},${a.role_title},${a.social_category},${a.match_score}`).join('\n');
+            const csv = 'Student Name,Company,Role,Category,Score\\n' + 
+                allAllocations.map(a => `${a.student_name},${a.company_name},${a.role_title},${a.social_category},${a.match_score}`).join('\\n');
             
             const blob = new Blob([csv], { type: 'text/csv' });
             const url = window.URL.createObjectURL(blob);
@@ -1127,6 +1062,85 @@
             a.click();
             
             showMessage('Results exported successfully!', 'success');
+        }
+
+        async function sendMessage() {
+            const input = document.getElementById('chatInput');
+            const message = input.value.trim();
+            
+            if (!message) return;
+            
+            const messagesDiv = document.getElementById('chatMessages');
+            const sendBtn = document.getElementById('sendBtn');
+            
+            // Add user message
+            messagesDiv.innerHTML += `
+                <div style="margin: 10px 0; text-align: right;">
+                    <div style="display: inline-block; background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 10px 15px; border-radius: 15px 15px 5px 15px; max-width: 70%;">
+                        ${message}
+                    </div>
+                </div>
+            `;
+            
+            input.value = '';
+            sendBtn.disabled = true;
+            sendBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Thinking...';
+            
+            // Add loading message
+            messagesDiv.innerHTML += `
+                <div id="loadingMsg" style="margin: 10px 0;">
+                    <div style="display: inline-block; background: #f0f0f0; padding: 10px 15px; border-radius: 15px 15px 15px 5px; max-width: 70%;">
+                        <i class="fas fa-spinner fa-spin"></i> AI is analyzing your question...
+                    </div>
+                </div>
+            `;
+            
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+            
+            try {
+                const response = await apiCall('/chat', 'POST', { question: message });
+                
+                // Remove loading message
+                document.getElementById('loadingMsg').remove();
+                
+                if (response.error) {
+                    messagesDiv.innerHTML += `
+                        <div style="margin: 10px 0;">
+                            <div style="display: inline-block; background: #ffebee; color: #d32f2f; padding: 10px 15px; border-radius: 15px 15px 15px 5px; max-width: 70%;">
+                                <i class="fas fa-exclamation-triangle"></i> Error: ${response.error}
+                            </div>
+                        </div>
+                    `;
+                } else {
+                    messagesDiv.innerHTML += `
+                        <div style="margin: 10px 0;">
+                            <div style="display: inline-block; background: #f0f0f0; padding: 10px 15px; border-radius: 15px 15px 15px 5px; max-width: 70%; line-height: 1.5;">
+                                <i class="fas fa-robot" style="color: #667eea; margin-right: 5px;"></i>
+                                ${response.answer.replace(/\n/g, '<br>')}
+                            </div>
+                        </div>
+                    `;
+                }
+                
+            } catch (error) {
+                document.getElementById('loadingMsg').remove();
+                messagesDiv.innerHTML += `
+                    <div style="margin: 10px 0;">
+                        <div style="display: inline-block; background: #ffebee; color: #d32f2f; padding: 10px 15px; border-radius: 15px 15px 15px 5px; max-width: 70%;">
+                            <i class="fas fa-exclamation-triangle"></i> Connection error. Please try again.
+                        </div>
+                    </div>
+                `;
+            }
+            
+            sendBtn.disabled = false;
+            sendBtn.innerHTML = '<i class="fas fa-paper-plane"></i> Send';
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+        }
+        
+        function askSampleQuestion(question) {
+            document.getElementById('chatInput').value = question;
+            sendMessage();
         }
 
         // Close modal when clicking outside

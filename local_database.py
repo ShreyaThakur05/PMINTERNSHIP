@@ -80,6 +80,12 @@ class LocalDatabaseManager:
                 return json.load(f)
         return []
     
+    def get_allocations(self):
+        if os.path.exists(self.allocations_file):
+            with open(self.allocations_file, 'r') as f:
+                return json.load(f)
+        return []
+    
     def save_allocation(self, allocation_data):
         allocations = []
         if os.path.exists(self.allocations_file):

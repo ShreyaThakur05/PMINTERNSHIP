@@ -1,3 +1,5242 @@
 [
   {
-    "timestamp": 
+    "student_id": "1202",
+    "internship_id": "554",
+    "student_name": "Samarth Suri",
+    "company_name": "Mani, Arya and Parsa",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9960000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1228",
+    "internship_id": "560",
+    "student_name": "Joshua Patel",
+    "company_name": "Cherian, Kaur and Bala",
+    "role_title": "IT Intern",
+    "match_score": 0.9958,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1146",
+    "internship_id": "586",
+    "student_name": "Chasmum Dasgupta",
+    "company_name": "Narasimhan-Bhatia",
+    "role_title": "Finance Intern",
+    "match_score": 0.9958,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1302",
+    "internship_id": "572",
+    "student_name": "Vedhika Sachdev",
+    "company_name": "Mittal-Savant",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9954000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1866",
+    "internship_id": "584",
+    "student_name": "Sachi Subramanian",
+    "company_name": "Sama, Lall and Dhar",
+    "role_title": "Finance Intern",
+    "match_score": 0.9950000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1727",
+    "internship_id": "570",
+    "student_name": "Neel Amble",
+    "company_name": "Palan, Venkataraman and Kadakia",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9948,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1076",
+    "internship_id": "521",
+    "student_name": "Yash Singh",
+    "company_name": "Chakraborty-Naik",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9948,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1967",
+    "internship_id": "523",
+    "student_name": "Neel Ravel",
+    "company_name": "Varughese-Bedi",
+    "role_title": "IT Intern",
+    "match_score": 0.9944000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1304",
+    "internship_id": "587",
+    "student_name": "Bhavini Ramakrishnan",
+    "company_name": "Majumdar-Natt",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9944000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1968",
+    "internship_id": "573",
+    "student_name": "Isaiah Brahmbhatt",
+    "company_name": "Hans, Jani and Bassi",
+    "role_title": "Finance Intern",
+    "match_score": 0.9942000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1921",
+    "internship_id": "598",
+    "student_name": "Jai Dass",
+    "company_name": "Devi, Nath and Sahni",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9942000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1856",
+    "internship_id": "566",
+    "student_name": "Avi Balay",
+    "company_name": "Sahota, Reddy and Bhargava",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9938,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1358",
+    "internship_id": "521",
+    "student_name": "Amaira Misra",
+    "company_name": "Chakraborty-Naik",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9938,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1755",
+    "internship_id": "598",
+    "student_name": "Vaishnavi Viswanathan",
+    "company_name": "Devi, Nath and Sahni",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9936,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1413",
+    "internship_id": "579",
+    "student_name": "Yuvraj Panchal",
+    "company_name": "Nigam Inc",
+    "role_title": "Finance Intern",
+    "match_score": 0.9936,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1262",
+    "internship_id": "596",
+    "student_name": "Yashawini Chana",
+    "company_name": "Chaudhry, Goyal and Bobal",
+    "role_title": "Finance Intern",
+    "match_score": 0.9936,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1779",
+    "internship_id": "575",
+    "student_name": "Udyati Dubey",
+    "company_name": "Arora-Guha",
+    "role_title": "IT Intern",
+    "match_score": 0.9934000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1023",
+    "internship_id": "598",
+    "student_name": "Upasna Char",
+    "company_name": "Devi, Nath and Sahni",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9932000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1830",
+    "internship_id": "567",
+    "student_name": "Gauri Dhawan",
+    "company_name": "Salvi LLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9930000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1242",
+    "internship_id": "566",
+    "student_name": "Patrick Nath",
+    "company_name": "Sahota, Reddy and Bhargava",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9930000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1816",
+    "internship_id": "523",
+    "student_name": "Darpan Dhar",
+    "company_name": "Varughese-Bedi",
+    "role_title": "IT Intern",
+    "match_score": 0.9928000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1071",
+    "internship_id": "562",
+    "student_name": "Zayyan Madan",
+    "company_name": "Bera, Chaudhary and Pillai",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9928000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1623",
+    "internship_id": "567",
+    "student_name": "Avi Balakrishnan",
+    "company_name": "Salvi LLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9926,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1318",
+    "internship_id": "594",
+    "student_name": "Ikbal Mangal",
+    "company_name": "Lad Ltd",
+    "role_title": "IT Intern",
+    "match_score": 0.9924000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1441",
+    "internship_id": "589",
+    "student_name": "Abeer Mani",
+    "company_name": "Sani, Chand and Rau",
+    "role_title": "IT Intern",
+    "match_score": 0.9918,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1837",
+    "internship_id": "589",
+    "student_name": "Nachiket Iyer",
+    "company_name": "Sani, Chand and Rau",
+    "role_title": "IT Intern",
+    "match_score": 0.9916,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1123",
+    "internship_id": "586",
+    "student_name": "Ishani Agate",
+    "company_name": "Narasimhan-Bhatia",
+    "role_title": "Finance Intern",
+    "match_score": 0.9914000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1159",
+    "internship_id": "577",
+    "student_name": "Abeer Chad",
+    "company_name": "D\u2019Alia LLC",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9912000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1532",
+    "internship_id": "595",
+    "student_name": "Ati Baral",
+    "company_name": "Balay, Arya and Dash",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9910000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1384",
+    "internship_id": "578",
+    "student_name": "Benjamin Gola",
+    "company_name": "Bhandari Group",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9910000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1713",
+    "internship_id": "592",
+    "student_name": "Isaac Sami",
+    "company_name": "Dutta, Koshy and Gill",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9908,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1399",
+    "internship_id": "551",
+    "student_name": "Urishilla Dewan",
+    "company_name": "Mahajan, Suresh and Guha",
+    "role_title": "Finance Intern",
+    "match_score": 0.9908,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1863",
+    "internship_id": "591",
+    "student_name": "Chaitaly Mani",
+    "company_name": "Sandal PLC",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9906,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1569",
+    "internship_id": "585",
+    "student_name": "Varsha Buch",
+    "company_name": "Samra PLC",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9906,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1284",
+    "internship_id": "569",
+    "student_name": "Balveer Garde",
+    "company_name": "Pandit-Arya",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9906,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1666",
+    "internship_id": "583",
+    "student_name": "Panini Shankar",
+    "company_name": "Balan, Pandya and Oza",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9904000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1704",
+    "internship_id": "556",
+    "student_name": "Varenya Handa",
+    "company_name": "Dewan LLC",
+    "role_title": "IT Intern",
+    "match_score": 0.9902000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1541",
+    "internship_id": "591",
+    "student_name": "Oscar Venkataraman",
+    "company_name": "Sandal PLC",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.99,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1517",
+    "internship_id": "589",
+    "student_name": "Hritik Patla",
+    "company_name": "Sani, Chand and Rau",
+    "role_title": "IT Intern",
+    "match_score": 0.99,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1608",
+    "internship_id": "532",
+    "student_name": "Falan Lala",
+    "company_name": "Bath-Sachar",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9898,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1407",
+    "internship_id": "578",
+    "student_name": "Bimala Sen",
+    "company_name": "Bhandari Group",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9898,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1707",
+    "internship_id": "539",
+    "student_name": "Victor Jhaveri",
+    "company_name": "Walla, Mangal and Padmanabhan",
+    "role_title": "IT Intern",
+    "match_score": 0.9896,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1778",
+    "internship_id": "596",
+    "student_name": "Gaurika Mohan",
+    "company_name": "Chaudhry, Goyal and Bobal",
+    "role_title": "Finance Intern",
+    "match_score": 0.9894000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1167",
+    "internship_id": "592",
+    "student_name": "Alexander Bobal",
+    "company_name": "Dutta, Koshy and Gill",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9892000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1937",
+    "internship_id": "588",
+    "student_name": "Lajita Bandi",
+    "company_name": "Rege-Sampath",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9886,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1730",
+    "internship_id": "577",
+    "student_name": "Ethan Varty",
+    "company_name": "D\u2019Alia LLC",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9886,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1331",
+    "internship_id": "574",
+    "student_name": "Ubika Sarkar",
+    "company_name": "Bawa, Krishnan and Goda",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9884000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1408",
+    "internship_id": "589",
+    "student_name": "Osha Kapur",
+    "company_name": "Sani, Chand and Rau",
+    "role_title": "IT Intern",
+    "match_score": 0.9880000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1166",
+    "internship_id": "527",
+    "student_name": "Sarthak Chanda",
+    "company_name": "Balay, Dash and Doctor",
+    "role_title": "IT Intern",
+    "match_score": 0.9880000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1051",
+    "internship_id": "580",
+    "student_name": "Chavvi Gulati",
+    "company_name": "Dey Ltd",
+    "role_title": "IT Intern",
+    "match_score": 0.9880000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1589",
+    "internship_id": "594",
+    "student_name": "Zayyan Parekh",
+    "company_name": "Lad Ltd",
+    "role_title": "IT Intern",
+    "match_score": 0.9876,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1247",
+    "internship_id": "567",
+    "student_name": "Pushti Dara",
+    "company_name": "Salvi LLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9874,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1072",
+    "internship_id": "598",
+    "student_name": "Adya Dara",
+    "company_name": "Devi, Nath and Sahni",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9874,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1957",
+    "internship_id": "521",
+    "student_name": "Vasatika Virk",
+    "company_name": "Chakraborty-Naik",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9872000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1851",
+    "internship_id": "591",
+    "student_name": "Oni Ramaswamy",
+    "company_name": "Sandal PLC",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9872000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1625",
+    "internship_id": "583",
+    "student_name": "Finn Gandhi",
+    "company_name": "Balan, Pandya and Oza",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9868,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1548",
+    "internship_id": "577",
+    "student_name": "Veda Edwin",
+    "company_name": "D\u2019Alia LLC",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9868,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1771",
+    "internship_id": "598",
+    "student_name": "Nikita Chacko",
+    "company_name": "Devi, Nath and Sahni",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9864,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1050",
+    "internship_id": "576",
+    "student_name": "Falak Garde",
+    "company_name": "Shere-Sidhu",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9862000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1795",
+    "internship_id": "569",
+    "student_name": "Aishani Kala",
+    "company_name": "Pandit-Arya",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9858,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1828",
+    "internship_id": "588",
+    "student_name": "Agastya Savant",
+    "company_name": "Rege-Sampath",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9856,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1421",
+    "internship_id": "596",
+    "student_name": "Anusha Banik",
+    "company_name": "Chaudhry, Goyal and Bobal",
+    "role_title": "Finance Intern",
+    "match_score": 0.9856,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1268",
+    "internship_id": "598",
+    "student_name": "Caleb Bir",
+    "company_name": "Devi, Nath and Sahni",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9854,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1285",
+    "internship_id": "567",
+    "student_name": "Lakshit Dasgupta",
+    "company_name": "Salvi LLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9852000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1037",
+    "internship_id": "586",
+    "student_name": "Raghav Chacko",
+    "company_name": "Narasimhan-Bhatia",
+    "role_title": "Finance Intern",
+    "match_score": 0.9852000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1889",
+    "internship_id": "548",
+    "student_name": "Rishi Uppal",
+    "company_name": "Sarraf, Pal and Chana",
+    "role_title": "Finance Intern",
+    "match_score": 0.9850000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1315",
+    "internship_id": "592",
+    "student_name": "Yahvi Dave",
+    "company_name": "Dutta, Koshy and Gill",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9850000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1975",
+    "internship_id": "549",
+    "student_name": "Jalsa Choudhary",
+    "company_name": "Krishnamurthy-D\u2019Alia",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9848000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1834",
+    "internship_id": "591",
+    "student_name": "Rehaan Balan",
+    "company_name": "Sandal PLC",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9848000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1615",
+    "internship_id": "596",
+    "student_name": "Jyoti Shah",
+    "company_name": "Chaudhry, Goyal and Bobal",
+    "role_title": "Finance Intern",
+    "match_score": 0.9848000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1867",
+    "internship_id": "584",
+    "student_name": "Gaurangi Kohli",
+    "company_name": "Sama, Lall and Dhar",
+    "role_title": "Finance Intern",
+    "match_score": 0.9842000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1245",
+    "internship_id": "558",
+    "student_name": "Warda Sodhi",
+    "company_name": "Menon Inc",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9842000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1951",
+    "internship_id": "529",
+    "student_name": "Udarsh Dugar",
+    "company_name": "Dewan Group",
+    "role_title": "Marketing Intern",
+    "match_score": 0.984,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1369",
+    "internship_id": "567",
+    "student_name": "Bimala Tank",
+    "company_name": "Salvi LLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.984,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1498",
+    "internship_id": "579",
+    "student_name": "Owen Merchant",
+    "company_name": "Nigam Inc",
+    "role_title": "Finance Intern",
+    "match_score": 0.9838,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1128",
+    "internship_id": "526",
+    "student_name": "Wakeeta Deep",
+    "company_name": "Bhalla, Pai and Dubey",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9836,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1536",
+    "internship_id": "547",
+    "student_name": "Vasudha Mand",
+    "company_name": "Butala Ltd",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9834,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1175",
+    "internship_id": "594",
+    "student_name": "Hitesh Chakrabarti",
+    "company_name": "Lad Ltd",
+    "role_title": "IT Intern",
+    "match_score": 0.9834,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1718",
+    "internship_id": "572",
+    "student_name": "Harini Rama",
+    "company_name": "Mittal-Savant",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9830000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1954",
+    "internship_id": "588",
+    "student_name": "Sachi Borde",
+    "company_name": "Rege-Sampath",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9816,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1533",
+    "internship_id": "538",
+    "student_name": "Bhavini Barman",
+    "company_name": "Varma LLC",
+    "role_title": "Finance Intern",
+    "match_score": 0.9816,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1216",
+    "internship_id": "529",
+    "student_name": "Samuel Bhattacharyya",
+    "company_name": "Dewan Group",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9816,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1345",
+    "internship_id": "577",
+    "student_name": "Eshana Rau",
+    "company_name": "D\u2019Alia LLC",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9814,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1249",
+    "internship_id": "588",
+    "student_name": "Daksh Subramaniam",
+    "company_name": "Rege-Sampath",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9810000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1785",
+    "internship_id": "526",
+    "student_name": "Amrita Raghavan",
+    "company_name": "Bhalla, Pai and Dubey",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9804,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1673",
+    "internship_id": "539",
+    "student_name": "Jagdish Manne",
+    "company_name": "Walla, Mangal and Padmanabhan",
+    "role_title": "IT Intern",
+    "match_score": 0.9800000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1886",
+    "internship_id": "566",
+    "student_name": "Priya Kala",
+    "company_name": "Sahota, Reddy and Bhargava",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9798,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1452",
+    "internship_id": "566",
+    "student_name": "Harshil Goyal",
+    "company_name": "Sahota, Reddy and Bhargava",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9798,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1295",
+    "internship_id": "521",
+    "student_name": "Jagdish Murty",
+    "company_name": "Chakraborty-Naik",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9796,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1215",
+    "internship_id": "572",
+    "student_name": "Lavanya Behl",
+    "company_name": "Mittal-Savant",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9796,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1846",
+    "internship_id": "509",
+    "student_name": "Ranveer Shukla",
+    "company_name": "Badami-Rao",
+    "role_title": "Finance Intern",
+    "match_score": 0.9794,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1432",
+    "internship_id": "541",
+    "student_name": "Sathvik Dugar",
+    "company_name": "Barad, Misra and Din",
+    "role_title": "IT Intern",
+    "match_score": 0.9794,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1813",
+    "internship_id": "555",
+    "student_name": "Eshana Sama",
+    "company_name": "Char, Korpal and Sethi",
+    "role_title": "Finance Intern",
+    "match_score": 0.9792000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1066",
+    "internship_id": "599",
+    "student_name": "Advaith Lal",
+    "company_name": "Palan-Subramaniam",
+    "role_title": "Finance Intern",
+    "match_score": 0.9792000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1182",
+    "internship_id": "526",
+    "student_name": "Om Pall",
+    "company_name": "Bhalla, Pai and Dubey",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9788,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1525",
+    "internship_id": "574",
+    "student_name": "Inaya Chopra",
+    "company_name": "Bawa, Krishnan and Goda",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9786,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1287",
+    "internship_id": "526",
+    "student_name": "Jhalak Varma",
+    "company_name": "Bhalla, Pai and Dubey",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9786,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1686",
+    "internship_id": "547",
+    "student_name": "Isha Kohli",
+    "company_name": "Butala Ltd",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9784,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1397",
+    "internship_id": "526",
+    "student_name": "Raagini Chandra",
+    "company_name": "Bhalla, Pai and Dubey",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9778,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1319",
+    "internship_id": "599",
+    "student_name": "Logan Sangha",
+    "company_name": "Palan-Subramaniam",
+    "role_title": "Finance Intern",
+    "match_score": 0.9772000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1486",
+    "internship_id": "576",
+    "student_name": "Chaaya Sahni",
+    "company_name": "Shere-Sidhu",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9768000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1422",
+    "internship_id": "592",
+    "student_name": "Manya Tara",
+    "company_name": "Dutta, Koshy and Gill",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9764,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1483",
+    "internship_id": "579",
+    "student_name": "Warhi Sachdeva",
+    "company_name": "Nigam Inc",
+    "role_title": "Finance Intern",
+    "match_score": 0.9756,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1277",
+    "internship_id": "571",
+    "student_name": "Avi Jayaraman",
+    "company_name": "Sant, Hayer and Deo",
+    "role_title": "IT Intern",
+    "match_score": 0.9754,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1187",
+    "internship_id": "561",
+    "student_name": "Utkarsh Dar",
+    "company_name": "Kalita, Merchant and Gade",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9748000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1091",
+    "internship_id": "562",
+    "student_name": "Raksha Sabharwal",
+    "company_name": "Bera, Chaudhary and Pillai",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9746,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1594",
+    "internship_id": "583",
+    "student_name": "Ekalinga Sandhu",
+    "company_name": "Balan, Pandya and Oza",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9744,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1294",
+    "internship_id": "549",
+    "student_name": "Urvi Anne",
+    "company_name": "Krishnamurthy-D\u2019Alia",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9736,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1663",
+    "internship_id": "558",
+    "student_name": "Kamya Sarkar",
+    "company_name": "Menon Inc",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9734,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1655",
+    "internship_id": "590",
+    "student_name": "Nisha Arya",
+    "company_name": "Wali, Babu and Tiwari",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9734,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1470",
+    "internship_id": "551",
+    "student_name": "Jason Manda",
+    "company_name": "Mahajan, Suresh and Guha",
+    "role_title": "Finance Intern",
+    "match_score": 0.9734,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1952",
+    "internship_id": "559",
+    "student_name": "Anay Babu",
+    "company_name": "Hayre-Manda",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9732000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1025",
+    "internship_id": "512",
+    "student_name": "Neelima Dayal",
+    "company_name": "Datta Group",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9728000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1664",
+    "internship_id": "594",
+    "student_name": "Bahadurjit Sane",
+    "company_name": "Lad Ltd",
+    "role_title": "IT Intern",
+    "match_score": 0.9724,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1481",
+    "internship_id": "593",
+    "student_name": "Neelima Dixit",
+    "company_name": "Kapur-Agate",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9724,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1905",
+    "internship_id": "572",
+    "student_name": "Suhani Mistry",
+    "company_name": "Mittal-Savant",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9722000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1428",
+    "internship_id": "592",
+    "student_name": "Siddharth Pingle",
+    "company_name": "Dutta, Koshy and Gill",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9720000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1725",
+    "internship_id": "592",
+    "student_name": "Aditya Grover",
+    "company_name": "Dutta, Koshy and Gill",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9716,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1750",
+    "internship_id": "527",
+    "student_name": "Dominic Sabharwal",
+    "company_name": "Balay, Dash and Doctor",
+    "role_title": "IT Intern",
+    "match_score": 0.9708,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1543",
+    "internship_id": "581",
+    "student_name": "Dayamai Sem",
+    "company_name": "Naidu-Yadav",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9708,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1570",
+    "internship_id": "507",
+    "student_name": "Kala Rastogi",
+    "company_name": "Chakrabarti-Kata",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9702000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1124",
+    "internship_id": "568",
+    "student_name": "Bimala Dora",
+    "company_name": "Oommen, Deep and Gade",
+    "role_title": "Finance Intern",
+    "match_score": 0.9700000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1825",
+    "internship_id": "572",
+    "student_name": "Udant Solanki",
+    "company_name": "Mittal-Savant",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9698,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1468",
+    "internship_id": "599",
+    "student_name": "Dakshesh Rajagopal",
+    "company_name": "Palan-Subramaniam",
+    "role_title": "Finance Intern",
+    "match_score": 0.9696,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1457",
+    "internship_id": "547",
+    "student_name": "Maanas Sridhar",
+    "company_name": "Butala Ltd",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9690000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1400",
+    "internship_id": "559",
+    "student_name": "Vinaya Jain",
+    "company_name": "Hayre-Manda",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9690000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1469",
+    "internship_id": "594",
+    "student_name": "Ikbal Taneja",
+    "company_name": "Lad Ltd",
+    "role_title": "IT Intern",
+    "match_score": 0.9682000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1746",
+    "internship_id": "564",
+    "student_name": "Falak Gandhi",
+    "company_name": "Varty-Rajagopal",
+    "role_title": "IT Intern",
+    "match_score": 0.9678000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1524",
+    "internship_id": "599",
+    "student_name": "Garima Hegde",
+    "company_name": "Palan-Subramaniam",
+    "role_title": "Finance Intern",
+    "match_score": 0.9676,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1487",
+    "internship_id": "552",
+    "student_name": "Vedika Acharya",
+    "company_name": "Acharya-Narang",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9674,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1849",
+    "internship_id": "599",
+    "student_name": "Neel Warrior",
+    "company_name": "Palan-Subramaniam",
+    "role_title": "Finance Intern",
+    "match_score": 0.9668000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1622",
+    "internship_id": "548",
+    "student_name": "Teerth Bhatt",
+    "company_name": "Sarraf, Pal and Chana",
+    "role_title": "Finance Intern",
+    "match_score": 0.9660000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1376",
+    "internship_id": "512",
+    "student_name": "Prisha Amble",
+    "company_name": "Datta Group",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9660000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1346",
+    "internship_id": "507",
+    "student_name": "Manan Kulkarni",
+    "company_name": "Chakrabarti-Kata",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9658,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1646",
+    "internship_id": "583",
+    "student_name": "Widisha Master",
+    "company_name": "Balan, Pandya and Oza",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9656,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1996",
+    "internship_id": "540",
+    "student_name": "Samarth Kothari",
+    "company_name": "Bhagat-Dua",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9652000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1012",
+    "internship_id": "571",
+    "student_name": "Balvan Raj",
+    "company_name": "Sant, Hayer and Deo",
+    "role_title": "IT Intern",
+    "match_score": 0.9650000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1670",
+    "internship_id": "582",
+    "student_name": "Zansi Kara",
+    "company_name": "Acharya LLC",
+    "role_title": "Finance Intern",
+    "match_score": 0.9648000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1506",
+    "internship_id": "572",
+    "student_name": "Sachi Chakraborty",
+    "company_name": "Mittal-Savant",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9648000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1114",
+    "internship_id": "524",
+    "student_name": "Pranav Som",
+    "company_name": "Pandya-Mallick",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9648000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1429",
+    "internship_id": "525",
+    "student_name": "Eshana Sehgal",
+    "company_name": "Gola Inc",
+    "role_title": "IT Intern",
+    "match_score": 0.9642000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1770",
+    "internship_id": "507",
+    "student_name": "Anmol Mangal",
+    "company_name": "Chakrabarti-Kata",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9640000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1508",
+    "internship_id": "593",
+    "student_name": "Lakshmi Natarajan",
+    "company_name": "Kapur-Agate",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9640000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1341",
+    "internship_id": "549",
+    "student_name": "Sachi Lalla",
+    "company_name": "Krishnamurthy-D\u2019Alia",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9640000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1353",
+    "internship_id": "502",
+    "student_name": "Yuvraj Master",
+    "company_name": "Palla, Dhingra and Sankar",
+    "role_title": "IT Intern",
+    "match_score": 0.9638,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1741",
+    "internship_id": "590",
+    "student_name": "Lipika Apte",
+    "company_name": "Wali, Babu and Tiwari",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9636,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1850",
+    "internship_id": "574",
+    "student_name": "Chakrika Pandit",
+    "company_name": "Bawa, Krishnan and Goda",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9630000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1538",
+    "internship_id": "593",
+    "student_name": "Vedant Parekh",
+    "company_name": "Kapur-Agate",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9630000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1412",
+    "internship_id": "579",
+    "student_name": "Chanakya Chad",
+    "company_name": "Nigam Inc",
+    "role_title": "Finance Intern",
+    "match_score": 0.9630000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1714",
+    "internship_id": "571",
+    "student_name": "Tanveer Bali",
+    "company_name": "Sant, Hayer and Deo",
+    "role_title": "IT Intern",
+    "match_score": 0.9624,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1883",
+    "internship_id": "591",
+    "student_name": "Orinder Dash",
+    "company_name": "Sandal PLC",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9622,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1581",
+    "internship_id": "580",
+    "student_name": "Divya Rajan",
+    "company_name": "Dey Ltd",
+    "role_title": "IT Intern",
+    "match_score": 0.9620000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1333",
+    "internship_id": "562",
+    "student_name": "Rachit Shenoy",
+    "company_name": "Bera, Chaudhary and Pillai",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9618,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1209",
+    "internship_id": "526",
+    "student_name": "Fariq Roy",
+    "company_name": "Bhalla, Pai and Dubey",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9618,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1055",
+    "internship_id": "509",
+    "student_name": "Samesh Dhawan",
+    "company_name": "Badami-Rao",
+    "role_title": "Finance Intern",
+    "match_score": 0.9616,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1890",
+    "internship_id": "574",
+    "student_name": "Tristan Kamdar",
+    "company_name": "Bawa, Krishnan and Goda",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9612,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1310",
+    "internship_id": "526",
+    "student_name": "Vedant Vaidya",
+    "company_name": "Bhalla, Pai and Dubey",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9612,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1266",
+    "internship_id": "596",
+    "student_name": "Riya Seshadri",
+    "company_name": "Chaudhry, Goyal and Bobal",
+    "role_title": "Finance Intern",
+    "match_score": 0.9612,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1020",
+    "internship_id": "509",
+    "student_name": "Diya Patla",
+    "company_name": "Badami-Rao",
+    "role_title": "Finance Intern",
+    "match_score": 0.9610000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1775",
+    "internship_id": "558",
+    "student_name": "Matthew Dyal",
+    "company_name": "Menon Inc",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9608000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1006",
+    "internship_id": "571",
+    "student_name": "Maya Pandey",
+    "company_name": "Sant, Hayer and Deo",
+    "role_title": "IT Intern",
+    "match_score": 0.9608000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1293",
+    "internship_id": "599",
+    "student_name": "Omisha Contractor",
+    "company_name": "Palan-Subramaniam",
+    "role_title": "Finance Intern",
+    "match_score": 0.9606,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1726",
+    "internship_id": "591",
+    "student_name": "Ekansh Choudhry",
+    "company_name": "Sandal PLC",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9604,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1616",
+    "internship_id": "556",
+    "student_name": "Harish Ramachandran",
+    "company_name": "Dewan LLC",
+    "role_title": "IT Intern",
+    "match_score": 0.9604,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1126",
+    "internship_id": "574",
+    "student_name": "Manya Raval",
+    "company_name": "Bawa, Krishnan and Goda",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9602,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1131",
+    "internship_id": "593",
+    "student_name": "Nathan Swamy",
+    "company_name": "Kapur-Agate",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9594,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1640",
+    "internship_id": "561",
+    "student_name": "Champak Venkataraman",
+    "company_name": "Kalita, Merchant and Gade",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9590000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1754",
+    "internship_id": "567",
+    "student_name": "Yasti Cherian",
+    "company_name": "Salvi LLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9588000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1416",
+    "internship_id": "525",
+    "student_name": "Zilmil Lala",
+    "company_name": "Gola Inc",
+    "role_title": "IT Intern",
+    "match_score": 0.9588000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1379",
+    "internship_id": "596",
+    "student_name": "Vedhika Sodhi",
+    "company_name": "Chaudhry, Goyal and Bobal",
+    "role_title": "Finance Intern",
+    "match_score": 0.9584,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1338",
+    "internship_id": "559",
+    "student_name": "Sanaya Mistry",
+    "company_name": "Hayre-Manda",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9582,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1857",
+    "internship_id": "580",
+    "student_name": "Harshil Sinha",
+    "company_name": "Dey Ltd",
+    "role_title": "IT Intern",
+    "match_score": 0.9578,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1061",
+    "internship_id": "558",
+    "student_name": "Yutika Pai",
+    "company_name": "Menon Inc",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9578,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1907",
+    "internship_id": "542",
+    "student_name": "Jackson Bose",
+    "company_name": "Dayal, Walia and Parekh",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9574,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1773",
+    "internship_id": "585",
+    "student_name": "Yadavi Mani",
+    "company_name": "Samra PLC",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9574,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1994",
+    "internship_id": "592",
+    "student_name": "Raksha Ramaswamy",
+    "company_name": "Dutta, Koshy and Gill",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9572,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1542",
+    "internship_id": "581",
+    "student_name": "Simon Date",
+    "company_name": "Naidu-Yadav",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9570000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1140",
+    "internship_id": "566",
+    "student_name": "Pratyush Sankar",
+    "company_name": "Sahota, Reddy and Bhargava",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9566000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1587",
+    "internship_id": "593",
+    "student_name": "Upadhriti Kaul",
+    "company_name": "Kapur-Agate",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9560000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1466",
+    "internship_id": "575",
+    "student_name": "Shivansh Kalita",
+    "company_name": "Arora-Guha",
+    "role_title": "IT Intern",
+    "match_score": 0.9558000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1689",
+    "internship_id": "523",
+    "student_name": "Gauri Din",
+    "company_name": "Varughese-Bedi",
+    "role_title": "IT Intern",
+    "match_score": 0.9556,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1658",
+    "internship_id": "579",
+    "student_name": "Pavani Om",
+    "company_name": "Nigam Inc",
+    "role_title": "Finance Intern",
+    "match_score": 0.9556,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1579",
+    "internship_id": "567",
+    "student_name": "Ishwar Behl",
+    "company_name": "Salvi LLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9556,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1471",
+    "internship_id": "524",
+    "student_name": "Aadhya Virk",
+    "company_name": "Pandya-Mallick",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9556,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1104",
+    "internship_id": "599",
+    "student_name": "Baghyawati Ganguly",
+    "company_name": "Palan-Subramaniam",
+    "role_title": "Finance Intern",
+    "match_score": 0.9556,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1959",
+    "internship_id": "574",
+    "student_name": "Alexander Bahl",
+    "company_name": "Bawa, Krishnan and Goda",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9550000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1976",
+    "internship_id": "562",
+    "student_name": "Vincent Sodhi",
+    "company_name": "Bera, Chaudhary and Pillai",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9548000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1628",
+    "internship_id": "516",
+    "student_name": "Tripti Narain",
+    "company_name": "Mander PLC",
+    "role_title": "Finance Intern",
+    "match_score": 0.9546000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1530",
+    "internship_id": "592",
+    "student_name": "Dominic Batra",
+    "company_name": "Dutta, Koshy and Gill",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9546000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1733",
+    "internship_id": "561",
+    "student_name": "Liam Gandhi",
+    "company_name": "Kalita, Merchant and Gade",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9542,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1936",
+    "internship_id": "565",
+    "student_name": "Agastya Karan",
+    "company_name": "Bail Ltd",
+    "role_title": "Finance Intern",
+    "match_score": 0.9540000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1436",
+    "internship_id": "520",
+    "student_name": "Chandran Sawhney",
+    "company_name": "Gara PLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9540000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1930",
+    "internship_id": "544",
+    "student_name": "Alka Natt",
+    "company_name": "Batra-Patil",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9530000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1660",
+    "internship_id": "574",
+    "student_name": "Frederick Bera",
+    "company_name": "Bawa, Krishnan and Goda",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9526000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1297",
+    "internship_id": "516",
+    "student_name": "Mohammed Toor",
+    "company_name": "Mander PLC",
+    "role_title": "Finance Intern",
+    "match_score": 0.9524,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1961",
+    "internship_id": "583",
+    "student_name": "Hritik Nanda",
+    "company_name": "Balan, Pandya and Oza",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9522,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1052",
+    "internship_id": "528",
+    "student_name": "Yug Kar",
+    "company_name": "Dey, Brahmbhatt and Bawa",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9522,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1962",
+    "internship_id": "593",
+    "student_name": "Hemang Devan",
+    "company_name": "Kapur-Agate",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9520000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1181",
+    "internship_id": "549",
+    "student_name": "Arunima Sarraf",
+    "company_name": "Krishnamurthy-D\u2019Alia",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9520000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1593",
+    "internship_id": "585",
+    "student_name": "Tarak Sharaf",
+    "company_name": "Samra PLC",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9518000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1549",
+    "internship_id": "577",
+    "student_name": "Chaitanya Shukla",
+    "company_name": "D\u2019Alia LLC",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9516,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1874",
+    "internship_id": "599",
+    "student_name": "Omaja Basak",
+    "company_name": "Palan-Subramaniam",
+    "role_title": "Finance Intern",
+    "match_score": 0.9514,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1455",
+    "internship_id": "549",
+    "student_name": "Dayita Bajwa",
+    "company_name": "Krishnamurthy-D\u2019Alia",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9514,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1203",
+    "internship_id": "535",
+    "student_name": "Qasim Sarraf",
+    "company_name": "Sodhi, Seshadri and Karnik",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9514,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1035",
+    "internship_id": "546",
+    "student_name": "Simon Kala",
+    "company_name": "Krishnan Group",
+    "role_title": "IT Intern",
+    "match_score": 0.9512,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1311",
+    "internship_id": "530",
+    "student_name": "Tarak Karpe",
+    "company_name": "Agate-Choudhary",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9510000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1054",
+    "internship_id": "534",
+    "student_name": "Chatura Pingle",
+    "company_name": "Yogi, Lanka and Brar",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9508000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1917",
+    "internship_id": "526",
+    "student_name": "David Halder",
+    "company_name": "Bhalla, Pai and Dubey",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9506000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1139",
+    "internship_id": "555",
+    "student_name": "Baghyawati Nayak",
+    "company_name": "Char, Korpal and Sethi",
+    "role_title": "Finance Intern",
+    "match_score": 0.9506000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1949",
+    "internship_id": "577",
+    "student_name": "Yashvi Ratta",
+    "company_name": "D\u2019Alia LLC",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9504,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1675",
+    "internship_id": "596",
+    "student_name": "Sudiksha Choudhury",
+    "company_name": "Chaudhry, Goyal and Bobal",
+    "role_title": "Finance Intern",
+    "match_score": 0.9500000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1103",
+    "internship_id": "528",
+    "student_name": "Dayita Rege",
+    "company_name": "Dey, Brahmbhatt and Bawa",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9494,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1932",
+    "internship_id": "599",
+    "student_name": "Fariq Mahajan",
+    "company_name": "Palan-Subramaniam",
+    "role_title": "Finance Intern",
+    "match_score": 0.9492,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1098",
+    "internship_id": "599",
+    "student_name": "Lucky Choudhry",
+    "company_name": "Palan-Subramaniam",
+    "role_title": "Finance Intern",
+    "match_score": 0.9492,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1149",
+    "internship_id": "528",
+    "student_name": "Sudiksha Batra",
+    "company_name": "Dey, Brahmbhatt and Bawa",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9490000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1550",
+    "internship_id": "571",
+    "student_name": "Waida Bahri",
+    "company_name": "Sant, Hayer and Deo",
+    "role_title": "IT Intern",
+    "match_score": 0.9488000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1048",
+    "internship_id": "577",
+    "student_name": "Baljiwan Soni",
+    "company_name": "D\u2019Alia LLC",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9488000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1502",
+    "internship_id": "572",
+    "student_name": "Karan Bobal",
+    "company_name": "Mittal-Savant",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9480000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1697",
+    "internship_id": "566",
+    "student_name": "Sara Bedi",
+    "company_name": "Sahota, Reddy and Bhargava",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9472,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1021",
+    "internship_id": "596",
+    "student_name": "Sai Dhillon",
+    "company_name": "Chaudhry, Goyal and Bobal",
+    "role_title": "Finance Intern",
+    "match_score": 0.9472,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1865",
+    "internship_id": "507",
+    "student_name": "Reyansh Mohanty",
+    "company_name": "Chakrabarti-Kata",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9470000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1162",
+    "internship_id": "509",
+    "student_name": "Jyoti Mittal",
+    "company_name": "Badami-Rao",
+    "role_title": "Finance Intern",
+    "match_score": 0.9470000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1485",
+    "internship_id": "597",
+    "student_name": "Lakshit Setty",
+    "company_name": "Chawla, Kapur and Bansal",
+    "role_title": "Finance Intern",
+    "match_score": 0.9464,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1998",
+    "internship_id": "571",
+    "student_name": "Chakradev Nigam",
+    "company_name": "Sant, Hayer and Deo",
+    "role_title": "IT Intern",
+    "match_score": 0.9462,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1900",
+    "internship_id": "550",
+    "student_name": "Aadhya Oza",
+    "company_name": "Acharya-Grewal",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9460000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1693",
+    "internship_id": "559",
+    "student_name": "Andrew Bir",
+    "company_name": "Hayre-Manda",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9460000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1756",
+    "internship_id": "597",
+    "student_name": "Bhanumati Ratta",
+    "company_name": "Chawla, Kapur and Bansal",
+    "role_title": "Finance Intern",
+    "match_score": 0.9452,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1703",
+    "internship_id": "546",
+    "student_name": "Megha Kant",
+    "company_name": "Krishnan Group",
+    "role_title": "IT Intern",
+    "match_score": 0.9448000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1632",
+    "internship_id": "585",
+    "student_name": "Hema Joshi",
+    "company_name": "Samra PLC",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9440000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1539",
+    "internship_id": "567",
+    "student_name": "Urmi Sathe",
+    "company_name": "Salvi LLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9436,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1509",
+    "internship_id": "566",
+    "student_name": "Eiravati Lal",
+    "company_name": "Sahota, Reddy and Bhargava",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9436,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1631",
+    "internship_id": "567",
+    "student_name": "Triya Patla",
+    "company_name": "Salvi LLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9434,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1272",
+    "internship_id": "541",
+    "student_name": "Balveer Ghose",
+    "company_name": "Barad, Misra and Din",
+    "role_title": "IT Intern",
+    "match_score": 0.9426000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1899",
+    "internship_id": "525",
+    "student_name": "Ayush Sharaf",
+    "company_name": "Gola Inc",
+    "role_title": "IT Intern",
+    "match_score": 0.9424,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1478",
+    "internship_id": "580",
+    "student_name": "Kai Bassi",
+    "company_name": "Dey Ltd",
+    "role_title": "IT Intern",
+    "match_score": 0.9424,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1280",
+    "internship_id": "572",
+    "student_name": "Gautami Jain",
+    "company_name": "Mittal-Savant",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9424,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1043",
+    "internship_id": "567",
+    "student_name": "Nidra Kara",
+    "company_name": "Salvi LLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9424,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1195",
+    "internship_id": "547",
+    "student_name": "Jyoti Singh",
+    "company_name": "Butala Ltd",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9418000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1948",
+    "internship_id": "591",
+    "student_name": "Jairaj Kata",
+    "company_name": "Sandal PLC",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9412,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1125",
+    "internship_id": "591",
+    "student_name": "Aashi Chad",
+    "company_name": "Sandal PLC",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9412,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1604",
+    "internship_id": "596",
+    "student_name": "Yatan Chaudhry",
+    "company_name": "Chaudhry, Goyal and Bobal",
+    "role_title": "Finance Intern",
+    "match_score": 0.9410000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1267",
+    "internship_id": "508",
+    "student_name": "Kai Gole",
+    "company_name": "Parsa and Sons",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9410000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1818",
+    "internship_id": "514",
+    "student_name": "Devansh Patil",
+    "company_name": "Bhandari LLC",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9408000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1165",
+    "internship_id": "542",
+    "student_name": "Triya Ramanathan",
+    "company_name": "Dayal, Walia and Parekh",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9404,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1136",
+    "internship_id": "553",
+    "student_name": "Aditya Chakraborty",
+    "company_name": "Mangal-Srivastava",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9400000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1991",
+    "internship_id": "585",
+    "student_name": "Aarna Savant",
+    "company_name": "Samra PLC",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9398000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1649",
+    "internship_id": "562",
+    "student_name": "Omaja Mohan",
+    "company_name": "Bera, Chaudhary and Pillai",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9392,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1237",
+    "internship_id": "528",
+    "student_name": "Isaac Dass",
+    "company_name": "Dey, Brahmbhatt and Bawa",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9392,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1433",
+    "internship_id": "576",
+    "student_name": "Vivaan Kant",
+    "company_name": "Shere-Sidhu",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9388000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1844",
+    "internship_id": "542",
+    "student_name": "Warhi Chandra",
+    "company_name": "Dayal, Walia and Parekh",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9386000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1276",
+    "internship_id": "571",
+    "student_name": "Onveer Sodhi",
+    "company_name": "Sant, Hayer and Deo",
+    "role_title": "IT Intern",
+    "match_score": 0.9386000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1129",
+    "internship_id": "581",
+    "student_name": "Aadhya Desai",
+    "company_name": "Naidu-Yadav",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9386000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1093",
+    "internship_id": "547",
+    "student_name": "Jairaj Soman",
+    "company_name": "Butala Ltd",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9386000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1357",
+    "internship_id": "540",
+    "student_name": "Hredhaan Bandi",
+    "company_name": "Bhagat-Dua",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9380000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1923",
+    "internship_id": "568",
+    "student_name": "Harinakshi Singh",
+    "company_name": "Oommen, Deep and Gade",
+    "role_title": "Finance Intern",
+    "match_score": 0.9376,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1797",
+    "internship_id": "565",
+    "student_name": "Owen Varkey",
+    "company_name": "Bail Ltd",
+    "role_title": "Finance Intern",
+    "match_score": 0.937,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1371",
+    "internship_id": "547",
+    "student_name": "Adya Parekh",
+    "company_name": "Butala Ltd",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9366000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1621",
+    "internship_id": "509",
+    "student_name": "Vedhika Saxena",
+    "company_name": "Badami-Rao",
+    "role_title": "Finance Intern",
+    "match_score": 0.9358000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1354",
+    "internship_id": "550",
+    "student_name": "Sathvik Rao",
+    "company_name": "Acharya-Grewal",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9358000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1694",
+    "internship_id": "547",
+    "student_name": "Priya Bajwa",
+    "company_name": "Butala Ltd",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9356000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1130",
+    "internship_id": "513",
+    "student_name": "Baljiwan Madan",
+    "company_name": "Cherian, Talwar and Taneja",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9352,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1388",
+    "internship_id": "547",
+    "student_name": "Kamya Sanghvi",
+    "company_name": "Butala Ltd",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.935,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1973",
+    "internship_id": "568",
+    "student_name": "Anmol Solanki",
+    "company_name": "Oommen, Deep and Gade",
+    "role_title": "Finance Intern",
+    "match_score": 0.9348000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1805",
+    "internship_id": "540",
+    "student_name": "Darpan Majumdar",
+    "company_name": "Bhagat-Dua",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9346000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1180",
+    "internship_id": "579",
+    "student_name": "Kashish Loyal",
+    "company_name": "Nigam Inc",
+    "role_title": "Finance Intern",
+    "match_score": 0.9342,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1665",
+    "internship_id": "568",
+    "student_name": "Nidra Gokhale",
+    "company_name": "Oommen, Deep and Gade",
+    "role_title": "Finance Intern",
+    "match_score": 0.9336,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1861",
+    "internship_id": "540",
+    "student_name": "Warjas Srivastava",
+    "company_name": "Bhagat-Dua",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9332,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1877",
+    "internship_id": "561",
+    "student_name": "Yashawini Sidhu",
+    "company_name": "Kalita, Merchant and Gade",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9328000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1306",
+    "internship_id": "528",
+    "student_name": "Advay Sarma",
+    "company_name": "Dey, Brahmbhatt and Bawa",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9328000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1999",
+    "internship_id": "505",
+    "student_name": "Nisha Chandra",
+    "company_name": "Gala, Chandra and Sule",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9324000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1642",
+    "internship_id": "505",
+    "student_name": "Ubika Pau",
+    "company_name": "Gala, Chandra and Sule",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9324000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1404",
+    "internship_id": "520",
+    "student_name": "Abhimanyu Pradhan",
+    "company_name": "Gara PLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.9322,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1350",
+    "internship_id": "568",
+    "student_name": "Dalaja Kohli",
+    "company_name": "Oommen, Deep and Gade",
+    "role_title": "Finance Intern",
+    "match_score": 0.9322,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1424",
+    "internship_id": "533",
+    "student_name": "Sarthak Gupta",
+    "company_name": "Tank-Narayanan",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.931,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1000",
+    "internship_id": "504",
+    "student_name": "Lakshmi Krishnamurthy",
+    "company_name": "Sarraf, Narula and Ravel",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9308000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1852",
+    "internship_id": "573",
+    "student_name": "Umang Divan",
+    "company_name": "Hans, Jani and Bassi",
+    "role_title": "Finance Intern",
+    "match_score": 0.9306000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1240",
+    "internship_id": "585",
+    "student_name": "Umang Balasubramanian",
+    "company_name": "Samra PLC",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9304,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1914",
+    "internship_id": "571",
+    "student_name": "Yug Choudhry",
+    "company_name": "Sant, Hayer and Deo",
+    "role_title": "IT Intern",
+    "match_score": 0.9275333333333334,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1806",
+    "internship_id": "505",
+    "student_name": "Inaya Vala",
+    "company_name": "Gala, Chandra and Sule",
+    "role_title": "Marketing Intern",
+    "match_score": 0.9132,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1116",
+    "internship_id": "517",
+    "student_name": "Andrew Banik",
+    "company_name": "Gandhi, Lad and Mistry",
+    "role_title": "IT Intern",
+    "match_score": 0.9125333333333334,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1425",
+    "internship_id": "549",
+    "student_name": "Aahana Oza",
+    "company_name": "Krishnamurthy-D\u2019Alia",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9119999999999999,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1871",
+    "internship_id": "523",
+    "student_name": "Bhanumati Dhar",
+    "company_name": "Varughese-Bedi",
+    "role_title": "IT Intern",
+    "match_score": 0.9071333333333333,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1473",
+    "internship_id": "549",
+    "student_name": "Mohammed Chaudry",
+    "company_name": "Krishnamurthy-D\u2019Alia",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9046,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1566",
+    "internship_id": "549",
+    "student_name": "Pranav Aggarwal",
+    "company_name": "Krishnamurthy-D\u2019Alia",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.9017999999999999,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1634",
+    "internship_id": "530",
+    "student_name": "Chandresh Ray",
+    "company_name": "Agate-Choudhary",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.8996,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1562",
+    "internship_id": "520",
+    "student_name": "Yahvi Dave",
+    "company_name": "Gara PLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.8996,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1150",
+    "internship_id": "514",
+    "student_name": "Dhriti Dey",
+    "company_name": "Bhandari LLC",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.8994,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1876",
+    "internship_id": "559",
+    "student_name": "Arya Kumar",
+    "company_name": "Hayre-Manda",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.8963333333333334,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1743",
+    "internship_id": "514",
+    "student_name": "Karan Oza",
+    "company_name": "Bhandari LLC",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.896,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1299",
+    "internship_id": "556",
+    "student_name": "Ekantika Sant",
+    "company_name": "Dewan LLC",
+    "role_title": "IT Intern",
+    "match_score": 0.8937999999999999,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1375",
+    "internship_id": "516",
+    "student_name": "Jalsa Aurora",
+    "company_name": "Mander PLC",
+    "role_title": "Finance Intern",
+    "match_score": 0.893,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1265",
+    "internship_id": "571",
+    "student_name": "Abdul Dora",
+    "company_name": "Sant, Hayer and Deo",
+    "role_title": "IT Intern",
+    "match_score": 0.8929333333333334,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1982",
+    "internship_id": "597",
+    "student_name": "Charita Tara",
+    "company_name": "Chawla, Kapur and Bansal",
+    "role_title": "Finance Intern",
+    "match_score": 0.8917999999999999,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1887",
+    "internship_id": "576",
+    "student_name": "Tristan Sodhi",
+    "company_name": "Shere-Sidhu",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.8916,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1211",
+    "internship_id": "581",
+    "student_name": "Meera Contractor",
+    "company_name": "Naidu-Yadav",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.8902,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1836",
+    "internship_id": "565",
+    "student_name": "Ekanta Walla",
+    "company_name": "Bail Ltd",
+    "role_title": "Finance Intern",
+    "match_score": 0.8884,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1065",
+    "internship_id": "559",
+    "student_name": "Rachit Mane",
+    "company_name": "Hayre-Manda",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.8871333333333334,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1637",
+    "internship_id": "597",
+    "student_name": "Theodore Peri",
+    "company_name": "Chawla, Kapur and Bansal",
+    "role_title": "Finance Intern",
+    "match_score": 0.8865999999999999,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1303",
+    "internship_id": "597",
+    "student_name": "Vasudha Dugar",
+    "company_name": "Chawla, Kapur and Bansal",
+    "role_title": "Finance Intern",
+    "match_score": 0.8857999999999999,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1193",
+    "internship_id": "597",
+    "student_name": "Kashvi Ganesh",
+    "company_name": "Chawla, Kapur and Bansal",
+    "role_title": "Finance Intern",
+    "match_score": 0.8848,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1206",
+    "internship_id": "523",
+    "student_name": "Yauvani Misra",
+    "company_name": "Varughese-Bedi",
+    "role_title": "IT Intern",
+    "match_score": 0.8833333333333334,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1679",
+    "internship_id": "518",
+    "student_name": "Maya Nigam",
+    "company_name": "Karan-Dayal",
+    "role_title": "IT Intern",
+    "match_score": 0.8832571428571429,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1100",
+    "internship_id": "519",
+    "student_name": "Girik Minhas",
+    "company_name": "Mistry-Sama",
+    "role_title": "IT Intern",
+    "match_score": 0.8826,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1607",
+    "internship_id": "533",
+    "student_name": "Praneel Goel",
+    "company_name": "Tank-Narayanan",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.8817333333333334,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1692",
+    "internship_id": "556",
+    "student_name": "Pranit Bhargava",
+    "company_name": "Dewan LLC",
+    "role_title": "IT Intern",
+    "match_score": 0.881,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1695",
+    "internship_id": "516",
+    "student_name": "Patrick Khurana",
+    "company_name": "Mander PLC",
+    "role_title": "Finance Intern",
+    "match_score": 0.8807999999999999,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1013",
+    "internship_id": "548",
+    "student_name": "Luke Mangal",
+    "company_name": "Sarraf, Pal and Chana",
+    "role_title": "Finance Intern",
+    "match_score": 0.8804,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1783",
+    "internship_id": "565",
+    "student_name": "Bakhshi Bahl",
+    "company_name": "Bail Ltd",
+    "role_title": "Finance Intern",
+    "match_score": 0.8788,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1244",
+    "internship_id": "549",
+    "student_name": "Raksha Golla",
+    "company_name": "Krishnamurthy-D\u2019Alia",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.8784,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1235",
+    "internship_id": "563",
+    "student_name": "Sara Gala",
+    "company_name": "Naidu LLC",
+    "role_title": "Finance Intern",
+    "match_score": 0.8775999999999999,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1435",
+    "internship_id": "596",
+    "student_name": "Hitesh Patil",
+    "company_name": "Chaudhry, Goyal and Bobal",
+    "role_title": "Finance Intern",
+    "match_score": 0.876,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1317",
+    "internship_id": "563",
+    "student_name": "Michael Khare",
+    "company_name": "Naidu LLC",
+    "role_title": "Finance Intern",
+    "match_score": 0.8752,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1815",
+    "internship_id": "513",
+    "student_name": "Chakradhar Bahri",
+    "company_name": "Cherian, Talwar and Taneja",
+    "role_title": "Marketing Intern",
+    "match_score": 0.8744,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1893",
+    "internship_id": "579",
+    "student_name": "Janaki Nigam",
+    "company_name": "Nigam Inc",
+    "role_title": "Finance Intern",
+    "match_score": 0.8742,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1332",
+    "internship_id": "548",
+    "student_name": "Jhalak Desai",
+    "company_name": "Sarraf, Pal and Chana",
+    "role_title": "Finance Intern",
+    "match_score": 0.8737999999999999,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1343",
+    "internship_id": "541",
+    "student_name": "Yashvi Nath",
+    "company_name": "Barad, Misra and Din",
+    "role_title": "IT Intern",
+    "match_score": 0.8735999999999999,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1776",
+    "internship_id": "542",
+    "student_name": "Brinda Baral",
+    "company_name": "Dayal, Walia and Parekh",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.8728,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1912",
+    "internship_id": "571",
+    "student_name": "Faras Devan",
+    "company_name": "Sant, Hayer and Deo",
+    "role_title": "IT Intern",
+    "match_score": 0.8719333333333334,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1032",
+    "internship_id": "544",
+    "student_name": "Upkaar Bhavsar",
+    "company_name": "Batra-Patil",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.8717999999999999,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1152",
+    "internship_id": "545",
+    "student_name": "Vasudha Agarwal",
+    "company_name": "Natarajan PLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.8715333333333334,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1258",
+    "internship_id": "537",
+    "student_name": "Dev Pathak",
+    "company_name": "Gola, Deshpande and Saha",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.8713333333333334,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1829",
+    "internship_id": "541",
+    "student_name": "Gaurika Rao",
+    "company_name": "Barad, Misra and Din",
+    "role_title": "IT Intern",
+    "match_score": 0.8704,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1274",
+    "internship_id": "520",
+    "student_name": "Hemani Bhakta",
+    "company_name": "Gara PLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.8694,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1122",
+    "internship_id": "541",
+    "student_name": "Yuvraj Gill",
+    "company_name": "Barad, Misra and Din",
+    "role_title": "IT Intern",
+    "match_score": 0.8688,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1656",
+    "internship_id": "513",
+    "student_name": "Jack Thaker",
+    "company_name": "Cherian, Talwar and Taneja",
+    "role_title": "Marketing Intern",
+    "match_score": 0.8682,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1540",
+    "internship_id": "543",
+    "student_name": "Girish Radhakrishnan",
+    "company_name": "Jayaraman, Dhingra and Sule",
+    "role_title": "IT Intern",
+    "match_score": 0.8667333333333334,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1197",
+    "internship_id": "556",
+    "student_name": "Gautam Karpe",
+    "company_name": "Dewan LLC",
+    "role_title": "IT Intern",
+    "match_score": 0.8662,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1643",
+    "internship_id": "513",
+    "student_name": "Darsh Som",
+    "company_name": "Cherian, Talwar and Taneja",
+    "role_title": "Marketing Intern",
+    "match_score": 0.8655999999999999,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1475",
+    "internship_id": "548",
+    "student_name": "Radha Bala",
+    "company_name": "Sarraf, Pal and Chana",
+    "role_title": "Finance Intern",
+    "match_score": 0.8655999999999999,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1173",
+    "internship_id": "542",
+    "student_name": "Sudiksha More",
+    "company_name": "Dayal, Walia and Parekh",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.8655999999999999,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1308",
+    "internship_id": "511",
+    "student_name": "Azad Patla",
+    "company_name": "Yohannan, Sheth and Ravi",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.8652,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1014",
+    "internship_id": "514",
+    "student_name": "Keya Sule",
+    "company_name": "Bhandari LLC",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.8652,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1419",
+    "internship_id": "597",
+    "student_name": "Balveer Bhardwaj",
+    "company_name": "Chawla, Kapur and Bansal",
+    "role_title": "Finance Intern",
+    "match_score": 0.8634,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1263",
+    "internship_id": "597",
+    "student_name": "Ekbal Chakraborty",
+    "company_name": "Chawla, Kapur and Bansal",
+    "role_title": "Finance Intern",
+    "match_score": 0.8626,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1577",
+    "internship_id": "542",
+    "student_name": "Darpan Bahri",
+    "company_name": "Dayal, Walia and Parekh",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.8613999999999999,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1004",
+    "internship_id": "505",
+    "student_name": "Zashil Mane",
+    "company_name": "Gala, Chandra and Sule",
+    "role_title": "Marketing Intern",
+    "match_score": 0.8583999999999999,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1580",
+    "internship_id": "548",
+    "student_name": "Sai Korpal",
+    "company_name": "Sarraf, Pal and Chana",
+    "role_title": "Finance Intern",
+    "match_score": 0.8582,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1111",
+    "internship_id": "514",
+    "student_name": "Simon Korpal",
+    "company_name": "Bhandari LLC",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.857,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1706",
+    "internship_id": "549",
+    "student_name": "William Mann",
+    "company_name": "Krishnamurthy-D\u2019Alia",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.8568,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1680",
+    "internship_id": "531",
+    "student_name": "Shravya Chauhan",
+    "company_name": "Misra Group",
+    "role_title": "IT Intern",
+    "match_score": 0.8566666666666667,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1721",
+    "internship_id": "556",
+    "student_name": "Zilmil Rajagopalan",
+    "company_name": "Dewan LLC",
+    "role_title": "IT Intern",
+    "match_score": 0.8566,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1328",
+    "internship_id": "505",
+    "student_name": "Abeer Savant",
+    "company_name": "Gala, Chandra and Sule",
+    "role_title": "Marketing Intern",
+    "match_score": 0.8562,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1356",
+    "internship_id": "522",
+    "student_name": "Darika Ahuja",
+    "company_name": "Sankar-Mishra",
+    "role_title": "Finance Intern",
+    "match_score": 0.855,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1330",
+    "internship_id": "542",
+    "student_name": "Manan Warrior",
+    "company_name": "Dayal, Walia and Parekh",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.855,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1831",
+    "internship_id": "597",
+    "student_name": "Anay Borde",
+    "company_name": "Chawla, Kapur and Bansal",
+    "role_title": "Finance Intern",
+    "match_score": 0.8518,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1200",
+    "internship_id": "556",
+    "student_name": "Yochana Rau",
+    "company_name": "Dewan LLC",
+    "role_title": "IT Intern",
+    "match_score": 0.8506,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1009",
+    "internship_id": "515",
+    "student_name": "Abhimanyu Lal",
+    "company_name": "Dugar PLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.8502666666666667,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1069",
+    "internship_id": "550",
+    "student_name": "Aarini Ben",
+    "company_name": "Acharya-Grewal",
+    "role_title": "Marketing Intern",
+    "match_score": 0.8494666666666668,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1627",
+    "internship_id": "545",
+    "student_name": "Agastya Walia",
+    "company_name": "Natarajan PLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.8466666666666668,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1671",
+    "internship_id": "531",
+    "student_name": "Ekta Toor",
+    "company_name": "Misra Group",
+    "role_title": "IT Intern",
+    "match_score": 0.8464666666666667,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1699",
+    "internship_id": "516",
+    "student_name": "Kamya Sengupta",
+    "company_name": "Mander PLC",
+    "role_title": "Finance Intern",
+    "match_score": 0.8463999999999999,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1920",
+    "internship_id": "573",
+    "student_name": "Aahana Jain",
+    "company_name": "Hans, Jani and Bassi",
+    "role_title": "Finance Intern",
+    "match_score": 0.846,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1504",
+    "internship_id": "508",
+    "student_name": "Zashil Lalla",
+    "company_name": "Parsa and Sons",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.8452000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1482",
+    "internship_id": "542",
+    "student_name": "Watika Vig",
+    "company_name": "Dayal, Walia and Parekh",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.8415999999999999,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1826",
+    "internship_id": "597",
+    "student_name": "Frado Kurian",
+    "company_name": "Chawla, Kapur and Bansal",
+    "role_title": "Finance Intern",
+    "match_score": 0.8396,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1597",
+    "internship_id": "548",
+    "student_name": "Krish Raghavan",
+    "company_name": "Sarraf, Pal and Chana",
+    "role_title": "Finance Intern",
+    "match_score": 0.8382,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1943",
+    "internship_id": "575",
+    "student_name": "Jagrati Maharaj",
+    "company_name": "Arora-Guha",
+    "role_title": "IT Intern",
+    "match_score": 0.8373142857142857,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1219",
+    "internship_id": "568",
+    "student_name": "Ronith Nagarajan",
+    "company_name": "Oommen, Deep and Gade",
+    "role_title": "Finance Intern",
+    "match_score": 0.8372666666666667,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1410",
+    "internship_id": "575",
+    "student_name": "Anamika Deshmukh",
+    "company_name": "Arora-Guha",
+    "role_title": "IT Intern",
+    "match_score": 0.8369142857142857,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1784",
+    "internship_id": "537",
+    "student_name": "Suhani Deo",
+    "company_name": "Gola, Deshpande and Saha",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.8366666666666668,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1377",
+    "internship_id": "525",
+    "student_name": "Jackson Dugal",
+    "company_name": "Gola Inc",
+    "role_title": "IT Intern",
+    "match_score": 0.8362666666666667,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1322",
+    "internship_id": "537",
+    "student_name": "Ranveer Sundaram",
+    "company_name": "Gola, Deshpande and Saha",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.8340666666666667,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1909",
+    "internship_id": "525",
+    "student_name": "Xalak Bhakta",
+    "company_name": "Gola Inc",
+    "role_title": "IT Intern",
+    "match_score": 0.8334666666666668,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1711",
+    "internship_id": "523",
+    "student_name": "Kabir Singh",
+    "company_name": "Varughese-Bedi",
+    "role_title": "IT Intern",
+    "match_score": 0.8332666666666667,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1233",
+    "internship_id": "537",
+    "student_name": "Agastya Reddy",
+    "company_name": "Gola, Deshpande and Saha",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.8324666666666667,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1148",
+    "internship_id": "516",
+    "student_name": "Anika Halder",
+    "company_name": "Mander PLC",
+    "role_title": "Finance Intern",
+    "match_score": 0.832,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1207",
+    "internship_id": "568",
+    "student_name": "Isaiah Palla",
+    "company_name": "Oommen, Deep and Gade",
+    "role_title": "Finance Intern",
+    "match_score": 0.8318666666666668,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1786",
+    "internship_id": "508",
+    "student_name": "Dalaja Sankaran",
+    "company_name": "Parsa and Sons",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.8303999999999999,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1572",
+    "internship_id": "519",
+    "student_name": "Ekaja Sunder",
+    "company_name": "Mistry-Sama",
+    "role_title": "IT Intern",
+    "match_score": 0.8296,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1809",
+    "internship_id": "533",
+    "student_name": "Rajata Savant",
+    "company_name": "Tank-Narayanan",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.8292666666666668,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1939",
+    "internship_id": "509",
+    "student_name": "Ranbir Lall",
+    "company_name": "Badami-Rao",
+    "role_title": "Finance Intern",
+    "match_score": 0.8254666666666668,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1659",
+    "internship_id": "580",
+    "student_name": "Darpan Sama",
+    "company_name": "Dey Ltd",
+    "role_title": "IT Intern",
+    "match_score": 0.8222,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1105",
+    "internship_id": "575",
+    "student_name": "Onveer Krish",
+    "company_name": "Arora-Guha",
+    "role_title": "IT Intern",
+    "match_score": 0.8217142857142857,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1606",
+    "internship_id": "523",
+    "student_name": "Vihaan Choudhury",
+    "company_name": "Varughese-Bedi",
+    "role_title": "IT Intern",
+    "match_score": 0.8216666666666668,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1119",
+    "internship_id": "534",
+    "student_name": "Reva Mane",
+    "company_name": "Yogi, Lanka and Brar",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.8210666666666667,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1749",
+    "internship_id": "533",
+    "student_name": "Charles Patla",
+    "company_name": "Tank-Narayanan",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.8190666666666667,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1372",
+    "internship_id": "547",
+    "student_name": "Aayush Verma",
+    "company_name": "Butala Ltd",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.8186666666666668,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1484",
+    "internship_id": "505",
+    "student_name": "Akshay Palla",
+    "company_name": "Gala, Chandra and Sule",
+    "role_title": "Marketing Intern",
+    "match_score": 0.8174,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1563",
+    "internship_id": "505",
+    "student_name": "Yachana Chad",
+    "company_name": "Gala, Chandra and Sule",
+    "role_title": "Marketing Intern",
+    "match_score": 0.8164,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1157",
+    "internship_id": "533",
+    "student_name": "Nachiket Shenoy",
+    "company_name": "Tank-Narayanan",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.8162666666666667,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1401",
+    "internship_id": "531",
+    "student_name": "Avni Sha",
+    "company_name": "Misra Group",
+    "role_title": "IT Intern",
+    "match_score": 0.8160666666666667,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1321",
+    "internship_id": "555",
+    "student_name": "Balvan Bhalla",
+    "company_name": "Char, Korpal and Sethi",
+    "role_title": "Finance Intern",
+    "match_score": 0.8154666666666668,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1053",
+    "internship_id": "515",
+    "student_name": "Charan Sahni",
+    "company_name": "Dugar PLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.8144666666666668,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1081",
+    "internship_id": "503",
+    "student_name": "Keya Mane",
+    "company_name": "Nadkarni and Sons",
+    "role_title": "Marketing Intern",
+    "match_score": 0.8140666666666667,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1759",
+    "internship_id": "508",
+    "student_name": "Jai Deep",
+    "company_name": "Parsa and Sons",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.8134,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1529",
+    "internship_id": "517",
+    "student_name": "Onkar Mahajan",
+    "company_name": "Gandhi, Lad and Mistry",
+    "role_title": "IT Intern",
+    "match_score": 0.8120666666666667,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1476",
+    "internship_id": "581",
+    "student_name": "Frado Khurana",
+    "company_name": "Naidu-Yadav",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.8118000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1903",
+    "internship_id": "505",
+    "student_name": "Yutika Nadkarni",
+    "company_name": "Gala, Chandra and Sule",
+    "role_title": "Marketing Intern",
+    "match_score": 0.8108,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1869",
+    "internship_id": "515",
+    "student_name": "Deepa Ratti",
+    "company_name": "Dugar PLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.8066666666666668,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1084",
+    "internship_id": "545",
+    "student_name": "Anika Baria",
+    "company_name": "Natarajan PLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.8046666666666668,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1365",
+    "internship_id": "500",
+    "student_name": "Falguni Ram",
+    "company_name": "Ahuja-Kapur",
+    "role_title": "Finance Intern",
+    "match_score": 0.8042666666666667,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1224",
+    "internship_id": "519",
+    "student_name": "Ridhi Rai",
+    "company_name": "Mistry-Sama",
+    "role_title": "IT Intern",
+    "match_score": 0.804,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1060",
+    "internship_id": "505",
+    "student_name": "Lajita Biswas",
+    "company_name": "Gala, Chandra and Sule",
+    "role_title": "Marketing Intern",
+    "match_score": 0.8038000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1254",
+    "internship_id": "500",
+    "student_name": "Anvi Iyengar",
+    "company_name": "Ahuja-Kapur",
+    "role_title": "Finance Intern",
+    "match_score": 0.8022666666666668,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1298",
+    "internship_id": "550",
+    "student_name": "Chaman Tak",
+    "company_name": "Acharya-Grewal",
+    "role_title": "Marketing Intern",
+    "match_score": 0.8020666666666667,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1737",
+    "internship_id": "550",
+    "student_name": "Aarna Joshi",
+    "company_name": "Acharya-Grewal",
+    "role_title": "Marketing Intern",
+    "match_score": 0.7990666666666668,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1630",
+    "internship_id": "543",
+    "student_name": "Quincy Gour",
+    "company_name": "Jayaraman, Dhingra and Sule",
+    "role_title": "IT Intern",
+    "match_score": 0.7984666666666668,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1222",
+    "internship_id": "516",
+    "student_name": "Vanya Shukla",
+    "company_name": "Mander PLC",
+    "role_title": "Finance Intern",
+    "match_score": 0.7952000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1019",
+    "internship_id": "580",
+    "student_name": "Upma Dave",
+    "company_name": "Dey Ltd",
+    "role_title": "IT Intern",
+    "match_score": 0.7950000000000002,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1232",
+    "internship_id": "561",
+    "student_name": "Anita Chaudhary",
+    "company_name": "Kalita, Merchant and Gade",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.7948000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1191",
+    "internship_id": "506",
+    "student_name": "Ekantika Sengupta",
+    "company_name": "Gokhale, Kunda and Ganesan",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.7948000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1480",
+    "internship_id": "576",
+    "student_name": "Nidhi Nori",
+    "company_name": "Shere-Sidhu",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.7946000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1257",
+    "internship_id": "573",
+    "student_name": "Anmol Venkataraman",
+    "company_name": "Hans, Jani and Bassi",
+    "role_title": "Finance Intern",
+    "match_score": 0.7944000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1609",
+    "internship_id": "520",
+    "student_name": "Ria Zachariah",
+    "company_name": "Gara PLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.7938000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1154",
+    "internship_id": "563",
+    "student_name": "Hemang Bhardwaj",
+    "company_name": "Naidu LLC",
+    "role_title": "Finance Intern",
+    "match_score": 0.7938000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1503",
+    "internship_id": "557",
+    "student_name": "Kalpit Kadakia",
+    "company_name": "Gupta, Rau and Bali",
+    "role_title": "Finance Intern",
+    "match_score": 0.7936000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1378",
+    "internship_id": "503",
+    "student_name": "George Rana",
+    "company_name": "Nadkarni and Sons",
+    "role_title": "Marketing Intern",
+    "match_score": 0.7934000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1355",
+    "internship_id": "503",
+    "student_name": "Krisha Korpal",
+    "company_name": "Nadkarni and Sons",
+    "role_title": "Marketing Intern",
+    "match_score": 0.7934000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1684",
+    "internship_id": "562",
+    "student_name": "Eshana Andra",
+    "company_name": "Bera, Chaudhary and Pillai",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.7932000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1449",
+    "internship_id": "550",
+    "student_name": "Wriddhish Kar",
+    "company_name": "Acharya-Grewal",
+    "role_title": "Marketing Intern",
+    "match_score": 0.7932000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1859",
+    "internship_id": "522",
+    "student_name": "Raghav Bandi",
+    "company_name": "Sankar-Mishra",
+    "role_title": "Finance Intern",
+    "match_score": 0.7930000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1022",
+    "internship_id": "503",
+    "student_name": "Ekavir Jhaveri",
+    "company_name": "Nadkarni and Sons",
+    "role_title": "Marketing Intern",
+    "match_score": 0.7930000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1445",
+    "internship_id": "562",
+    "student_name": "Nitara Chopra",
+    "company_name": "Bera, Chaudhary and Pillai",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.7924000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1198",
+    "internship_id": "520",
+    "student_name": "Lakshmi Tank",
+    "company_name": "Gara PLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.7922,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1586",
+    "internship_id": "503",
+    "student_name": "Dev Mall",
+    "company_name": "Nadkarni and Sons",
+    "role_title": "Marketing Intern",
+    "match_score": 0.792,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1788",
+    "internship_id": "562",
+    "student_name": "Aishani Seth",
+    "company_name": "Bera, Chaudhary and Pillai",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.7916000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1164",
+    "internship_id": "556",
+    "student_name": "Tarak Anand",
+    "company_name": "Dewan LLC",
+    "role_title": "IT Intern",
+    "match_score": 0.7916000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1090",
+    "internship_id": "537",
+    "student_name": "Bhavani Butala",
+    "company_name": "Gola, Deshpande and Saha",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.7912000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1804",
+    "internship_id": "575",
+    "student_name": "Vanya Lad",
+    "company_name": "Arora-Guha",
+    "role_title": "IT Intern",
+    "match_score": 0.7908000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1598",
+    "internship_id": "556",
+    "student_name": "Varsha Dutt",
+    "company_name": "Dewan LLC",
+    "role_title": "IT Intern",
+    "match_score": 0.7906,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1969",
+    "internship_id": "561",
+    "student_name": "Aashi Misra",
+    "company_name": "Kalita, Merchant and Gade",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.7904000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1977",
+    "internship_id": "522",
+    "student_name": "Krish Rama",
+    "company_name": "Sankar-Mishra",
+    "role_title": "Finance Intern",
+    "match_score": 0.7902000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1940",
+    "internship_id": "506",
+    "student_name": "Chasmum Khosla",
+    "company_name": "Gokhale, Kunda and Ganesan",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.7898000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1161",
+    "internship_id": "506",
+    "student_name": "Pratyush Mishra",
+    "company_name": "Gokhale, Kunda and Ganesan",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.7894000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1896",
+    "internship_id": "537",
+    "student_name": "Alka Grover",
+    "company_name": "Gola, Deshpande and Saha",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.7884000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1895",
+    "internship_id": "516",
+    "student_name": "Girik Basak",
+    "company_name": "Mander PLC",
+    "role_title": "Finance Intern",
+    "match_score": 0.7884000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1420",
+    "internship_id": "562",
+    "student_name": "Jonathan Kapoor",
+    "company_name": "Bera, Chaudhary and Pillai",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.7884000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1291",
+    "internship_id": "531",
+    "student_name": "Mahika Majumdar",
+    "company_name": "Misra Group",
+    "role_title": "IT Intern",
+    "match_score": 0.7876000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1651",
+    "internship_id": "522",
+    "student_name": "Gaurika Doctor",
+    "company_name": "Sankar-Mishra",
+    "role_title": "Finance Intern",
+    "match_score": 0.7874000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1270",
+    "internship_id": "520",
+    "student_name": "Ansh Hayer",
+    "company_name": "Gara PLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.7872,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1163",
+    "internship_id": "573",
+    "student_name": "Ansh Chandra",
+    "company_name": "Hans, Jani and Bassi",
+    "role_title": "Finance Intern",
+    "match_score": 0.7864000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1016",
+    "internship_id": "534",
+    "student_name": "Vihaan Khosla",
+    "company_name": "Yogi, Lanka and Brar",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.7856000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1835",
+    "internship_id": "520",
+    "student_name": "Harsh Bava",
+    "company_name": "Gara PLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.784,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1545",
+    "internship_id": "506",
+    "student_name": "Eiravati Suri",
+    "company_name": "Gokhale, Kunda and Ganesan",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.7838,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1160",
+    "internship_id": "533",
+    "student_name": "Yash Sampath",
+    "company_name": "Tank-Narayanan",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.7836000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1864",
+    "internship_id": "502",
+    "student_name": "Pranit Puri",
+    "company_name": "Palla, Dhingra and Sankar",
+    "role_title": "IT Intern",
+    "match_score": 0.7832000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1352",
+    "internship_id": "546",
+    "student_name": "Tanmayi Hora",
+    "company_name": "Krishnan Group",
+    "role_title": "IT Intern",
+    "match_score": 0.7824000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1047",
+    "internship_id": "506",
+    "student_name": "Vasatika Chokshi",
+    "company_name": "Gokhale, Kunda and Ganesan",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.7818,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1370",
+    "internship_id": "506",
+    "student_name": "Faraj Sarma",
+    "company_name": "Gokhale, Kunda and Ganesan",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.7806000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1747",
+    "internship_id": "506",
+    "student_name": "Christopher Suri",
+    "company_name": "Gokhale, Kunda and Ganesan",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.7794000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1614",
+    "internship_id": "543",
+    "student_name": "Oviya Goda",
+    "company_name": "Jayaraman, Dhingra and Sule",
+    "role_title": "IT Intern",
+    "match_score": 0.7794000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1596",
+    "internship_id": "534",
+    "student_name": "Madhav Dugar",
+    "company_name": "Yogi, Lanka and Brar",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.7788,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1922",
+    "internship_id": "573",
+    "student_name": "Chaitanya Goyal",
+    "company_name": "Hans, Jani and Bassi",
+    "role_title": "Finance Intern",
+    "match_score": 0.7786000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1511",
+    "internship_id": "546",
+    "student_name": "Edhitha Hari",
+    "company_name": "Krishnan Group",
+    "role_title": "IT Intern",
+    "match_score": 0.7780000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1761",
+    "internship_id": "531",
+    "student_name": "Mitesh Saran",
+    "company_name": "Misra Group",
+    "role_title": "IT Intern",
+    "match_score": 0.7778,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1512",
+    "internship_id": "573",
+    "student_name": "Aradhana Chanda",
+    "company_name": "Hans, Jani and Bassi",
+    "role_title": "Finance Intern",
+    "match_score": 0.7766000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1653",
+    "internship_id": "557",
+    "student_name": "Ojas Patil",
+    "company_name": "Gupta, Rau and Bali",
+    "role_title": "Finance Intern",
+    "match_score": 0.7746000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1439",
+    "internship_id": "502",
+    "student_name": "Dominic Jaggi",
+    "company_name": "Palla, Dhingra and Sankar",
+    "role_title": "IT Intern",
+    "match_score": 0.7730000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1415",
+    "internship_id": "545",
+    "student_name": "Mohammed Sharaf",
+    "company_name": "Natarajan PLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.7728000000000002,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1442",
+    "internship_id": "557",
+    "student_name": "Madhavi Iyer",
+    "company_name": "Gupta, Rau and Bali",
+    "role_title": "Finance Intern",
+    "match_score": 0.7716000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1170",
+    "internship_id": "500",
+    "student_name": "Anya Jaggi",
+    "company_name": "Ahuja-Kapur",
+    "role_title": "Finance Intern",
+    "match_score": 0.7710000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1682",
+    "internship_id": "522",
+    "student_name": "Jack Guha",
+    "company_name": "Sankar-Mishra",
+    "role_title": "Finance Intern",
+    "match_score": 0.7708,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1286",
+    "internship_id": "522",
+    "student_name": "Vedant Chauhan",
+    "company_name": "Sankar-Mishra",
+    "role_title": "Finance Intern",
+    "match_score": 0.7708,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1426",
+    "internship_id": "522",
+    "student_name": "Abdul Yadav",
+    "company_name": "Sankar-Mishra",
+    "role_title": "Finance Intern",
+    "match_score": 0.7694000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1281",
+    "internship_id": "537",
+    "student_name": "Ekaja Bhagat",
+    "company_name": "Gola, Deshpande and Saha",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.7694000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1034",
+    "internship_id": "543",
+    "student_name": "Ekapad Bawa",
+    "company_name": "Jayaraman, Dhingra and Sule",
+    "role_title": "IT Intern",
+    "match_score": 0.7692000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1374",
+    "internship_id": "500",
+    "student_name": "Bhavya Bhardwaj",
+    "company_name": "Ahuja-Kapur",
+    "role_title": "Finance Intern",
+    "match_score": 0.7690000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1544",
+    "internship_id": "533",
+    "student_name": "Eta Reddy",
+    "company_name": "Tank-Narayanan",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.7686000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1551",
+    "internship_id": "510",
+    "student_name": "Shravya Bala",
+    "company_name": "Baria-Sastry",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.7684000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1528",
+    "internship_id": "546",
+    "student_name": "Kritika Banerjee",
+    "company_name": "Krishnan Group",
+    "role_title": "IT Intern",
+    "match_score": 0.7684000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1366",
+    "internship_id": "510",
+    "student_name": "Kala Acharya",
+    "company_name": "Baria-Sastry",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.7682000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1966",
+    "internship_id": "536",
+    "student_name": "Oviya Magar",
+    "company_name": "Dar-Brar",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.7678000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1223",
+    "internship_id": "557",
+    "student_name": "Inaya Bhatia",
+    "company_name": "Gupta, Rau and Bali",
+    "role_title": "Finance Intern",
+    "match_score": 0.7672000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1088",
+    "internship_id": "531",
+    "student_name": "Aradhana Khosla",
+    "company_name": "Misra Group",
+    "role_title": "IT Intern",
+    "match_score": 0.7668000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1467",
+    "internship_id": "501",
+    "student_name": "Jagrati Iyer",
+    "company_name": "Chandra Inc",
+    "role_title": "Finance Intern",
+    "match_score": 0.7662000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1635",
+    "internship_id": "557",
+    "student_name": "Ranbir Agrawal",
+    "company_name": "Gupta, Rau and Bali",
+    "role_title": "Finance Intern",
+    "match_score": 0.7650000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1005",
+    "internship_id": "557",
+    "student_name": "Advaith Kapoor",
+    "company_name": "Gupta, Rau and Bali",
+    "role_title": "Finance Intern",
+    "match_score": 0.7646000000000002,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1186",
+    "internship_id": "531",
+    "student_name": "Fiyaz Padmanabhan",
+    "company_name": "Misra Group",
+    "role_title": "IT Intern",
+    "match_score": 0.7628000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1744",
+    "internship_id": "545",
+    "student_name": "Mugdha Dua",
+    "company_name": "Natarajan PLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.7626000000000002,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1767",
+    "internship_id": "518",
+    "student_name": "Osha Patla",
+    "company_name": "Karan-Dayal",
+    "role_title": "IT Intern",
+    "match_score": 0.7625714285714286,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1327",
+    "internship_id": "510",
+    "student_name": "Wriddhish Narang",
+    "company_name": "Baria-Sastry",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.7614000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1683",
+    "internship_id": "501",
+    "student_name": "Manbir Gour",
+    "company_name": "Chandra Inc",
+    "role_title": "Finance Intern",
+    "match_score": 0.7594000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1501",
+    "internship_id": "510",
+    "student_name": "Oliver Chawla",
+    "company_name": "Baria-Sastry",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.7594000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1394",
+    "internship_id": "510",
+    "student_name": "Yoshita Kadakia",
+    "company_name": "Baria-Sastry",
+    "role_title": "Manufacturing Intern",
+    "match_score": 0.7592000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1192",
+    "internship_id": "501",
+    "student_name": "Ekalinga Iyengar",
+    "company_name": "Chandra Inc",
+    "role_title": "Finance Intern",
+    "match_score": 0.7578,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1030",
+    "internship_id": "557",
+    "student_name": "Ridhi Sharaf",
+    "company_name": "Gupta, Rau and Bali",
+    "role_title": "Finance Intern",
+    "match_score": 0.7578,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1620",
+    "internship_id": "519",
+    "student_name": "Rachit Divan",
+    "company_name": "Mistry-Sama",
+    "role_title": "IT Intern",
+    "match_score": 0.7550000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1243",
+    "internship_id": "520",
+    "student_name": "Anay Banik",
+    "company_name": "Gara PLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.7550000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1155",
+    "internship_id": "502",
+    "student_name": "Ishaan Biswas",
+    "company_name": "Palla, Dhingra and Sankar",
+    "role_title": "IT Intern",
+    "match_score": 0.7538000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1698",
+    "internship_id": "545",
+    "student_name": "Michael Sama",
+    "company_name": "Natarajan PLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.7526000000000002,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1488",
+    "internship_id": "502",
+    "student_name": "Pavani Ganesh",
+    "company_name": "Palla, Dhingra and Sankar",
+    "role_title": "IT Intern",
+    "match_score": 0.7518000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1324",
+    "internship_id": "545",
+    "student_name": "Udarsh Mahajan",
+    "company_name": "Natarajan PLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.7518000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1688",
+    "internship_id": "546",
+    "student_name": "Rachita Ghose",
+    "company_name": "Krishnan Group",
+    "role_title": "IT Intern",
+    "match_score": 0.7488000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1584",
+    "internship_id": "501",
+    "student_name": "Sathvik Vyas",
+    "company_name": "Chandra Inc",
+    "role_title": "Finance Intern",
+    "match_score": 0.7486000000000002,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1641",
+    "internship_id": "500",
+    "student_name": "Rayaan Pandit",
+    "company_name": "Ahuja-Kapur",
+    "role_title": "Finance Intern",
+    "match_score": 0.7484000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1326",
+    "internship_id": "517",
+    "student_name": "Faris Zachariah",
+    "company_name": "Gandhi, Lad and Mistry",
+    "role_title": "IT Intern",
+    "match_score": 0.7482000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1334",
+    "internship_id": "515",
+    "student_name": "Hemal Sankaran",
+    "company_name": "Dugar PLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.7460000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1989",
+    "internship_id": "500",
+    "student_name": "Saksham Dixit",
+    "company_name": "Ahuja-Kapur",
+    "role_title": "Finance Intern",
+    "match_score": 0.7458000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1793",
+    "internship_id": "557",
+    "student_name": "Avi Patla",
+    "company_name": "Gupta, Rau and Bali",
+    "role_title": "Finance Intern",
+    "match_score": 0.7448000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1383",
+    "internship_id": "500",
+    "student_name": "Tanmayi Sarin",
+    "company_name": "Ahuja-Kapur",
+    "role_title": "Finance Intern",
+    "match_score": 0.7434000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1494",
+    "internship_id": "500",
+    "student_name": "Veda Dhingra",
+    "company_name": "Ahuja-Kapur",
+    "role_title": "Finance Intern",
+    "match_score": 0.7426000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1734",
+    "internship_id": "519",
+    "student_name": "Umang Kumar",
+    "company_name": "Mistry-Sama",
+    "role_title": "IT Intern",
+    "match_score": 0.7426,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1752",
+    "internship_id": "543",
+    "student_name": "Shaurya Kala",
+    "company_name": "Jayaraman, Dhingra and Sule",
+    "role_title": "IT Intern",
+    "match_score": 0.7422000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1633",
+    "internship_id": "500",
+    "student_name": "Ekbal Dani",
+    "company_name": "Ahuja-Kapur",
+    "role_title": "Finance Intern",
+    "match_score": 0.7422000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1647",
+    "internship_id": "519",
+    "student_name": "Anirudh Thaker",
+    "company_name": "Mistry-Sama",
+    "role_title": "IT Intern",
+    "match_score": 0.7410000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1547",
+    "internship_id": "546",
+    "student_name": "Anvi Pandya",
+    "company_name": "Krishnan Group",
+    "role_title": "IT Intern",
+    "match_score": 0.7410000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1808",
+    "internship_id": "515",
+    "student_name": "Vedika Sinha",
+    "company_name": "Dugar PLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.7404000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1790",
+    "internship_id": "501",
+    "student_name": "Anvi Krishna",
+    "company_name": "Chandra Inc",
+    "role_title": "Finance Intern",
+    "match_score": 0.7400000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1571",
+    "internship_id": "515",
+    "student_name": "Anvi Chadha",
+    "company_name": "Dugar PLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.7394000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1010",
+    "internship_id": "543",
+    "student_name": "Kashvi Goda",
+    "company_name": "Jayaraman, Dhingra and Sule",
+    "role_title": "IT Intern",
+    "match_score": 0.7380000000000001,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1527",
+    "internship_id": "546",
+    "student_name": "Ganga Dani",
+    "company_name": "Krishnan Group",
+    "role_title": "IT Intern",
+    "match_score": 0.7372000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1819",
+    "internship_id": "519",
+    "student_name": "Anay Rajagopal",
+    "company_name": "Mistry-Sama",
+    "role_title": "IT Intern",
+    "match_score": 0.7358000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1980",
+    "internship_id": "519",
+    "student_name": "Faraj Bora",
+    "company_name": "Mistry-Sama",
+    "role_title": "IT Intern",
+    "match_score": 0.7354,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1832",
+    "internship_id": "519",
+    "student_name": "Nihal Khatri",
+    "company_name": "Mistry-Sama",
+    "role_title": "IT Intern",
+    "match_score": 0.7348000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1188",
+    "internship_id": "511",
+    "student_name": "Samarth Sengupta",
+    "company_name": "Yohannan, Sheth and Ravi",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.734,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1853",
+    "internship_id": "518",
+    "student_name": "Kashish Dua",
+    "company_name": "Karan-Dayal",
+    "role_title": "IT Intern",
+    "match_score": 0.7320000000000001,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1558",
+    "internship_id": "525",
+    "student_name": "Samarth Agarwal",
+    "company_name": "Gola Inc",
+    "role_title": "IT Intern",
+    "match_score": 0.7304,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1212",
+    "internship_id": "519",
+    "student_name": "Ekansh Randhawa",
+    "company_name": "Mistry-Sama",
+    "role_title": "IT Intern",
+    "match_score": 0.7248000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1292",
+    "internship_id": "511",
+    "student_name": "Bakhshi Shenoy",
+    "company_name": "Yohannan, Sheth and Ravi",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.7038000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1176",
+    "internship_id": "525",
+    "student_name": "Sathvik Yadav",
+    "company_name": "Gola Inc",
+    "role_title": "IT Intern",
+    "match_score": 0.6999333333333334,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1708",
+    "internship_id": "525",
+    "student_name": "Idika Rajan",
+    "company_name": "Gola Inc",
+    "role_title": "IT Intern",
+    "match_score": 0.6929333333333334,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1403",
+    "internship_id": "517",
+    "student_name": "Harinakshi Patil",
+    "company_name": "Gandhi, Lad and Mistry",
+    "role_title": "IT Intern",
+    "match_score": 0.6813333333333335,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1585",
+    "internship_id": "525",
+    "student_name": "Urvi Chand",
+    "company_name": "Gola Inc",
+    "role_title": "IT Intern",
+    "match_score": 0.6775333333333334,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1226",
+    "internship_id": "525",
+    "student_name": "Januja Mane",
+    "company_name": "Gola Inc",
+    "role_title": "IT Intern",
+    "match_score": 0.6649333333333335,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1748",
+    "internship_id": "515",
+    "student_name": "Janya Seshadri",
+    "company_name": "Dugar PLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.6314666666666667,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1710",
+    "internship_id": "515",
+    "student_name": "Benjamin Nagy",
+    "company_name": "Dugar PLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.6242666666666667,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1757",
+    "internship_id": "515",
+    "student_name": "Wishi Dutt",
+    "company_name": "Dugar PLC",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.6024666666666667,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1654",
+    "internship_id": "511",
+    "student_name": "Isha Padmanabhan",
+    "company_name": "Yohannan, Sheth and Ravi",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.5956,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1477",
+    "internship_id": "511",
+    "student_name": "Jagrati Lanka",
+    "company_name": "Yohannan, Sheth and Ravi",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.5956,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1934",
+    "internship_id": "511",
+    "student_name": "Gautami Mistry",
+    "company_name": "Yohannan, Sheth and Ravi",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.595,
+    "social_category": "SC",
+    "allocated": true
+  },
+  {
+    "student_id": "1791",
+    "internship_id": "511",
+    "student_name": "William Gera",
+    "company_name": "Yohannan, Sheth and Ravi",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.5944,
+    "social_category": "OBC",
+    "allocated": true
+  },
+  {
+    "student_id": "1361",
+    "internship_id": "511",
+    "student_name": "Qarin Wagle",
+    "company_name": "Yohannan, Sheth and Ravi",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.5930000000000001,
+    "social_category": "ST",
+    "allocated": true
+  },
+  {
+    "student_id": "1639",
+    "internship_id": "511",
+    "student_name": "Atharv Sem",
+    "company_name": "Yohannan, Sheth and Ravi",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.5916,
+    "social_category": "GEN",
+    "allocated": true
+  },
+  {
+    "student_id": "1063",
+    "internship_id": "511",
+    "student_name": "Bhavika Baral",
+    "company_name": "Yohannan, Sheth and Ravi",
+    "role_title": "Healthcare Intern",
+    "match_score": 0.5900000000000001,
+    "social_category": "GEN",
+    "allocated": true
+  }
+]
