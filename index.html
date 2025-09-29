@@ -27,7 +27,7 @@
             background: rgba(255,255,255,0.95);
             backdrop-filter: blur(10px);
             color: #333; 
-            padding: 40px; 
+            padding: 25px; 
             border-radius: 20px; 
             margin-bottom: 30px; 
             text-align: center;
@@ -36,22 +36,24 @@
         }
         
         .header h1 { 
-            font-size: 4.5em; 
-            margin-bottom: 15px;
-            background: linear-gradient(45deg, #667eea, #764ba2, #f093fb, #4facfe, #667eea);
-            background-size: 300% 300%;
+            font-size: 3.5em; 
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #00f5ff, #ff6ec7);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
             position: relative;
             cursor: pointer;
             transition: all 0.3s ease;
-            animation: gradientShift 3s ease-in-out infinite;
+            padding: 15px 40px;
+            border-radius: 20px;
+            box-shadow: 0 0 25px rgba(0,245,255,0.2);
+            border: 2px solid rgba(255,255,255,0.2);
         }
         
         .header h1:hover {
-            transform: scale(1.05);
-            filter: drop-shadow(0 0 20px rgba(102, 126, 234, 0.6));
+            transform: scale(1.02);
+            filter: drop-shadow(0 0 20px rgba(0, 245, 255, 0.6));
         }
         
         .header h1::before {
