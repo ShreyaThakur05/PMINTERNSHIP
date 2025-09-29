@@ -36,17 +36,63 @@
         }
         
         .header h1 { 
-            font-size: 3em; 
-            margin-bottom: 10px;
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            font-size: 4.5em; 
+            margin-bottom: 15px;
+            background: linear-gradient(45deg, #667eea, #764ba2, #f093fb, #4facfe, #667eea);
+            background-size: 300% 300%;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
+            position: relative;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            animation: gradientShift 3s ease-in-out infinite;
+        }
+        
+        .header h1:hover {
+            transform: scale(1.05);
+            filter: drop-shadow(0 0 20px rgba(102, 126, 234, 0.6));
+        }
+        
+        .header h1::before {
+            content: '🌐';
+            position: absolute;
+            left: -60px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 0.8em;
+            animation: pulse 2s infinite;
+        }
+        
+        .header h1::after {
+            content: '🚀';
+            position: absolute;
+            right: -60px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 0.8em;
+            animation: bounce 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: translateY(-50%) scale(1); }
+            50% { transform: translateY(-50%) scale(1.1); }
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(-50%) translateX(0); }
+            50% { transform: translateY(-50%) translateX(10px); }
         }
         
         .header p { 
-            font-size: 1.2em; 
-            opacity: 0.8; 
+            font-size: 1.3em; 
+            opacity: 0.9;
+            font-weight: 500;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-top: 10px;
         }
         
         .card { 

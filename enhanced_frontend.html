@@ -27,7 +27,7 @@
             background: rgba(255,255,255,0.95);
             backdrop-filter: blur(10px);
             color: #333; 
-            padding: 40px; 
+            padding: 25px; 
             border-radius: 20px; 
             margin-bottom: 30px; 
             text-align: center;
@@ -36,17 +36,97 @@
         }
         
         .header h1 { 
-            font-size: 3em; 
+            font-size: 3.5em; 
             margin-bottom: 10px;
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            background: linear-gradient(45deg, #00f5ff, #ff6ec7);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
+            position: relative;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            padding: 15px 40px;
+            border-radius: 20px;
+            box-shadow: 0 0 25px rgba(0,245,255,0.2);
+            border: 2px solid rgba(255,255,255,0.2);
+        }
+        
+        .header h1:hover {
+            transform: scale(1.02);
+            filter: drop-shadow(0 0 20px rgba(0, 245, 255, 0.6));
+        }
+        
+        .header h1::before {
+            content: '🌐';
+            position: absolute;
+            left: -70px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 0.7em;
+            animation: spin 4s linear infinite;
+        }
+        
+        .header h1::after {
+            content: '🚀';
+            position: absolute;
+            right: -70px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 0.7em;
+            animation: rocket 2s ease-in-out infinite;
+        }
+        
+        .title-particles {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            overflow: hidden;
+        }
+        
+        .particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: linear-gradient(45deg, #00f5ff, #ff6ec7, #ffed4e);
+            border-radius: 50%;
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        @keyframes gradientShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+        
+        @keyframes spin {
+            from { transform: translateY(-50%) rotate(0deg); }
+            to { transform: translateY(-50%) rotate(360deg); }
+        }
+        
+        @keyframes rocket {
+            0%, 100% { transform: translateY(-50%) translateX(0) rotate(0deg); }
+            25% { transform: translateY(-60%) translateX(5px) rotate(10deg); }
+            75% { transform: translateY(-40%) translateX(-5px) rotate(-10deg); }
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); opacity: 0; }
+            10% { opacity: 1; }
+            90% { opacity: 1; }
+            50% { transform: translateY(-20px) rotate(180deg); }
         }
         
         .header p { 
-            font-size: 1.2em; 
-            opacity: 0.8; 
+            font-size: 1.3em; 
+            opacity: 0.9;
+            font-weight: 500;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-top: 10px;
         }
         
         .card { 
@@ -416,20 +496,22 @@
             position: fixed;
             bottom: 30px;
             right: 30px;
-            z-index: 1000;
+            z-index: 9999;
         }
         
         .chat-toggle {
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: white;
-            border: none;
-            font-size: 24px;
-            cursor: pointer;
-            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
-            transition: all 0.3s ease;
+            width: 60px !important;
+            height: 60px !important;
+            border-radius: 50% !important;
+            background: linear-gradient(135deg, #667eea, #764ba2) !important;
+            color: white !important;
+            border: none !important;
+            font-size: 24px !important;
+            cursor: pointer !important;
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4) !important;
+            transition: all 0.3s ease !important;
+            display: block !important;
+            visibility: visible !important;
         }
         
         .chat-toggle:hover {
@@ -438,17 +520,17 @@
         }
         
         .chat-window {
-            position: fixed;
-            bottom: 100px;
-            right: 30px;
-            width: 350px;
-            height: 450px;
-            background: white;
-            border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-            display: none;
-            flex-direction: column;
-            z-index: 999;
+            position: fixed !important;
+            bottom: 100px !important;
+            right: 30px !important;
+            width: 350px !important;
+            height: 450px !important;
+            background: white !important;
+            border-radius: 20px !important;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3) !important;
+            display: none !important;
+            flex-direction: column !important;
+            z-index: 9998 !important;
         }
         
         .chat-header {
@@ -505,7 +587,17 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1 style="font-size: 3.5em; font-weight: 800; letter-spacing: -2px;">InternNet</h1>
+            <div class="title-particles">
+                <div class="particle" style="left: 10%; animation-delay: 0s;"></div>
+                <div class="particle" style="left: 20%; animation-delay: 1s;"></div>
+                <div class="particle" style="left: 30%; animation-delay: 2s;"></div>
+                <div class="particle" style="left: 40%; animation-delay: 0.5s;"></div>
+                <div class="particle" style="left: 60%; animation-delay: 1.5s;"></div>
+                <div class="particle" style="left: 70%; animation-delay: 2.5s;"></div>
+                <div class="particle" style="left: 80%; animation-delay: 3s;"></div>
+                <div class="particle" style="left: 90%; animation-delay: 0.8s;"></div>
+            </div>
+            <h1 onclick="titleClick()">InternNet</h1>
             <p>Smart Matches for Future Leaders</p>
         </div>
 
@@ -628,8 +720,8 @@
     </div>
 
     <!-- Floating Chatbot -->
-    <div class="chat-float">
-        <button class="chat-toggle" onclick="toggleChat()">
+    <div class="chat-float" id="chatFloat" style="position: fixed; bottom: 30px; right: 30px; z-index: 9999;">
+        <button class="chat-toggle" id="chatToggle" onclick="toggleChat()" style="display: block !important; visibility: visible !important;">
             <i class="fas fa-robot"></i>
         </button>
         
@@ -1345,7 +1437,14 @@
 
         function toggleChat() {
             const chatWindow = document.getElementById('chatWindow');
-            chatWindow.style.display = chatWindow.style.display === 'flex' ? 'none' : 'flex';
+            if (chatWindow.style.display === 'flex') {
+                chatWindow.style.display = 'none';
+                chatWindow.style.visibility = 'hidden';
+            } else {
+                chatWindow.style.display = 'flex';
+                chatWindow.style.visibility = 'visible';
+                chatWindow.style.zIndex = '9998';
+            }
         }
         
         async function sendMessage() {
@@ -1408,6 +1507,66 @@
             sendBtn.innerHTML = '<i class="fas fa-paper-plane"></i>';
             messagesDiv.scrollTop = messagesDiv.scrollHeight;
         }
+
+        function titleClick() {
+            const title = document.querySelector('.header h1');
+            title.style.animation = 'none';
+            title.style.transform = 'scale(1.2) rotate(5deg)';
+            title.style.filter = 'drop-shadow(0 0 30px rgba(240, 147, 251, 0.8))';
+            
+            setTimeout(() => {
+                title.style.animation = 'gradientShift 3s ease-in-out infinite';
+                title.style.transform = 'scale(1)';
+                title.style.filter = 'none';
+            }, 500);
+            
+            // Create burst effect
+            for(let i = 0; i < 12; i++) {
+                const burst = document.createElement('div');
+                burst.style.cssText = `
+                    position: absolute;
+                    width: 6px;
+                    height: 6px;
+                    background: linear-gradient(45deg, #f093fb, #667eea);
+                    border-radius: 50%;
+                    pointer-events: none;
+                    left: 50%;
+                    top: 50%;
+                    animation: burstOut 0.8s ease-out forwards;
+                    transform: rotate(${i * 30}deg);
+                `;
+                title.appendChild(burst);
+                setTimeout(() => burst.remove(), 800);
+            }
+        }
+        
+        // Add burst animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes burstOut {
+                0% { transform: rotate(var(--angle, 0deg)) translateX(0) scale(1); opacity: 1; }
+                100% { transform: rotate(var(--angle, 0deg)) translateX(50px) scale(0); opacity: 0; }
+            }
+        `;
+        document.head.appendChild(style);
+
+        // Ensure chatbot is visible on load
+        document.addEventListener('DOMContentLoaded', function() {
+            const chatFloat = document.getElementById('chatFloat');
+            const chatToggle = document.getElementById('chatToggle');
+            if (chatFloat) {
+                chatFloat.style.display = 'block';
+                chatFloat.style.visibility = 'visible';
+                chatFloat.style.position = 'fixed';
+                chatFloat.style.bottom = '30px';
+                chatFloat.style.right = '30px';
+                chatFloat.style.zIndex = '9999';
+            }
+            if (chatToggle) {
+                chatToggle.style.display = 'block';
+                chatToggle.style.visibility = 'visible';
+            }
+        });
 
         // Load initial stats
         loadStats();
