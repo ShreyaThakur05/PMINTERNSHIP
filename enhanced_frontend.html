@@ -492,16 +492,17 @@
             color: #000;
         }
         
-        .chat-float {
+#chatFloat {
             position: fixed !important;
             bottom: 30px !important;
             right: 30px !important;
-            z-index: 9999 !important;
+            z-index: 99999 !important;
             display: block !important;
             visibility: visible !important;
+            opacity: 1 !important;
         }
         
-        .chat-toggle {
+        #chatToggle {
             width: 60px !important;
             height: 60px !important;
             border-radius: 50% !important;
@@ -511,10 +512,9 @@
             font-size: 24px !important;
             cursor: pointer !important;
             box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4) !important;
-            transition: all 0.3s ease !important;
             display: block !important;
             visibility: visible !important;
-            position: relative !important;
+            opacity: 1 !important;
         }
         
         .chat-toggle:hover {
@@ -723,8 +723,8 @@
     </div>
 
     <!-- Floating Chatbot -->
-    <div class="chat-float" id="chatFloat" style="position: fixed !important; bottom: 30px !important; right: 30px !important; z-index: 9999 !important; display: block !important; visibility: visible !important;">
-        <button class="chat-toggle" id="chatToggle" onclick="toggleChat()" style="display: block !important; visibility: visible !important; position: relative !important;">
+    <div class="chat-float" id="chatFloat">
+        <button class="chat-toggle" id="chatToggle" onclick="toggleChat()">
             <i class="fas fa-robot"></i>
         </button>
         
@@ -1578,23 +1578,24 @@
         `;
         document.head.appendChild(style);
 
-        // Ensure chatbot is visible on load
-        document.addEventListener('DOMContentLoaded', function() {
+        // Force chatbot visibility
+        function ensureChatbotVisible() {
             const chatFloat = document.getElementById('chatFloat');
             const chatToggle = document.getElementById('chatToggle');
+            
             if (chatFloat) {
-                chatFloat.style.display = 'block';
-                chatFloat.style.visibility = 'visible';
-                chatFloat.style.position = 'fixed';
-                chatFloat.style.bottom = '30px';
-                chatFloat.style.right = '30px';
-                chatFloat.style.zIndex = '9999';
+                chatFloat.style.cssText = 'position: fixed !important; bottom: 30px !important; right: 30px !important; z-index: 99999 !important; display: block !important; visibility: visible !important; opacity: 1 !important;';
             }
             if (chatToggle) {
-                chatToggle.style.display = 'block';
-                chatToggle.style.visibility = 'visible';
+                chatToggle.style.cssText = 'width: 60px !important; height: 60px !important; border-radius: 50% !important; background: linear-gradient(135deg, #667eea, #764ba2) !important; color: white !important; border: none !important; font-size: 24px !important; cursor: pointer !important; box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4) !important; display: block !important; visibility: visible !important; opacity: 1 !important;';
             }
-        });
+        }
+        
+        // Call multiple times to ensure visibility
+        document.addEventListener('DOMContentLoaded', ensureChatbotVisible);
+        window.addEventListener('load', ensureChatbotVisible);
+        setTimeout(ensureChatbotVisible, 1000);
+        setTimeout(ensureChatbotVisible, 3000);
 
         // Initialize system on load
         async function initializeSystem() {

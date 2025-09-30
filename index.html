@@ -460,11 +460,51 @@
             color: #000;
         }
         
+        #chatFloat {
+            position: fixed !important;
+            bottom: 30px !important;
+            right: 30px !important;
+            z-index: 99999 !important;
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+        }
+        
+        #chatToggle {
+            width: 60px !important;
+            height: 60px !important;
+            border-radius: 50% !important;
+            background: linear-gradient(135deg, #667eea, #764ba2) !important;
+            color: white !important;
+            border: none !important;
+            font-size: 24px !important;
+            cursor: pointer !important;
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4) !important;
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+        }
+        
+        #chatWindow {
+            position: fixed !important;
+            bottom: 100px !important;
+            right: 30px !important;
+            width: 350px !important;
+            height: 450px !important;
+            background: white !important;
+            border-radius: 20px !important;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3) !important;
+            display: none !important;
+            flex-direction: column !important;
+            z-index: 99998 !important;
+        }
+        
         @media (max-width: 768px) {
             .container { padding: 10px; }
             .header h1 { font-size: 2em; }
             .grid { grid-template-columns: 1fr; }
             .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            #chatWindow { width: 90% !important; right: 5% !important; }
         }
     </style>
 </head>
@@ -626,6 +666,33 @@
     <div id="detailModal" class="modal">
         <div class="modal-content">
             <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <!-- Floating Chatbot -->
+    <div id="chatFloat">
+        <button id="chatToggle" onclick="toggleChat()">
+            <i class="fas fa-robot"></i>
+        </button>
+        
+        <div id="chatWindow">
+            <div style="background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 15px 20px; border-radius: 20px 20px 0 0; display: flex; justify-content: space-between; align-items: center;">
+                <div><i class="fas fa-robot"></i> TrueNorth AI</div>
+                <button onclick="toggleChat()" style="background: none; border: none; color: white; font-size: 18px; cursor: pointer;"><i class="fas fa-times"></i></button>
+            </div>
+            
+            <div id="chatMessages" style="flex: 1; padding: 15px; overflow-y: auto; max-height: 300px;">
+                <div style="text-align: center; color: #667eea; padding: 15px;">
+                    <i class="fas fa-robot" style="font-size: 1.5em; margin-bottom: 8px;"></i>
+                    <h4 style="margin: 5px 0; color: #333;">Hi! I'm TrueNorth</h4>
+                    <p style="font-size: 13px; color: #666; margin: 0;">Your InternNet AI assistant</p>
+                </div>
+            </div>
+            
+            <div style="padding: 15px; border-top: 1px solid #eee; display: flex; gap: 10px;">
+                <input type="text" id="chatInput" placeholder="Ask about allocations..." style="flex: 1; padding: 10px 15px; border: 2px solid #e0e0e0; border-radius: 25px; outline: none;" onkeypress="if(event.key==='Enter') sendMessage()">
+                <button onclick="sendMessage()" id="sendBtn" style="width: 40px; height: 40px; border-radius: 50%; background: linear-gradient(135deg, #667eea, #764ba2); color: white; border: none; cursor: pointer;"><i class="fas fa-paper-plane"></i></button>
+            </div>
         </div>
     </div>
 
@@ -1249,8 +1316,36 @@
             }
         }
         
+        // Force chatbot visibility
+        function ensureChatbotVisible() {
+            const chatFloat = document.getElementById('chatFloat');
+            const chatToggle = document.getElementById('chatToggle');
+            
+            if (chatFloat) {
+                chatFloat.style.cssText = 'position: fixed !important; bottom: 30px !important; right: 30px !important; z-index: 99999 !important; display: block !important; visibility: visible !important; opacity: 1 !important;';
+            }
+            if (chatToggle) {
+                chatToggle.style.cssText = 'width: 60px !important; height: 60px !important; border-radius: 50% !important; background: linear-gradient(135deg, #667eea, #764ba2) !important; color: white !important; border: none !important; font-size: 24px !important; cursor: pointer !important; box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4) !important; display: block !important; visibility: visible !important; opacity: 1 !important;';
+            }
+        }
+        
+        function toggleChat() {
+            const chatWindow = document.getElementById('chatWindow');
+            if (chatWindow.style.display === 'flex') {
+                chatWindow.style.display = 'none';
+            } else {
+                chatWindow.style.display = 'flex';
+            }
+        }
+        
         // Initialize on page load
         initializeSystem();
+        
+        // Ensure chatbot visibility
+        document.addEventListener('DOMContentLoaded', ensureChatbotVisible);
+        window.addEventListener('load', ensureChatbotVisible);
+        setTimeout(ensureChatbotVisible, 1000);
+        setTimeout(ensureChatbotVisible, 3000);
     </script>
 </body>
 </html>
