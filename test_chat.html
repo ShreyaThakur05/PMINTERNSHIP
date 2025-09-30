@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .chat-container { max-width: 600px; margin: 0 auto; }
+        .message { margin: 10px 0; padding: 10px; border-radius: 10px; }
+        .user { background: #e3f2fd; text-align: right; }
+        .bot { background: #f0f0f0; }
+        .input-area { display: flex; gap: 10px; margin-top: 20px; }
+        input { flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+        button { padding: 10px 20px; background: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; }
+        button:disabled { background: #ccc; }
+        .error { color: red; }
+        .status { color: #666; font-style: italic; }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <h1>Chatbot Test</h1>
+        <div id="messages"></div>
+        <div class="input-area">
+            <input type="text" id="messageInput" placeholder="Type your message..." onkeypress="if(event.key==='Enter') sendMessage()">
+            <button onclick="sendMessage()" id="sendBtn">Send</button>
+        </div>
+        <div class="input-area">
+            <button onclick="testConnection()">Test Connection</button>
+            <button onclick="clearMessages()">Clear</button>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = 'http://localhost:5000/api'; // Local testing
+        
+        function addMessage(content, isUser = false, isError = false) {
+            const messagesDiv = document.getElementById('messages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${isUser ? 'user' : 'bot'} ${isError ? 'error' : ''}`;
+            messageDiv.innerHTML = content;
+            messagesDiv.appendChild(messageDiv);
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+        }
+        
+        async function sendMessage() {
+            const input = document.getElementById('messageInput');
+            const message = input.value.trim();
+            
+            if (!message) return;
+            
+            const sendBtn = document.getElementById('sendBtn');
+            
+            addMessage(message, true);
+            input.value = '';
+            sendBtn.disabled = true;
+            sendBtn.textContent = 'Sending...';
+            
+            try {
+                const response = await fetch(`${API_BASE}/chat`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ question: message })
+                });
+                
+                const result = await response.json();
+                
+                if (result.error) {
+                    addMessage(`Error: ${result.error}`, false, true);
+                } else if (result.answer) {
+                    addMessage(result.answer);
+                } else {
+                    addMessage('No response received', false, true);
+                }
+                
+            } catch (error) {
+                addMessage(`Connection error: ${error.message}`, false, true);
+            }
+            
+            sendBtn.disabled = false;
+            sendBtn.textContent = 'Send';
+            input.focus();
+        }
+        
+        async function testConnection() {
+            addMessage('Testing connection...', false);
+            
+            try {
+                const response = await fetch(`${API_BASE}/health`);
+                const result = await response.json();
+                
+                if (response.ok) {
+                    addMessage(`✅ Connection successful! Status: ${result.status}`);
+                } else {
+                    addMessage(`❌ Connection failed: ${result.error || 'Unknown error'}`, false, true);
+                }
+            } catch (error) {
+                addMessage(`❌ Connection failed: ${error.message}`, false, true);
+            }
+        }
+        
+        function clearMessages() {
+            document.getElementById('messages').innerHTML = '';
+        }
+        
+        // Auto-focus input
+        document.getElementById('messageInput').focus();
+        
+        // Test connection on load
+        window.onload = function() {
+            addMessage('Welcome! Testing chatbot functionality...', false);
+            setTimeout(testConnection, 1000);
+        };
+    </script>
+</body>
+</html>

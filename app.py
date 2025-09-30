@@ -214,15 +214,22 @@ def chat():
     """RAG Chatbot endpoint"""
     try:
         data = request.json
-        question = data.get('question', '')
+        if not data:
+            return jsonify({'error': 'No data provided'}), 400
+            
+        question = data.get('question', '').strip()
         
         if not question:
             return jsonify({'error': 'Question is required'}), 400
             
+        print(f"Chat question received: {question}")
         response = chatbot.query(question)
+        print(f"Chat response: {response}")
+        
         return jsonify(response)
         
     except Exception as e:
+        print(f"Chat error: {e}")
         return jsonify({'error': str(e)}), 500
 
 @app.route('/', methods=['GET'])
