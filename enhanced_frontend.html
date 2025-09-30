@@ -750,8 +750,8 @@
     </div>
 
     <!-- Floating Chatbot -->
-    <div class="chat-float" id="chatFloat">
-        <button class="chat-toggle" id="chatToggle" onclick="toggleChat()">
+    <div id="chatFloat">
+        <button id="chatToggle" onclick="toggleChat()">
             <i class="fas fa-robot"></i>
         </button>
         
@@ -779,7 +779,9 @@
     </div>
 
     <script>
-        const API_BASE = 'https://pminternship.onrender.com/api';
+        const API_BASE = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' 
+            ? 'http://localhost:5000/api' 
+            : 'https://pminternship.onrender.com/api';
         let categoryChart = null;
         let sectorChart = null;
         let locationChart = null;
@@ -1427,30 +1429,21 @@
             } else {
                 chatWindow.style.cssText = 'position: fixed !important; bottom: 100px !important; right: 30px !important; width: 350px !important; height: 450px !important; background: white !important; border-radius: 20px !important; box-shadow: 0 20px 60px rgba(0,0,0,0.3) !important; display: flex !important; flex-direction: column !important; z-index: 99998 !important;';
                 
-                // Send welcome message when chat opens for the first time
-                const messagesDiv = document.getElementById('chatMessages');
-                if (!messagesDiv.hasChildNodes()) {
-                    showWelcomeMessage();
-                }
+                // Focus input when chat opens
+                document.getElementById('chatInput').focus();
             }
         }
         
         function showWelcomeMessage() {
             const messagesDiv = document.getElementById('chatMessages');
             messagesDiv.innerHTML = `
-                <div style="text-align: center; color: #667eea; padding: 15px; border-bottom: 1px solid #f0f0f0;">
-                    <i class="fas fa-robot" style="font-size: 1.5em; margin-bottom: 8px;"></i>
-                    <h4 style="margin: 5px 0; color: #333;">Hi! I'm TrueNorth</h4>
-                    <p style="font-size: 13px; color: #666; margin: 0;">Your InternNet AI assistant for allocation queries</p>
-                </div>
                 <div style="margin: 10px 0;">
                     <div style="display: inline-block; background: #f0f0f0; padding: 8px 12px; border-radius: 15px 15px 15px 5px; max-width: 80%; font-size: 14px; line-height: 1.4;">
                         <i class="fas fa-robot" style="color: #667eea; margin-right: 5px;"></i>
-                        Welcome! I can help you with questions about student allocations, quota compliance, and system statistics.<br><br>
-                        <strong>💡 Try asking:</strong><br>
-                        • <span onclick="askSampleQuestion('How many SC students were allocated?')" style="cursor: pointer; color: #667eea; text-decoration: underline;">"How many SC students were allocated?"</span><br>
-                        • <span onclick="askSampleQuestion('Show quota compliance status')" style="cursor: pointer; color: #667eea; text-decoration: underline;">"Show quota compliance status"</span><br>
-                        • <span onclick="askSampleQuestion('List top companies by allocations')" style="cursor: pointer; color: #667eea; text-decoration: underline;">"List top companies by allocations"</span>
+                        Hi! I'm TrueNorth, your AI assistant. I can help with allocation queries.<br><br>
+                        <strong>💡 Try:</strong><br>
+                        • <span onclick="askSampleQuestion('How many students allocated?')" style="cursor: pointer; color: #667eea;">How many students allocated?</span><br>
+                        • <span onclick="askSampleQuestion('Show quota status')" style="cursor: pointer; color: #667eea;">Show quota status</span>
                     </div>
                 </div>
             `;
@@ -1495,7 +1488,9 @@
             messagesDiv.scrollTop = messagesDiv.scrollHeight;
             
             try {
+                console.log('Sending message:', message);
                 const response = await apiCall('/chat', 'POST', { question: message });
+                console.log('Received response:', response);
                 
                 // Remove typing indicator
                 const typingIndicator = document.getElementById('typingIndicator');
@@ -1522,15 +1517,24 @@
                         </div>
                     `;
                 } else {
-                    // Fallback response
+                    // Fallback response with simple answers
+                    let fallbackAnswer = 'I\'m having trouble connecting to the server.';
+                    
+                    // Simple keyword-based responses
+                    const lowerMessage = message.toLowerCase();
+                    if (lowerMessage.includes('hello') || lowerMessage.includes('hi')) {
+                        fallbackAnswer = 'Hello! I\'m TrueNorth AI. I can help with internship allocation queries when the server is running.';
+                    } else if (lowerMessage.includes('quota') || lowerMessage.includes('sc') || lowerMessage.includes('st') || lowerMessage.includes('obc')) {
+                        fallbackAnswer = 'Government quotas: SC (15%), ST (7.5%), OBC (27%), Aspirational Districts (20%). Please start the server for detailed data.';
+                    } else if (lowerMessage.includes('student') || lowerMessage.includes('allocation')) {
+                        fallbackAnswer = 'The system can handle 1000+ students and 100+ internships. Please load data and run allocation first.';
+                    }
+                    
                     messagesDiv.innerHTML += `
                         <div style="margin: 10px 0;">
                             <div style="display: inline-block; background: #f0f0f0; padding: 8px 12px; border-radius: 15px 15px 15px 5px; max-width: 80%; font-size: 14px; line-height: 1.4;">
                                 <i class="fas fa-robot" style="color: #667eea; margin-right: 5px;"></i>
-                                I'm having trouble processing your request right now. Please try:<br>
-                                • Loading data first using "Load Data from CSV"<br>
-                                • Running allocation using "Run AI Allocation"<br>
-                                • Asking simpler questions about the system
+                                ${fallbackAnswer}
                             </div>
                         </div>
                     `;
@@ -1662,6 +1666,13 @@
         
         // Initialize on page load
         initializeSystem();
+        
+        // Initialize chatbot with welcome message immediately
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(() => {
+                showWelcomeMessage();
+            }, 1000);
+        });
         
         // Auto-focus chat input when chat opens
         document.addEventListener('DOMContentLoaded', function() {
