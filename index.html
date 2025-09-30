@@ -1215,8 +1215,8 @@
             
             // Add user message
             messagesDiv.innerHTML += `
-                <div style="margin: 10px 0; text-align: right;">
-                    <div style="display: inline-block; background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 10px 15px; border-radius: 15px 15px 5px 15px; max-width: 70%;">
+                <div style="margin: 8px 0; text-align: right;">
+                    <div style="display: inline-block; background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 8px 12px; border-radius: 15px 15px 5px 15px; max-width: 80%; font-size: 14px;">
                         ${message}
                     </div>
                 </div>
@@ -1224,37 +1224,25 @@
             
             input.value = '';
             sendBtn.disabled = true;
-            sendBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Thinking...';
-            
-            // Add loading message
-            messagesDiv.innerHTML += `
-                <div id="loadingMsg" style="margin: 10px 0;">
-                    <div style="display: inline-block; background: #f0f0f0; padding: 10px 15px; border-radius: 15px 15px 15px 5px; max-width: 70%;">
-                        <i class="fas fa-spinner fa-spin"></i> AI is analyzing your question...
-                    </div>
-                </div>
-            `;
+            sendBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i>';
             
             messagesDiv.scrollTop = messagesDiv.scrollHeight;
             
             try {
                 const response = await apiCall('/chat', 'POST', { question: message });
                 
-                // Remove loading message
-                document.getElementById('loadingMsg').remove();
-                
                 if (response.error) {
                     messagesDiv.innerHTML += `
-                        <div style="margin: 10px 0;">
-                            <div style="display: inline-block; background: #ffebee; color: #d32f2f; padding: 10px 15px; border-radius: 15px 15px 15px 5px; max-width: 70%;">
-                                <i class="fas fa-exclamation-triangle"></i> Error: ${response.error}
+                        <div style="margin: 8px 0;">
+                            <div style="display: inline-block; background: #ffebee; color: #d32f2f; padding: 8px 12px; border-radius: 15px 15px 15px 5px; max-width: 80%; font-size: 14px;">
+                                Error: ${response.error}
                             </div>
                         </div>
                     `;
                 } else {
                     messagesDiv.innerHTML += `
-                        <div style="margin: 10px 0;">
-                            <div style="display: inline-block; background: #f0f0f0; padding: 10px 15px; border-radius: 15px 15px 15px 5px; max-width: 70%; line-height: 1.5;">
+                        <div style="margin: 8px 0;">
+                            <div style="display: inline-block; background: #f0f0f0; padding: 8px 12px; border-radius: 15px 15px 15px 5px; max-width: 80%; font-size: 14px; line-height: 1.4;">
                                 <i class="fas fa-robot" style="color: #667eea; margin-right: 5px;"></i>
                                 ${response.answer.replace(/\n/g, '<br>')}
                             </div>
@@ -1263,18 +1251,17 @@
                 }
                 
             } catch (error) {
-                document.getElementById('loadingMsg').remove();
                 messagesDiv.innerHTML += `
-                    <div style="margin: 10px 0;">
-                        <div style="display: inline-block; background: #ffebee; color: #d32f2f; padding: 10px 15px; border-radius: 15px 15px 15px 5px; max-width: 70%;">
-                            <i class="fas fa-exclamation-triangle"></i> Connection error. Please try again.
+                    <div style="margin: 8px 0;">
+                        <div style="display: inline-block; background: #ffebee; color: #d32f2f; padding: 8px 12px; border-radius: 15px 15px 15px 5px; max-width: 80%; font-size: 14px;">
+                            Connection error
                         </div>
                     </div>
                 `;
             }
             
             sendBtn.disabled = false;
-            sendBtn.innerHTML = '<i class="fas fa-paper-plane"></i> Send';
+            sendBtn.innerHTML = '<i class="fas fa-paper-plane"></i>';
             messagesDiv.scrollTop = messagesDiv.scrollHeight;
         }
         
@@ -1334,7 +1321,7 @@
             if (chatWindow.style.display === 'flex') {
                 chatWindow.style.display = 'none';
             } else {
-                chatWindow.style.display = 'flex';
+                chatWindow.style.cssText = 'position: fixed !important; bottom: 100px !important; right: 30px !important; width: 350px !important; height: 450px !important; background: white !important; border-radius: 20px !important; box-shadow: 0 20px 60px rgba(0,0,0,0.3) !important; display: flex !important; flex-direction: column !important; z-index: 99998 !important;';
             }
         }
         
