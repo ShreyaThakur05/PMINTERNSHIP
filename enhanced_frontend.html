@@ -493,10 +493,12 @@
         }
         
         .chat-float {
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            z-index: 9999;
+            position: fixed !important;
+            bottom: 30px !important;
+            right: 30px !important;
+            z-index: 9999 !important;
+            display: block !important;
+            visibility: visible !important;
         }
         
         .chat-toggle {
@@ -512,6 +514,7 @@
             transition: all 0.3s ease !important;
             display: block !important;
             visibility: visible !important;
+            position: relative !important;
         }
         
         .chat-toggle:hover {
@@ -720,8 +723,8 @@
     </div>
 
     <!-- Floating Chatbot -->
-    <div class="chat-float" id="chatFloat" style="position: fixed; bottom: 30px; right: 30px; z-index: 9999;">
-        <button class="chat-toggle" id="chatToggle" onclick="toggleChat()" style="display: block !important; visibility: visible !important;">
+    <div class="chat-float" id="chatFloat" style="position: fixed !important; bottom: 30px !important; right: 30px !important; z-index: 9999 !important; display: block !important; visibility: visible !important;">
+        <button class="chat-toggle" id="chatToggle" onclick="toggleChat()" style="display: block !important; visibility: visible !important; position: relative !important;">
             <i class="fas fa-robot"></i>
         </button>
         
@@ -815,15 +818,22 @@
             showMessage('Loading data from CSV files...', 'info');
             showProgress(true);
             
-            const result = await apiCall('/load-data', 'POST');
-            
-            showProgress(false);
-            if (result.success) {
-                showMessage(result.message, 'success');
-                loadStats();
-                animateStats();
-            } else {
-                showMessage(`Error: ${result.error}`, 'error');
+            try {
+                const result = await apiCall('/load-data', 'POST');
+                
+                showProgress(false);
+                if (result.success) {
+                    showMessage(result.message, 'success');
+                    setTimeout(() => {
+                        loadStats();
+                        animateStats();
+                    }, 1000);
+                } else {
+                    showMessage(`Error loading data: ${result.error}`, 'error');
+                }
+            } catch (error) {
+                showProgress(false);
+                showMessage(`Connection error: ${error.message}. Please check if the server is running.`, 'error');
             }
         }
 
@@ -838,18 +848,36 @@
         }
 
         async function loadStats() {
-            const result = await apiCall('/stats');
-            
-            if (result.success) {
-                const stats = result.stats;
-                document.getElementById('totalStudents').textContent = stats.total_students;
-                document.getElementById('totalInternships').textContent = stats.total_internships;
-                document.getElementById('totalCapacity').textContent = stats.total_capacity;
+            try {
+                const result = await apiCall('/stats');
                 
-                updateCategoryChart(stats.category_distribution);
-                updateSectorChart(stats.sector_distribution);
-            } else {
-                showMessage(`Error loading stats: ${result.error}`, 'error');
+                if (result.success) {
+                    const stats = result.stats;
+                    document.getElementById('totalStudents').textContent = stats.total_students || 0;
+                    document.getElementById('totalInternships').textContent = stats.total_internships || 0;
+                    document.getElementById('totalCapacity').textContent = stats.total_capacity || 0;
+                    
+                    // Only update charts if we have data
+                    if (stats.total_students > 0) {
+                        updateCategoryChart(stats.category_distribution);
+                    }
+                    if (stats.total_internships > 0) {
+                        updateSectorChart(stats.sector_distribution);
+                    }
+                } else {
+                    showMessage(`Error loading stats: ${result.error}`, 'error');
+                    // Set default values
+                    document.getElementById('totalStudents').textContent = '0';
+                    document.getElementById('totalInternships').textContent = '0';
+                    document.getElementById('totalCapacity').textContent = '0';
+                }
+            } catch (error) {
+                console.error('Stats loading error:', error);
+                showMessage(`Connection error loading stats: ${error.message}`, 'error');
+                // Set default values
+                document.getElementById('totalStudents').textContent = '0';
+                document.getElementById('totalInternships').textContent = '0';
+                document.getElementById('totalCapacity').textContent = '0';
             }
         }
 
@@ -1568,8 +1596,33 @@
             }
         });
 
-        // Load initial stats
-        loadStats();
+        // Initialize system on load
+        async function initializeSystem() {
+            try {
+                // Check API health first
+                const healthResult = await apiCall('/health');
+                console.log('API Health:', healthResult);
+                
+                if (healthResult.status === 'healthy') {
+                    // Load stats
+                    await loadStats();
+                    
+                    // If no data, show helpful message
+                    if (healthResult.data_status && 
+                        healthResult.data_status.students_loaded === 0) {
+                        showMessage('System ready! Click "Load Data from CSV" to begin.', 'info');
+                    }
+                } else {
+                    showMessage('API connection failed. Please check server status.', 'error');
+                }
+            } catch (error) {
+                console.error('Initialization error:', error);
+                showMessage('Unable to connect to server. Please check if the API is running.', 'error');
+            }
+        }
+        
+        // Initialize on page load
+        initializeSystem();
     </script>
 </body>
 </html>

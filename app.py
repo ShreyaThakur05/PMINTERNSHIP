@@ -18,8 +18,15 @@ chatbot = RAGChatbot()
 
 @app.route('/api/load-data', methods=['POST'])
 def load_data():
-    """Load student and internship data from CSV files"""
+    """Load student and internship data from CSV files or generate sample data"""
     try:
+        # Check if CSV files exist, if not generate them
+        import os
+        if not os.path.exists('students.csv') or not os.path.exists('internships.csv'):
+            print("CSV files not found, generating sample data...")
+            from datasetcode import generate_sample_data
+            generate_sample_data()
+        
         students_count = db_manager.load_students_from_csv()
         internships_count = db_manager.load_internships_from_csv()
         
@@ -30,6 +37,7 @@ def load_data():
             'internships_count': internships_count
         })
     except Exception as e:
+        print(f"Error in load_data: {e}")
         return jsonify({'success': False, 'error': str(e)}), 500
 
 @app.route('/api/allocate', methods=['POST'])
@@ -131,48 +139,75 @@ def get_stats():
         students = db_manager.get_students()
         internships = db_manager.get_internships()
         
+        print(f"Stats: Found {len(students)} students, {len(internships)} internships")
+        
         # Calculate category distribution
         category_counts = {'SC': 0, 'ST': 0, 'OBC': 0, 'GEN': 0}
         rural_count = 0
         aspirational_count = 0
         
         for student in students:
-            category = student['social_category']['category']
-            category_counts[category] += 1
+            category = student.get('social_category', {}).get('category', 'GEN')
+            if category in category_counts:
+                category_counts[category] += 1
             
-            if student['social_category']['is_rural']:
+            if student.get('social_category', {}).get('is_rural', False):
                 rural_count += 1
-            if student['social_category']['is_aspirational_district']:
+            if student.get('social_category', {}).get('is_aspirational_district', False):
                 aspirational_count += 1
         
         # Calculate sector distribution
         sector_counts = {}
         total_capacity = 0
         for internship in internships:
-            sector = internship['sector']
+            sector = internship.get('sector', 'Unknown')
             sector_counts[sector] = sector_counts.get(sector, 0) + 1
-            total_capacity += internship['capacity']
+            total_capacity += internship.get('capacity', 0)
+        
+        stats = {
+            'total_students': len(students),
+            'total_internships': len(internships),
+            'total_capacity': total_capacity,
+            'category_distribution': category_counts,
+            'rural_students': rural_count,
+            'aspirational_district_students': aspirational_count,
+            'sector_distribution': sector_counts
+        }
+        
+        print(f"Returning stats: {stats}")
         
         return jsonify({
             'success': True,
-            'stats': {
-                'total_students': len(students),
-                'total_internships': len(internships),
-                'total_capacity': total_capacity,
-                'category_distribution': category_counts,
-                'rural_students': rural_count,
-                'aspirational_district_students': aspirational_count,
-                'sector_distribution': sector_counts
-            }
+            'stats': stats
         })
         
     except Exception as e:
+        print(f"Error in get_stats: {e}")
         return jsonify({'success': False, 'error': str(e)}), 500
 
 @app.route('/api/health', methods=['GET'])
 def health_check():
     """Health check endpoint"""
-    return jsonify({'status': 'healthy', 'timestamp': datetime.datetime.utcnow().isoformat()})
+    try:
+        students = db_manager.get_students()
+        internships = db_manager.get_internships()
+        allocations = db_manager.get_allocations()
+        
+        return jsonify({
+            'status': 'healthy', 
+            'timestamp': datetime.datetime.utcnow().isoformat(),
+            'data_status': {
+                'students_loaded': len(students),
+                'internships_loaded': len(internships),
+                'allocations_made': len(allocations)
+            }
+        })
+    except Exception as e:
+        return jsonify({
+            'status': 'error',
+            'error': str(e),
+            'timestamp': datetime.datetime.utcnow().isoformat()
+        }), 500
 
 @app.route('/api/chat', methods=['POST'])
 def chat():
